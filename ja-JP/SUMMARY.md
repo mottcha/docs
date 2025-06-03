@@ -1,8 +1,8 @@
-# Table of contents
+# 目次
 
-## 👋 Getting Started
+## 👋 はじめに
 
-* [Welcome](README.md)
+* [ようこそ](README.md)
   * [Mission](getting-started/readme/mission.md)
 * [Install & Setup](getting-started/install-and-setup/README.md)
   * [Mobile](getting-started/install-and-setup/mobile.md)
@@ -25,7 +25,7 @@
 
 * [Web Publishing](web-publishing.md)
 
-## 📽️ Use Cases
+## 📽️ 活用例
 
 * [🧠 PARA Method](use-cases/para-method-for-note-taking.md)
 * [✏️ Daily Notes](use-cases/anytype-editor.md)
@@ -35,7 +35,7 @@
 * [🗨️ Language Flashcards](use-cases/language-flashcards.md)
 * [🍛 Recipe Book & Meal Planner](use-cases/meal-planner-recipe-book.md)
 
-## 🤖 Advanced
+## 🤖 応用編
 
 * [Memberships](advanced/monetization.md)
 * [Features](advanced/feature-list-by-platform/README.md)

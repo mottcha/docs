@@ -1,19 +1,21 @@
 ---
-description: Tools for thought, freedom & trust
+description: 思考・自由・信頼のためのツール
 ---
 
-# Welcome
+# ようこそ
 
-Anytype is an **encrypted, local-first alternative** to the cloud-based Internet.&#x20;
+Anytypeは、従来のクラウドサービスに代わる、**暗号化とローカルファーストを実現した**ソフトウェアです。
 
-With Anytype, you can build digital spaces around your interests. These spaces can be personal - for diaries, ideas and drafts, or shared - with your family, small communities, teams, neighbors and people with similar interests.
+趣味や興味に合わせて、情報を整理・共有できる「スペース」を作成できます。日記やアイデア帳として個人的な利用はもちろん、家族や友人、仕事や学校の仲間、趣味グループとの情報共有など、さまざまな目的に利用できます。
 
-Unlike cloud applications, Anytype puts the control of encryption keys firmly in your hands, so you own your data and your social graph. Spaces you create are local first - they can be created offline and can sync peer-to-peer in local networks.&#x20;
+Anytypeの大きな特徴は、一般的なクラウドサービスとは異なり、あなた自身が「鍵（暗号化キー）」を管理する点です。このため、データや連絡先の所有権は完全にあなた自身にあります。また、スペースは常にお使いのデバイス内に保存されます（ローカルファースト）。これにより、インターネットに接続していない時でも編集作業ができるほか、同じネットワーク内にあるデバイス間で直接同期することも可能です。
 
-Anytype is supported by [AnySync](https://tech.anytype.io/any-sync/overview) - an open-source protocol that supports high-performant collaboration over encrypted data and creators’ controlled keys. You can find our codebase [here](https://github.com/anyproto).
+Anytypeの大きな特徴は、一般的なクラウドサービスとは異なり、あなた自身が「鍵（暗号化キー）」を管理する点です。このため、データや連絡先の所有権は完全にあなた自身にあります。また、「スペース」は常にお使いのデバイス内に保存されるため（ローカルファースト）、インターネットに接続していない時でも編集作業ができるほか、同じネットワーク内にあるデバイス間で直接同期することも可能です。
 
-With every architectural choice, we aim to make [fundamental digital freedoms](https://youtu.be/6Hyr881Xi8A?si=tVftb8x9V5koMt0U) unconditional. Here you can read more of our thoughts on[ cloud vs. local first Internet.](https://blog.anytype.io/from-cloud-to-local-first/)
+Anytypeは、オープンソースの通信プロトコル[AnySync](https://tech.anytype.io/any-sync/overview)を採用しています。この技術により、データを高度に暗号化し、ユーザーが鍵を管理しつつも、複数人での快適な共同作業を実現しています。ソースコードは[こちら](https://github.com/anyproto)をご覧ください。
 
-If you have questions, feedback, and ideas join us in our [community forum](advanced/community/community-forum.md). If you want to contribute, [here's where you can do so](advanced/community/join-the-open-source-project.md).
 
-You can also explore pre-made templates and experiences from our community in our [Experience Gallery](advanced/community/any-experience-gallery.md).&#x20;
+私たちは、あらゆる設計において[基本的なデジタルの自由を保障すること](https://youtu.be/6Hyr881Xi8A?si=tVftb8x9V5koMt0U)を目指しています。[クラウドかローカルか、これからのインターネットのあり方](https://blog.anytype.io/from-cloud-to-local-first/)では、私たちの考えをご覧いただけます。
+
+ご質問やご意見、ご要望などがあれば、是非[フォーラム](advanced/community/community-forum.md)にお寄せください。私たちと共にコミュニティを築きましょう。
+もし貢献にご興味があれば、[こちら](advanced/community/join-the-open-source-project.md)をご覧ください。
