@@ -1,7 +1,9 @@
-# Vault
+# 保管庫
 
-A **Vault** is an encrypted box stored on your device, which holds your information. It allows you to send, receive, and store information with full privacy and ownership over what you create.
+**保管庫**は、デバイス内に保存される暗号化ストレージです。すべての情報を保管しており、あなた自身がデータを完全に所有・管理しながら、安全に送受信・保管することができます。
 
-All the [space.md](space.md "mention") you create and share will be stored in your Vault. Because public key cryptography is used to secure your Vault, it is unbreakable - all computational resources on earth are not enough to break into one Vault.
+作成・共有した[space.md](space.md "mention")は、公開鍵暗号で保護された保管庫に保存されます。たとえ地球上のすべての計算リソースを使ったとしても保管庫にアクセスすることはできません。
 
-In order to enter your Vault, you will need to use the [key.md](key.md "mention") that was generated along with your Vault when you created it for the first time.
+保管庫に保存されたデータは、非常に高度な暗号技術（公開鍵暗号方式）によって守られています。この暗号は極めて強力で、解読することは事実上不可能です。
+
+保管庫を利用する際には、初回設定時に作成した[key.md](key.md "mention")が必要です。

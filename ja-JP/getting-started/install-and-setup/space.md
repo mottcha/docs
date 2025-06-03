@@ -1,19 +1,21 @@
-# Spaces
+# スペース
 
-<figure><img src="../../../.gitbook/assets/image (11).png" alt=""><figcaption><p>You can also manage all of your spaces by going into Vault > Vault &#x26; Key > Spaces</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (11).png" alt=""><figcaption><p>すべてのスペースは、保管庫 > 保管庫と鍵 > スペースから管理できます</p></figcaption></figure>
 
-Inside your Vault, you have **Spaces**. A **Space** is a container for your graph of objects.
+保管庫の中には、複数の**スペース**を作成できます。
 
-Similar to vault, space is an encrypted container. Unlike your Vault - each space has unique access rights - you can decide who has access to each space.
+**スペース**とは、様々な情報（オブジェクト）を整理するための入れ物のようなものです。また、情報同士のつながりを図にしたグラフビューは、スペースごと表示されます。
 
-You’re able to create multiple separate spaces (up to 50), each with their own graph of objects, widget sidebar, and later on - privacy settings. You can have up to 3 shared spaces depending on your [membership](../../advanced/monetization.md) plan.
+スペースも保管庫と同様に暗号化されており安全ですが、保管庫本体とは異なり、スペースごとに個別のアクセス権限を設定できます。したがって、どのスペースに誰がアクセスできるかを、あなたが自由に管理することができます。
+
+スペースは最大50個まで作成でき、それぞれにグラフビューやウィジェットを管理できます。将来的には、プライバシー設定もスペースごとに行えるようになる予定です。また、ご利用の[membership](../../advanced/monetization.md)プランに応じて、最大3つのスペースを他のユーザーと共有できます。
 
 {% hint style="danger" %}
-It's currently impossible to recover deleted spaces unless you've previously exported them, so be careful when deleting them.
+事前にエクスポートしていない限り、一度削除したスペースを復元することはできません。そのため、削除する際は十分にご注意ください。
 {% endhint %}
 
-You can navigate between your existing spaces by using the new spaces sidebar. To create a new space, simply click on the plus button at the bottom of the list.
+新しく追加されたサイドバーでは、作成したスペース間を簡単に移動できます。スペースを新しく作成する際は、スペース一覧の下にある「+」アイコンをクリックしましょう。
 
 <figure><img src="../../../.gitbook/assets/image (52).png" alt="" width="375"><figcaption></figcaption></figure>
 
-Click on the space widget at the top of your sidebar to customize your [space-settings.md](../../advanced/settings/space-settings.md "mention") or delete your space.
+また、サイドバーの上部のスペース名の部分をクリックすると、[space-settings.md](../../advanced/settings/space-settings.md "mention")のカスタマイズや、スペースの削除ができます。

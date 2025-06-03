@@ -1,35 +1,37 @@
-# Install & Setup
+# インストールと初期設定
 
-You can download the latest version of Anytype for your desktop device at [download.anytype.io](https://download.anytype.io).
+デスクトップ版Anytypeの最新バージョンは、[download.anytype.io](https://download.anytype.io)からダウンロードできます。
 
 <div><figure><img src="../../../.gitbook/assets/image (54).png" alt="" width="563"><figcaption></figcaption></figure> <figure><img src="../../../.gitbook/assets/image (55).png" alt="" width="375"><figcaption></figcaption></figure></div>
 
-### Create your vault
+### 保管庫の作成
 
 <figure><img src="../../../.gitbook/assets/image (184).png" alt=""><figcaption></figcaption></figure>
 
-If you haven't created a vault yet, you can easily create one by clicking on `Sign Up`  and then following the provided instructions.
+初めて保管庫を作成する方は、`初めて利用する`ボタンを押して、以下の案内に従って作成しましょう。
 
-#### Save your Key!
+#### 必ず鍵を保存しましょう！
 
 {% hint style="danger" %}
-Make sure you store your [key.md](key.md "mention") somewhere safe, and try not to share it with anyone who can't be trusted!
+必ず[key.md](key.md "mention")は安全な場所に保管し、むやみに他人と共有しないでください。
 {% endhint %}
 
 <figure><img src="../../../.gitbook/assets/image (84).png" alt=""><figcaption></figcaption></figure>
 
-#### Choose your profile name
+#### 表示名を入力する
 
-Pick a name that will be used for your profile. You can freely change it later.
+プロフィールに表示されるあなたの名前を決めましょう。あとから自由に変えられます。
 
 <figure><img src="../../../.gitbook/assets/image (85).png" alt=""><figcaption></figcaption></figure>
 
-### Log-in using your Key
+### 鍵を使ってログイン
 
-On the contrary, if you already have a vault, click on `Log In` and enter your [key.md](key.md "mention") to proceed.
+すでに保管庫をお持ちの方は、`すでに鍵を持っている`に進み、お持ちの[key.md](key.md "mention")を入力して次に進めてください。
 
 <figure><img src="../../../.gitbook/assets/image (86).png" alt=""><figcaption></figcaption></figure>
 
-### Import
+### インポート
 
 If you would like to import some of your existing data into your Space, you can find the instructions on how to do so in [#import](../../advanced/data-and-security/import-export/#import "mention").
+
+すでに何らかのデータをお持ちでスペースに取り込みたい方は、[#import](../../advanced/data-and-security/import-export/#import "mention")をご覧ください。

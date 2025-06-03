@@ -4,27 +4,27 @@ description: >-
   encryption key that only you control
 ---
 
-# Key
+# 鍵
 
 <figure><img src="../../../.gitbook/assets/image (6).png" alt="" width="563"><figcaption></figcaption></figure>
 
-When you create your vault, you will receive your very own 12 word mnemonic phrase. This phrase is generated on-device and is the only way to access your vault and decrypt your data.
+初めて保管庫を作成すると、12単語のリカバリーフレーズがデバイス内で作られます。このフレーズがなければ、保管庫を開いたり、中のデータを復号したりすることはできません。
 
-Your Key functions as your login and passphrase at the same time. This mnemonic represents your master key generated upon signup, similar to a Bitcoin wallet.
+この鍵が、ログインIDとパスワードの二つの役割を兼ね備えています。アカウント作成時に生成されるマスターキーであり、ビットコインのウォレットなどで使われている仕組みと似ています。
 
-Changing it is impossible, and it's extremely important you keep it safe. You can access it at any time by navigating to the Key section in your [account-and-data.md](../../advanced/settings/account-and-data.md "mention").
+鍵は、一度発行されると変更できません。そのため、安全な場所に保管することが非常に重要です。[account-and-data.md](../../advanced/settings/account-and-data.md "mention")にある鍵から、いつでも確認できます。
 
-### Don't forget to save it!
+### 必ず安全な場所に保管してください！
 
-We do not save a copy of your key, which means that if it's lost, we are not able to assist with recovering your vault. For this reason, we recommend making a digital backup or writing it down and keeping it somewhere safe.
+私たちは、あなたの鍵のコピーを一切保管していません。これは、万が一、鍵を紛失された場合、私たち運営側では保管庫の復旧をお手伝いできないということです。このため、鍵はデジタルデータとしてバックアップを取るか、紙などに正確に書き出して、安全な場所に保管することを強く推奨します。
 
-You will need this key each time you login on a new device.
+新しいデバイスでログインする際には、毎回この鍵が必要になります。
 
-### If you've lost your Key
+### 鍵を紛失してしまった場合
 
-Encrypted apps work in a way that puts the responsibility for your personal data entirely in your hands. Since these apps are completely anonymous, we can't identify or delete individual Vaults. Even if we could, we wouldn't be able to verify with certainty if we're talking to the actual Vault owner or someone else.
+データを暗号化して保護するアプリケーションでは、あなたの個人データの管理責任は、すべてあなたご自身にあります。この種のアプリケーションは完全に匿名で動作するため、私たち運営側が個々の保管庫を特定したり、削除したりすることはできません。仮にそれが可能だったとしても、お問い合わせいただいた方が本当に保管庫の所有者ご本人であるかを確認する術がないのです。
 
-If you've been logged out of Anytype, and haven't stored your Key somewhere else, you only have two options to recover your Key:
+もしAnytypeからログアウトしてしまい、かつ鍵をどこにも控えていない場合、鍵を復元する方法は以下の2つに限られます。
 
-1. If you're still logged in on another device, you might still be able to restore your Vault. Just open the app there and copy the Key from your settings.
-2. You can also try recovering your Key from your [OS Key storage manager](../../advanced/help/faqs/#how-to-recover-my-key-from-my-os-key-storage-manager).&#x20;
+1. 他のデバイスでログイン中の場合：他のスマートフォンやPCなどでまだAnytypeにログインしたままであれば、保管庫を復元できる可能性があります。そのデバイスでアプリを開き、設定画面からKeyをコピーしてください。
+2. [OSのパスワード管理機能](../../advanced/help/faqs/#how-to-recover-my-key-from-my-os-key-storage-manager)を確認する

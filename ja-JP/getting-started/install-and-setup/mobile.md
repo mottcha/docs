@@ -1,31 +1,31 @@
-# Mobile
+# モバイル
 
-For mobile devices, you'll need to visit either the [App Store](https://apps.apple.com/gb/app/anytype-the-everything-app/id6449487029) (iOS) or [Play Store](https://play.google.com/store/apps/details?id=io.anytype.app\&amp%3Bhl=es) (Android).
+スマートフォンやタブレットでのご利用は、[App Store](https://apps.apple.com/gb/app/anytype-the-everything-app/id6449487029)（iOS）または、[Play Store](https://play.google.com/store/apps/details?id=io.anytype.app\&amp%3Bhl=es)（Android）からアプリをインストールしてください。
 
-You can also find the .apk files in our [GitHub](https://github.com/anyproto/anytype-kotlin/releases) repository.&#x20;
+[GitHub](https://github.com/anyproto/anytype-kotlin/releases)から.apkファイルをダウンロードすることもできます。
 
-### Create a Vault or Login
+### 保管庫を作成、ログインする
 
-The process is almost the same as on the desktop, so you can just follow the instructions from [.](./ "mention").
+この手順はデスクトップ版と同じなので、[.](./ "mention")をご覧ください。
 
-#### Log-in using the QR code
+#### QRコードでログイン
 
-In addition to using your [key.md](key.md "mention") to log in, you can also use the QR code to login faster if your desktop is close by.
+パソコンがお近くにある場合は、QRコードを使って簡単にログインできます。もちろん、[key.md](key.md "mention")を直接入力によるログインも引き続きご利用いただけます。
 
-To log in using the QR code, simply navigate to your Key.
+QRコードを使ってログインするには、普段通り、鍵を表示する画面に行きます。
 
-`Settings > Vault & Key > Key`
+`設定 > 保管庫と鍵 > 鍵`
 
-Beneath your Key you'll find your blurred out QR code. Clicking the image will display it.
+鍵の近くにぼかされたQRコードがあると思います。クリックして表示します。
 
-Now you can scan this code with your mobile device and login or install the app.
+これで、アプリ版からこのQRコードを読み取ると、ログインすることができます。
 
 <figure><img src="../../../.gitbook/assets/image (87).png" alt="" width="563"><figcaption></figcaption></figure>
 
-### **Not Supported on Mobile**
+### **モバイル版で未対応の機能**
 
-* Columns
-* Markdown Syntax
+* 列
+* Markdown記法
 * [#inline-latex](../../advanced/feature-list-by-platform/other-features.md#inline-latex "mention")
 * [#inline-queries-collections](../../advanced/feature-list-by-platform/other-features.md#inline-queries-collections "mention")
 * Kanban, Calendar, and Graph Views
@@ -36,4 +36,4 @@ Now you can scan this code with your mobile device and login or install the app.
 * [graph.md](../../advanced/feature-list-by-platform/graph.md "mention") & Flow
 * [import-export](../../advanced/data-and-security/import-export/ "mention")
 * [web-publishing.md](../../web-publishing.md "mention")
-* PIN Code
+* PINコード
