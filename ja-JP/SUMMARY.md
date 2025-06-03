@@ -3,7 +3,7 @@
 ## 👋 はじめに
 
 * [ようこそ](README.md)
-  * [Mission](getting-started/readme/mission.md)
+  * [私たちの使命](getting-started/readme/mission.md)
 * [インストールと初期設定](getting-started/install-and-setup/README.md)
   * [モバイル](getting-started/install-and-setup/mobile.md)
   * [保管庫](getting-started/install-and-setup/vault-and-key.md)

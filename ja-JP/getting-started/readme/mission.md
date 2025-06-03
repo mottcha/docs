@@ -1,39 +1,41 @@
-# Mission
+# 私たちの使命
 
 <figure><img src="../../../.gitbook/assets/image (83).png" alt=""><figcaption></figcaption></figure>
 
-### Why are we building Anytype
+[これはあくまでも翻訳です。英語の原文をご覧ください。](../../../getting-started/readme/mission.md)
 
-We imagine a world where our fundamental digital freedoms are sacred: the privacy of thought; the freedom to connect with those we trust; and, the freedom to participate in the governance of our digital creations.
+### Anytypeを開発する理由
 
-We believe that these freedoms are as important to the world of bits, as fundamental human rights are to the world of atoms.
+私たちが思い描くのは、デジタル空間における基本的自由（our fundamental digital freedoms）が厳粛に尊重される世界です。それは、思考・思想（thought）のプライバシー、信頼する人々と繋がる自由、そして自らが生み出したデジタルコンテンツを管理・決定する自由です。
 
-{% hint style="info" %}
-### We’re building an alternative for those who value freedom and trust — for ourselves.
-{% endhint %}
-
-The current web and much of the software we use do not respect these digital freedoms. In the architecture of the current web, application developers are the keepers of our keys; they control the keys to users’ accounts.
-
-As the gatekeepers of our accounts, they determine who has access, who does not, and how information is distributed.
-
-With so much of our lives lived online, we are driven to construct an alternative.
-
-### Cooperation as a magic wand
-
-Cooperation is our superpower - our remarkable ability to advance our knowledge and well-being by working together. It has enabled us, an unassuming species from sub-Saharan Africa, to inhabit locations all across the planet, build the pyramids, discover atoms and DNA, and even venture into space.
-
-We believe that tools for thought, freedom, and trust are what have enabled us to create all the art, science, technologies, devices, and structures we see around us. They allowed us to build cities and reach for the stars.
+これらの自由は、現実の世界における基本的人権と同じように、デジタルの世界においても不可欠なものだと、私たちは信じています。
 
 {% hint style="info" %}
-### Our mission is to empower sustainable cooperation by building tools for thought, freedom and trust.
+### 私たちは、自由と信頼を重んじる人々のために、そして私たち自身のために、新たな選択肢を創っています。
 {% endhint %}
 
-To achieve this level of cooperation, we mastered language. Language was a tool for thought that allowed us to create stories, some of which are social innovations - powerful inter-subjective realities that exist only when enough people believe in them. Humans found a way to use these stories to build trust and freedom at the same time. To achieve greater cooperation, we need both. If we have trust but lack freedom, it results in a dictatorship; if we have a lot of freedom but lack trust, it leads to anarchy.
+現在のウェブや私たちが日常的に使用する多くのソフトウェアは、こうしたデジタル上の自由を十分に尊重していません。現在のウェブの仕組みでは、アプリケーション開発者が私たちの情報への「鍵」を管理しており、ユーザーアカウントの管理権を握っています。
 
-We see the web as the main tool for thought, freedom and trust today and our aim is to upgrade it:
+彼らはアカウントの門番として、誰がアクセスでき、誰ができないのか、そして情報がどのように共有されるかを決定しています。
 
-* as a tool for thought by bringing graph as a universal language of data
-* as a tool for freedom by embedding universal digital freedoms
-* as a tool for trust by building a decentralized layer of trust that supports governance of the positive sum game that the web creates
+私たちの生活の多くがオンラインで営まれるようになった今だからこそ、私たちはこれに代わるものを構築する必要性を強く感じています。
 
-We are of the view that with better tools for thought, freedom, and trust, we could accomplish even more. We could chart a course towards true sustainability, with cooperation at its core.
+### 「協力」という魔法
+
+協力は、私たちの「スーパーパワー」です。共に働くことで知識を深め、より良い状態を目指す、私たちの素晴らしい能力です。この力があったからこそ、サブサハラアフリカの一種にすぎなかった私たち人類が、地球上のあらゆる場所に住み、ピラミッドを築き、原子やDNAを発見し、さらには宇宙へと進出することができたのです。
+
+思考・思想、自由、そして信頼のためのツールこそが、私たちが目にする芸術、科学、技術、デバイス、建造物のすべてを創造することを可能にしたのだと信じています。これらのツールが、都市を築き、星々を目指すことを可能にしたのです。
+
+{% hint style="info" %}
+### 私たちの使命は、思考・思想、自由、信頼のためのツールを構築することを通して、持続可能な協力を後押しすることです。
+{% endhint %}
+
+ここまで協力できるようになるために、私たちは「言語」を習得しました。言語は思考・思想のためのツールであり、それによって私たちは物語を創造できるようになりました。その中には、社会的なイノベーションである「多くの人々が信じ合うことで初めて成り立つ、強力な間主観的現実（inter-subjective realities）」も含まれます。人類はこれらの物語を利用して、信頼と自由を同時に築き上げる方法を見出しました。そして、さらに大きな協力を達成するためには、その両方が不可欠なのです。信頼があっても自由がなければ独裁に陥り、自由が多くても信頼がなければ無政府状態へと繋がってしまいます。
+
+私たちは、ウェブを、今日における思考・思想、自由、そして信頼のための主要なツールと捉え、以下のように発展させることを目指しています。
+
+* 思考・思想のツールとして：データの普遍的な言語としてグラフ構造を導入する
+* 自由のツールとして：普遍的なデジタルの自由を組み込む
+* 信頼のツールとして：ウェブが生み出す「皆が利益を得られる仕組み」の運営を支える、分散型の信頼基盤を構築する
+
+より良い思考・思想、自由、そして信頼のためのツールがあれば、私たちはさらに多くのことを成し遂げられるはずです。協力を核とした、真に持続可能な未来への道筋を描くことができると、私たちは考えています。
