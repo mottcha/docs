@@ -37,7 +37,7 @@ Execute the file named:
 *   If your sync is **working as expected**, your output log should look something like this:\
 
 
-    <figure><img src="../../../.gitbook/assets/Screenshot 2023-08-02 at 16.40.02.png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../../../.gitbook/assets/Screenshot 2023-08-02 at 16.40.02.png" alt=""><figcaption></figcaption></figure>
 * **If the tool detects any errors:** please provide all details about your network setup, including VPN, proxy, firewalls, and antivirus. In this event, we may request you to run a trace-route or other system tools for further analysis later on.
 
 ***

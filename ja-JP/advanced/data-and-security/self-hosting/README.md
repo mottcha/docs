@@ -25,7 +25,7 @@ Please note that all your devices should be manually switched to Anytype Network
 4. Click the “Save” button.
 5. Create a new identity or log in with an existing one.
 
-<figure><img src="../../../.gitbook/assets/image (51) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (51) (1).png" alt=""><figcaption></figcaption></figure>
 
 #### Mobile
 
@@ -34,4 +34,4 @@ Please note that all your devices should be manually switched to Anytype Network
 3. Click on “Anytype” in the “Networks” sub-menu.&#x20;
 4. Create a new identity or log in an existing one.
 
-<figure><img src="../../../.gitbook/assets/Screenshot_20240411-104810_Anytype2.png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/Screenshot_20240411-104810_Anytype2.png" alt="" width="375"><figcaption></figcaption></figure>

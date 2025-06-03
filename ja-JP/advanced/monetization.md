@@ -10,7 +10,7 @@ For more information about the philosophy behind our membership and its planned 
 
 ## Membership Model & Plans
 
-<figure><img src="../.gitbook/assets/image (102) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (102) (1).png" alt=""><figcaption></figcaption></figure>
 
 All Members have unrestricted access to the following:
 

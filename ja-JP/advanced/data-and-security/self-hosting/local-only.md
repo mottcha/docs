@@ -12,7 +12,7 @@ If you don't want to use any backup solutions at all, you can use our local-only
 4. Click the “Save” button.
 5. Create a new identity or log in with an existing one.
 
-<figure><img src="../../../.gitbook/assets/image (52) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (52) (1).png" alt=""><figcaption></figcaption></figure>
 
 #### Mobile
 
@@ -21,4 +21,4 @@ If you don't want to use any backup solutions at all, you can use our local-only
 3. Click on “Local-only” in the “Networks” sub-menu.&#x20;
 4. Create a new identity or log in an existing one.
 
-<figure><img src="../../../.gitbook/assets/Screenshot_20240411-104810_Anytype2.png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/Screenshot_20240411-104810_Anytype2.png" alt="" width="375"><figcaption></figcaption></figure>

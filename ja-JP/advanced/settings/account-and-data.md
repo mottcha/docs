@@ -6,19 +6,19 @@ description: Customize your profile, set up additional security, or delete your 
 
 You can access your vault settings from one of these 3 places:
 
-<div><figure><img src="../../.gitbook/assets/Captura desde 2024-08-09 11-05-47.png" alt="" width="484"><figcaption></figcaption></figure> <figure><img src="../../.gitbook/assets/image (6) (1).png" alt="" width="563"><figcaption></figcaption></figure> <figure><img src="../../.gitbook/assets/image (57).png" alt="" width="563"><figcaption></figcaption></figure></div>
+<div><figure><img src="../../../.gitbook/assets/Captura desde 2024-08-09 11-05-47.png" alt="" width="484"><figcaption></figcaption></figure> <figure><img src="../../../.gitbook/assets/image (6) (1).png" alt="" width="563"><figcaption></figcaption></figure> <figure><img src="../../../.gitbook/assets/image (57).png" alt="" width="563"><figcaption></figcaption></figure></div>
 
 ## Profile
 
 Here you can add your **name, bio,** and **profile picture.** Your profile represents an Object in your Anytype Graph which you can freely link to other Objects.
 
-<figure><img src="../../.gitbook/assets/image (58).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (58).png" alt=""><figcaption></figcaption></figure>
 
 ## Application
 
 ### Preferences
 
-<figure><img src="../../.gitbook/assets/image (129).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (129).png" alt=""><figcaption></figcaption></figure>
 
 #### Appearance
 
@@ -42,7 +42,7 @@ Here you can add your **name, bio,** and **profile picture.** Your profile repre
 
 ### Language & Region
 
-<figure><img src="../../.gitbook/assets/image (130).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (130).png" alt=""><figcaption></figcaption></figure>
 
 #### **Language & Spelling**
 
@@ -62,7 +62,7 @@ Here you can add your **name, bio,** and **profile picture.** Your profile repre
 
 If you want more privacy, like when sharing a computer, you can set up a PIN code. This will lock the app and keep your Key safe. You'll just need to enter the PIN each time your Anytype session ends (after 1 minute, 5 minutes, 10 minutes, or 1 hour) or when you need to access your Key.
 
-<div><figure><img src="../../.gitbook/assets/image (131).png" alt=""><figcaption></figcaption></figure> <figure><img src="../../.gitbook/assets/image (132).png" alt=""><figcaption></figcaption></figure></div>
+<div><figure><img src="../../../.gitbook/assets/image (131).png" alt=""><figcaption></figcaption></figure> <figure><img src="../../../.gitbook/assets/image (132).png" alt=""><figcaption></figcaption></figure></div>
 
 {% hint style="warning" %}
 We do not store this data so we cannot help you in recovering your vault in the case it is lost. Make sure to write down your pin code next to your Key.
@@ -72,13 +72,13 @@ We do not store this data so we cannot help you in recovering your vault in the 
 
 ### Spaces
 
-<figure><img src="../../.gitbook/assets/image (133).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (133).png" alt=""><figcaption></figcaption></figure>
 
 Here you can find a list of all of your space, your access roles and their network status. You can also delete them or stop sharing them by clicking on the three-dot button and choosing either Delete link or Delete.&#x20;
 
 ### Data Management
 
-<figure><img src="../../.gitbook/assets/image (134).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (134).png" alt=""><figcaption></figcaption></figure>
 
 **Local Files:** You can choose to offload files stored in Anytype to our Anytype Network.
 
@@ -90,12 +90,12 @@ Here you can find a list of all of your space, your access roles and their netwo
 
 ### Key
 
-<figure><img src="../../.gitbook/assets/image (135).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (135).png" alt=""><figcaption></figcaption></figure>
 
 You can access your Key or scan the QR code to connect your mobile device. For more details, please check [Broken link](broken-reference "mention").
 
 ### Membership
 
-<figure><img src="../../.gitbook/assets/image (136).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (136).png" alt=""><figcaption></figcaption></figure>
 
 You can manage your [Membership](../monetization.md) plans here.

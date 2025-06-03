@@ -10,11 +10,11 @@ This widget doesn't automatically appear in your sidebar. For instructions on ho
 
 To see all of the objects you've created in your space, you can use the All Objects system widget.
 
-<figure><img src="../../.gitbook/assets/image (172).png" alt="" width="325"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (172).png" alt="" width="325"><figcaption></figcaption></figure>
 
 To customize your All Objects widget, click on the three dots button in the top right corner.
 
-<figure><img src="../../.gitbook/assets/image (173).png" alt="" width="319"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (173).png" alt="" width="319"><figcaption></figcaption></figure>
 
 ### Managing your Objects
 
@@ -28,4 +28,4 @@ There are currently five tabs in the All Objects widget:
 
 To create new Objects, simply click on the New button.
 
-<figure><img src="../../.gitbook/assets/image (98).png" alt="" width="315"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (98).png" alt="" width="315"><figcaption></figcaption></figure>

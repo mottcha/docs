@@ -1,6 +1,6 @@
 # Spaces
 
-<figure><img src="../../.gitbook/assets/image (11).png" alt=""><figcaption><p>You can also manage all of your spaces by going into Vault > Vault &#x26; Key > Spaces</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (11).png" alt=""><figcaption><p>You can also manage all of your spaces by going into Vault > Vault &#x26; Key > Spaces</p></figcaption></figure>
 
 Inside your Vault, you have **Spaces**. A **Space** is a container for your graph of objects.
 
@@ -14,6 +14,6 @@ It's currently impossible to recover deleted spaces unless you've previously exp
 
 You can navigate between your existing spaces by using the new spaces sidebar. To create a new space, simply click on the plus button at the bottom of the list.
 
-<figure><img src="../../.gitbook/assets/image (52).png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (52).png" alt="" width="375"><figcaption></figcaption></figure>
 
 Click on the space widget at the top of your sidebar to customize your [space-settings.md](../../advanced/settings/space-settings.md "mention") or delete your space.

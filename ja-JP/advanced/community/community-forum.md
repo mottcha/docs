@@ -14,11 +14,11 @@ If you want to post in the Anytype Community, you'll need an account.
 
 In your desktop app, click the **?** (Help) button in the lower right, then "[Join Our Community](https://community.anytype.io/invites/sig5xTU4ZZ)".
 
-<figure><img src="../../.gitbook/assets/Screenshot 2023-08-23 at 17.42.16.png" alt="" width="306"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/Screenshot 2023-08-23 at 17.42.16.png" alt="" width="306"><figcaption></figcaption></figure>
 
 Alternatively, find the menu bar at the top of the window just below the title bar, and then click on `Help > Report a Bug.`
 
-<figure><img src="../../.gitbook/assets/image (45) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (45) (1).png" alt=""><figcaption></figcaption></figure>
 
 Report Bugs
 

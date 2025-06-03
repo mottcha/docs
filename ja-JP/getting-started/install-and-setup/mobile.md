@@ -20,7 +20,7 @@ Beneath your Key you'll find your blurred out QR code. Clicking the image will d
 
 Now you can scan this code with your mobile device and login or install the app.
 
-<figure><img src="../../.gitbook/assets/image (87).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (87).png" alt="" width="563"><figcaption></figcaption></figure>
 
 ### **Not Supported on Mobile**
 

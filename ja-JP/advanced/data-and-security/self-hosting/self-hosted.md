@@ -19,7 +19,7 @@ Please note that all your devices should be manually switched to the same self-h
 5. Click the “Save” button.
 6. Create a new identity or log in with an existing one.
 
-<figure><img src="../../../.gitbook/assets/image (53) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (53) (1).png" alt=""><figcaption></figcaption></figure>
 
 #### Mobile
 
@@ -29,4 +29,4 @@ Please note that all your devices should be manually switched to the same self-h
 4. Click on “Tap to provide your network configuration” to upload your self-hosted network configuration (\*.yml file).
 5. Create a new identity or log in an existing one.
 
-<figure><img src="../../../.gitbook/assets/Screenshot_20240411-104804_Anytype3.png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/Screenshot_20240411-104804_Anytype3.png" alt="" width="375"><figcaption></figcaption></figure>

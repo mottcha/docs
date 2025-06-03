@@ -6,7 +6,7 @@ description: >-
 
 # Key
 
-<figure><img src="../../.gitbook/assets/image (6).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (6).png" alt="" width="563"><figcaption></figcaption></figure>
 
 When you create your vault, you will receive your very own 12 word mnemonic phrase. This phrase is generated on-device and is the only way to access your vault and decrypt your data.
 

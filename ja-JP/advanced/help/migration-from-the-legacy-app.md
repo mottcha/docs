@@ -10,10 +10,10 @@ If you’ve created content in the Alpha/Legacy version (0.31.\* and older) that
 
 1.  Update your Desktop Legacy app to the most recent version (0.31.9) via Anytype > Check for updates or [via the link](https://download.anytype.io/?ref=migration\&platform=desktop).
 
-    <div align="left"><figure><img src="../../.gitbook/assets/Check updates.png" alt="" width="331"><figcaption></figcaption></figure></div>
+    <div align="left"><figure><img src="../../../.gitbook/assets/Check updates.png" alt="" width="331"><figcaption></figcaption></figure></div>
 2.  Export from the updated Legacy app: File > Export > Protobuf.
 
-    <div align="left"><figure><img src="../../.gitbook/assets/Anytype Export.gif" alt="" width="336"><figcaption></figcaption></figure></div>
+    <div align="left"><figure><img src="../../../.gitbook/assets/Anytype Export.gif" alt="" width="336"><figcaption></figcaption></figure></div>
 3. [Download](https://download.anytype.io/), install, and open the Beta app.
 4. Import your backup to the Beta app.
 
@@ -29,7 +29,7 @@ Instead of migrating, you’ll have the following alternatives:
 
 *   Create a new vault. When the app is launched, pick up Join instead of Login.
 
-    <div align="left"><figure><img src="../../.gitbook/assets/Join Anytype.png" alt="" width="354"><figcaption></figcaption></figure></div>
+    <div align="left"><figure><img src="../../../.gitbook/assets/Join Anytype.png" alt="" width="354"><figcaption></figcaption></figure></div>
 * Manually import selected Objects one by one from Legacy to Beta. You may want to do this if your Legacy vault / account has become messy but you have a few projects you’d like to carry over to Beta.
 
 For these options, you’ll need to create a new vault, which will generate a new Key.

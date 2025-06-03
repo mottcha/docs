@@ -6,7 +6,7 @@ While this initial version focuses on a basic set of features, we’re laying th
 
 [Install the Raycast Extension here](https://www.raycast.com/any/anytype)
 
-<figure><img src="../../.gitbook/assets/raycast_2x.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/raycast_2x.png" alt=""><figcaption></figcaption></figure>
 
 ### Updates
 
@@ -16,7 +16,7 @@ We've introduced several enhancements based on your requests and feedback, plus 
 * Better Collection Management: Create objects directly within collections and browse collection items with ease.
 * Customization & Visibility: Choose <kbd>Open Object in Anytype</kbd> as the default action, show custom properties in the Detail sidebar, toggle metadata in object details and apply templates when creating new objects.
 
-<figure><img src="../../.gitbook/assets/Screenshot 2025-03-17 at 11.43.00 AM.png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/Screenshot 2025-03-17 at 11.43.00 AM.png" alt="" width="563"><figcaption></figcaption></figure>
 
 ### Privacy
 

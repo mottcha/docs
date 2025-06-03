@@ -97,7 +97,7 @@ There's no browser version of the app. Anytype is a stand-alone software, that w
 
 <summary>What happened to the old homepage?</summary>
 
-<img src="../../../.gitbook/assets/w=3840,quality=80 (1).webp" alt="" data-size="original">
+<img src="../../../../.gitbook/assets/w=3840,quality=80 (1).webp" alt="" data-size="original">
 
 The homepage from the alpha app has been removed, and replaced with the new sidebar and widgets. If you really liked this layout, you can try recreating it using a set with a gallery view or you can try this [gallery experience](https://gallery.any.coop/Made%20by%20Any?experience=legacy_homepage).
 
@@ -149,7 +149,7 @@ If you are having issues with GLIBCXX, you can install the [latest version](http
 
 You can use the orange 'handle' to the left of each block to create parent/child blocks or new columns in your editor by dragging and dropping them.
 
-<div><figure><img src="../../../.gitbook/assets/image (70).png" alt=""><figcaption></figcaption></figure> <figure><img src="../../../.gitbook/assets/image (71).png" alt=""><figcaption></figcaption></figure></div>
+<div><figure><img src="../../../../.gitbook/assets/image (70).png" alt=""><figcaption></figcaption></figure> <figure><img src="../../../../.gitbook/assets/image (71).png" alt=""><figcaption></figcaption></figure></div>
 
 </details>
 
@@ -183,7 +183,7 @@ Vaults created before version 0.44.0 have an Entry Space. You are free to delete
 
 <summary>How do I create a shared space?</summary>
 
-![](<../../../.gitbook/assets/Space Settings_Shared Space Creation.png>)
+![](<../../../../.gitbook/assets/Space Settings_Shared Space Creation.png>)
 
 Each newly Space you create is _Private_ by default. In the Space settings menu, you’ll see the option to ‘Share’. This will create a share link that you can send to anyone you would like to join your space. At this point, the Space becomes a _Shared_ Space.&#x20;
 
@@ -203,7 +203,7 @@ Members of the Space have either Viewer or Editor rights. Viewers have read-only
 
 <summary>How do I invite people to my space?</summary>
 
-![](<../../../.gitbook/assets/Anytype Space Sharing_Invite Link.png>)
+![](<../../../../.gitbook/assets/Anytype Space Sharing_Invite Link.png>)
 
 As a Space owner, once you click 'Share Space' in your space settings, you can generate a shareable invite link. Anyone who you send this link to, can request access to your space.&#x20;
 

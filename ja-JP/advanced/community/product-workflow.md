@@ -6,7 +6,7 @@ The community has been the cornerstone of our work since Day 1. Today, we will a
 
 _There are always two critical questions regarding product work:_
 
-<figure><img src="../../.gitbook/assets/SCR-20231115-hz3.jpeg" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/SCR-20231115-hz3.jpeg" alt=""><figcaption></figcaption></figure>
 
 Before jumping to these ones, let's cover the basics.
 
@@ -16,7 +16,7 @@ Before jumping to these ones, let's cover the basics.
 * Product team has two parts for each season: delivery and discovery.
 * During delivery, we focus on executing our plans, while in discovery, we gather insights for future planning.
 
-<figure><img src="../../.gitbook/assets/image (4) (1) (1) (1).png" alt=""><figcaption><p>Scheme of year planing process</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (4) (1) (1) (1).png" alt=""><figcaption><p>Scheme of year planing process</p></figcaption></figure>
 
 ### Discovery ⟶ Delivery
 
@@ -24,7 +24,7 @@ The discovery process is typically behind the scenes, but it's crucial part sinc
 
 During the planning for each season, we consider two types of features:
 
-<figure><img src="../../.gitbook/assets/image2.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image2.png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="info" %}
 On our [public roadmap](https://github.com/orgs/anyproto/projects/1), you can find the features that have been delivered or have gone through the discovery process and are due to be delivered.
@@ -38,7 +38,7 @@ On our [public roadmap](https://github.com/orgs/anyproto/projects/1), you can fi
 * Files as an object as new dimension of file work
 * Log in process and account security
 
-<figure><img src="../../.gitbook/assets/image3.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image3.png" alt=""><figcaption></figcaption></figure>
 
 ### We hear you!
 

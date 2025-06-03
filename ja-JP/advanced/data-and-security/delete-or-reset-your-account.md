@@ -6,7 +6,7 @@ Since we don't have access to your Anytype data, and we have no way to connect y
 
 In the top menu, Click "Anytype", open Settings, Data management, and select **Delete vault.** This will delete your profile, and your Key:
 
-<figure><img src="../../.gitbook/assets/image (77) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (77) (1).png" alt=""><figcaption></figcaption></figure>
 
 If you would like to create a new vault instead, do the following:
 
