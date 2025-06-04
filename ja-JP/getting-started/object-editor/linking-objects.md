@@ -1,75 +1,77 @@
 ---
-Description: How to link your Objects with Relations or Simple Links.
+Description: オブジェクト間のリンク、つながりの作成方法
 ---
 
-# Links
+# リンク
 
-### Creating New Links
+### 新しいリンクを作成
 
-#### Link to another Object in Anytype
+#### 他のオブジェクトへのリンクを作成する
 
-Directly through the editor by using:
+エディタ内で直接リンクを作成するには、以下の2つの方法があります。
 
-1. **Block Links.** Type \[\[ to invoke the Object picker menu or add the slash character ("/") to invoke a command bar, and then look for the `Link to Object` option in the menu. These can appear either as text or as cards.
-2. **Inline Links**. Type @ to invoke the Object picker menu.
+1. **リンクブロック**： `[[`と入力すると、オブジェクトの選択メニューが表示されます。または、`/ (半角)`を入力してコマンドバーを開き、メニューから`リンクを追加`を選択することでも作成できます。この方法で作成したリンクは、テキスト形式またはカード形式で表示されます。
+2. **インラインリンク**： `@`と入力すると、オブジェクトの選択メニューが表示され、文中にリンクを埋め込むことができます。
 
-<div><figure><img src="../../../.gitbook/assets/image (17).png" alt=""><figcaption><p>Link Blocks</p></figcaption></figure> <figure><img src="../../../.gitbook/assets/image (18).png" alt=""><figcaption><p>Inline Mentions</p></figcaption></figure></div>
+<div><figure><img src="../../../.gitbook/assets/image (17).png" alt=""><figcaption><p>リンクブロック</p></figcaption></figure> <figure><img src="../../../.gitbook/assets/image (18).png" alt=""><figcaption><p>インラインリンク</p></figcaption></figure></div>
 
-With Properties by assigning an Object Property Type in the Object menu.
+オブジェクトにメンバーを割り当てるには、オブジェクトメニューからプロパティとして割り当てることができます。
 
 <figure><img src="../../../.gitbook/assets/image (179).png" alt="" width="375"><figcaption></figcaption></figure>
 
-#### Link to external Object on your device
+#### デバイス内のファイルへのリンクを作成する
 
-If you want to add a link to an external Object on your desktop, please use the links starting with **file:///** plus the local file destination. For example:
+PCに保存されているファイルへのリンクを作成するには、`file:///`に続けて、対象ファイルへのパスを入力します。
 
-* `file:///Users/Filip/Downloads/Protocol-Berg.pdf` — to open PDFs;
-* `file:///Users/Filip/Downloads/my_budget.xlsx` — to open spreadsheets (Excel, Numbers).
+- `file:///Users/Filip/Downloads/Protocol-Berg.pdf` - PDFファイルを開く
+- `file:///Users/Filip/Downloads/my_budget.xlsx` - スプレッドシート（ExcelやNumbersなど）を開く
 
-To add such a link, pick up "Link to website" just like when you add a new link to a website.
+このようなリンクを作成する際は、通常のウェブサイトへのリンクを追加するときと同じように「ウェブサイトにリンク」を選択し、上記形式のパスを入力してください。
 
-#### Date mentions
+#### 日付メンション
 
-You can use **Inline Links** to quickly link to either absolute or relative dates.
+**インラインリンク**を使うと、特定の日付や、「今日」「明日」といった相対的な日付へのメンションを簡単に入力できます。
 
-Some examples:
+入力例：
 
-* @now or @today
-* @tomorrow
-* @nextweek
-* @nextmonth
-* @24/8/2023
+- `@now` または `@today` （今日の日付）
+- `@tomorrow` （明日の日付）
+- `@nextweek` （来週の日付）
+- `@nextmonth` （来月の日付）
+- `@24/8/2023` （例：2023年8月24日）
 
-It's also possible to use `@date` or `/date` to quickly open the date selection menu.
+`@date`や`/date`と入力すれば、カレンダー形式の日付選択メニューをすぐに開くことができます。
 
 <figure><img src="../../../.gitbook/assets/image (3) (1) (1) (1).png" alt="" width="375"><figcaption></figcaption></figure>
 
-#### Link aliases
+#### 表示名を変えてリンクを作成する
 
-You can use regular links to link to a specific object in your space using a different name.&#x20;
+スペース内のオブジェクトに、表示される名前を自由に変えてリンクを作成できます。例えば、長い名前のオブジェクトに短いニックネームでリンクしたり、文脈に合わせた名前で参照したりすることができます。
 
-1. Write the name of your link first.
-2. Select the name and press `Cmd / Ctrl + Shift + K`.
-3. Search for the object you want to link, and select it.
+1. まず、リンクとして表示したい名前をエディタに入力します。
+2. 入力した名前を選択した状態で、ショートカット`Cmd / Ctrl + Shift + K`を押します。
+3. 検索画面が表示されたら、リンクしたいオブジェクトを検索し、選択します。
 
-### Checking Existing Links
+### 作成したリンク（つながり）の見方
 
-#### Properties on the Graph
+#### グラフビューで情報のつながりを可視化
 
-In your documents you may have multiple references or connections which could be attached to other work in your library. The Graph is the visualizer for this. Objects connected to other Objects, connected to Humans, or Tasks.
+Anytypeでは情報を自由自在に結びつけられます。例えば、ノート間のリンクや、タスクと担当者を結びつけるといったようにです。
+グラフビューでは、これらの複雑な情報のつながりが、まるで地図のように一目でわかります。別々の情報、人、タスクがどう関係し合っているのか、直感的に把握することができます。
 
-Learn more about [relations.md](../types/relations.md "mention") & the [graph.md](../../advanced/feature-list-by-platform/graph.md "mention") here.
 
-#### Use the Flow
+詳しくは、[relations.md](../types/relations.md "mention")や[graph.md](../../advanced/feature-list-by-platform/graph.md "mention")をご覧ください。
+
+#### フロービューで前後のつながりを見る
 
 <figure><img src="../../../.gitbook/assets/image (19).png" alt="" width="375"><figcaption></figcaption></figure>
 
-Another option to check which Objects are linked together can be found in the Flow tab next to the Graph.
+オブジェクト同士の前後のつながりを見るには、グラフビューの隣にあるフロービューを使いましょう。
 
-On the top, center of your screen you will see the option to toggle to **Flow** view. This will show you which Object is linked before and after the current Object you are viewing.
+画面上部の中央に表示されている**フロー**を選択すると、フロービューに切り替わります。このフロービューでは、現在開いているオブジェクトの前後に、どのオブジェクトがリンクされているかを視覚的に確認できます。
 
-#### &#x20;Backlinks
+#### バックリンク
 
 <figure><img src="../../../.gitbook/assets/image (20).png" alt="" width="563"><figcaption></figcaption></figure>
 
-Lastly, you can use the Backlinks relation to check which Objects link to the currently opened one.&#x20;
+最後に、バックリンクを使うと、現在開いているオブジェクトに対して、どのオブジェクトからリンクが張られているかを確認することができます。

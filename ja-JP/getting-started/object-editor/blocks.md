@@ -1,29 +1,29 @@
 ---
-description: Understanding blocks, editing, and customizing to your preference.
+description: ブロックの基本を理解して、編集やカスタマイズを自由自在に。
 ---
 
-# Blocks
+# ブロック
 
-Your object is made up of different types of blocks to organize your information, and the place where all of these Blocks live together is called the Canvas. Anytype's block-based editor works very similarly to that of blogging sites or website builders.
+オブジェクトは、情報を整理するための様々な種類のブロックで構成されており、これらのブロックが配置される場所をキャンバスと呼びます。Anytypeのブロックエディターは、ブログやウェブサイトを作るような感覚で操作できます。
 
-All block styles originate from the command menu, which you can access by either clicking on the orange `+` symbol on the left-hand side of your editor, or typing `/`.&#x20;
+新しいブロックを追加したり、ブロックの種類を選んだりするには、「コマンドメニュー」を使います。コマンドメニューを開くには、エディタの左側にある丸い「+」アイコンをクリックするか、`/ (半角)`を入力してください。
 
 <figure><img src="../../../.gitbook/assets/image (45).png" alt="" width="563"><figcaption></figcaption></figure>
 
-### Style your Blocks
+### ブロックのスタイルを変える
 
-You can select one block or several at once, and batch edit to create different headings and text styles such as checkboxes, bullets, or numbers.
+複数のブロックをまとめて選択し、見出しやチェックボックス、箇条書き、番号などのスタイルを一括編集できます。
 
 <figure><img src="../../../.gitbook/assets/image (47).png" alt="" width="563"><figcaption></figcaption></figure>
 
-### Inline Styling &#x20;
+### 文中でスタイルを変える
 
-We also support styling individual characters / words inside text blocks.
+テキストの文中で部分的にスタイルを変更することができます。
 
 <figure><img src="../../../.gitbook/assets/image (48).png" alt="" width="563"><figcaption></figcaption></figure>
 
-### Columns
+### 列の変更
 
-You can use the grey 'handle' to the left of each block to create parent/child blocks or new columns in your editor by dragging and dropping them.
+各ブロックの左にある灰色の取っ手をドラッグ＆ドロップして、ブロックを横並びにすることができます。
 
 <div><figure><img src="../../../.gitbook/assets/image (49).png" alt=""><figcaption></figcaption></figure> <figure><img src="../../../.gitbook/assets/image (51).png" alt=""><figcaption></figcaption></figure></div>

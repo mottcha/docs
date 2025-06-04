@@ -1,80 +1,85 @@
 ---
-description: Let's discover what Objects are, and how to use them to optimize your work.
+description: オブジェクトについて学び、仕事や学習を効率的に。
 ---
 
-# Objects
+# オブジェクト
 
-### What is an Object?
+### オブジェクトとは？
 
-Forget what you already know about knowledge management tools.&#x20;
+これまでの知識管理ツールに関する先入観は、一旦忘れましょう。
 
-At Anytype we have created the concept that everything you create is an Object. Pages, Notes, Recipes, Books, Movies, Audio, Humans, _everything!_&#x20;
+Anytypeでは、あなたが作った情報はすべて「オブジェクト」と呼びます。ページやメモ、レシピ、書籍、映画、音楽、連絡先も _すべて_ です！
 
-These are all **Objects** that are organized and categorized by **Types**.&#x20;
+そして、すべての**オブジェクト**は、ページやメモ、連絡先といった「**タイプ（種類）**」によって整理・分類されます。
 
-You can connect different **Types** by **Properties** and see how this is visualized on the **Graph**.
+そして、**オブジェクト**には、必ず「**タイプ（種類）**」が設定されます。ページやタスク、人物といったように種類ごとに整理・管理することができます。
 
-You will see in your **Settings** that you can create new Types.&#x20;
+**設定画面**から、新しいタイプをご自身で作成することも可能です。
 
-In short, an Object is a generalizing term for what you are creating. If it is a page, note, or other Type that you have created.&#x20;
+さらに、**プロパティ**を使うことで、別の**タイプ**を持つオブジェクト同士であっても、関連付けることができます。例えば、「この本（オブジェクトA）の著者は、この人物（オブジェクトB）」というような関係性です。これらの複雑なつながりは、「**グラフ**」機能を使うことで、全体像を視覚的に把握できます。
 
-The Object will be organized by the Type of object that it is. &#x20;
+簡単に言えば、作ったものは、なんでもオブジェクトです。それがページであれ、メモであれ、なんでもです。
 
-It is any node in your graph. The smallest linkable unit. Still classified with types. &#x20;
+そして、タイプは、オブジェクトの種類のことです。
 
-### Ways to Create Objects
+また、グラフビューで表示される点（ノード）の一つひとつがオブジェクトです。これは、別の点とつなげることが可能な最小単位です。そして、必ずいずれかのタイプに分類されています。
 
-#### Sidebar
+### オブジェクトの作成
 
-When clicking the plus button, you’ll immediately create a new object with the type that is set as your default object type in your space settings.&#x20;
+#### サイドバーから
 
-When clicking the arrow button, you'll be presented with a menu of your types which you can sort to your liking. You can then choose which one you want to create.
+「+」ボタンを押すと、すぐにオブジェクトを作成できます。このときに作成されるオブジェクトのタイプを変更するには、スペースの設定から「既定のタイプ」で設定できます。
+
+「▼」ボタンを押すと、タイプを指定して、オブジェクトを作成できます。このときに表示されるタイプ一覧の並びは自由に変えられます。
 
 <div><figure><img src="../../../.gitbook/assets/image (41).png" alt=""><figcaption></figcaption></figure> <figure><img src="../../../.gitbook/assets/image (42).png" alt=""><figcaption></figcaption></figure></div>
 
-#### Command Menu
+#### コマンドメニューから
 
-When working in the editor you can type `/` to bring up the command menu. If you already know which Type you want to use, you can just type it directly. If you're not sure which Type you want to use, you can type `Objects` instead for the below menu to appear with all of your Types listed. Simply select the Object Type you'd like to create and it will be linked at your current place.
+エディタでの編集中に`/ (半角)`を入力すると、コマンドメニューが表示されます。
 
-<figure><img src="../../../.gitbook/assets/image (183).png" alt="" width="375"><figcaption><p>Command menu > Objects</p></figcaption></figure>
+使いたいタイプが既に決まっている場合は、`/ (半角)`に続けてその名前を入力することで、直接オブジェクトを作成できます。
 
-#### Use a Shortcut
+もし、どのタイプを使うか迷った時は、`/objects` と入力しましょう。そうすると、利用できる全てのタイプが一覧で表示されます。あとは、一覧から作成したいタイプを選ぶだけで、現在のカーソル位置に新しいオブジェクトが作成され、リンクされます。
 
-For a quick creation of a new Object, you can use this shortcut: `Cmd / Ctrl + N`
+<figure><img src="../../../.gitbook/assets/image (183).png" alt="" width="375"><figcaption><p>コマンドメニュー > objects</p></figcaption></figure>
 
-This will perform the same action as clicking the "+" sign in the sidebar.
+#### ショートカットを使って
 
-Additionally, you can use `Cmd / Ctrl + Opt / Alt + N` to perform the same action as clicking the arrow sign in the sidebar.
+新しいオブジェクトを素早く作成したい場合は、ショートカットキー`Cmd / Ctrl + N `が便利です。
 
-#### Turn Into Object
+これは、サイドバーにある「+」アイコンをクリックする操作と同じです。
 
-If you are working on something in an existing Object and would like to transform only a certain block into an Object, you can do that through the action menu by either:
+また、ショートカットキー`Cmd / Ctrl + Opt / Alt + N`を使うと、サイドバーの矢印アイコンをクリックした場合と同じ操作を行うことができます。
 
-1. Hovering to the left side of the block that you are working on and clicking the 3 dots.
-2. Using the `Cmd / Ctrl + /` keyboard shortcut.
+#### オブジェクトに変換
+オブジェクト内で作業している際、一部のブロックだけを新しいオブジェクトとして独立させたい場合があるかもしれません。その際は、以下の手順で簡単に変換できます。
 
-<figure><img src="../../../.gitbook/assets/image (34).png" alt="" width="563"><figcaption><p>Action menu</p></figcaption></figure>
+1. 変換したいブロックにマウスカーソルを合わせます。ブロックの左側に表示される「3つの点が並んだアイコン」をクリックすると、アクションメニューを使用する。
+2. または、ショートカットキー`Cmd / Ctrl + /`を使用する。
 
-### Locating Your Objects
+<figure><img src="../../../.gitbook/assets/image (34).png" alt="" width="563"><figcaption><p>アクションメニュー</p></figcaption></figure>
 
-#### All Objects
+### オブジェクトの探し方
 
-To see all of the objects you've created in your space, you can use the [anytype-library.md](../customize-and-edit-the-sidebar/anytype-library.md "mention") system widget.
+#### すべてのオブジェクト
+
+スペース内にあるすべてのオブジェクトを確認するには、標準ウィジェットである[anytype-library.md](../customize-and-edit-the-sidebar/anytype-library.md "mention")から一覧表示できます。
 
 <div><figure><img src="../../../.gitbook/assets/image (37).png" alt=""><figcaption></figcaption></figure> <figure><img src="../../../.gitbook/assets/image (38).png" alt=""><figcaption></figcaption></figure></div>
 
-#### Graph
+#### グラフビュー
 
 <figure><img src="../../../.gitbook/assets/image (39).png" alt="" width="375"><figcaption></figcaption></figure>
 
-To find all of your objects and how they are connected, you can look to the [graph.md](../../advanced/feature-list-by-platform/graph.md "mention") for your main source of truth.
+作成したオブジェクト同士のつながりや全体像を把握するには、[graph.md](../../advanced/feature-list-by-platform/graph.md "mention")をご覧ください。グラフビューを見れば、情報の関連性がひと目で分かります。
 
-#### Search
+#### 検索
 
-To navigate to the search, either head to your sidebar, and click on the search button or use the `Cmd / Ctrl + K` keyboard shortcut.&#x20;
+検索するには、サイドバーにある検索ボタンをクリックするか、キーボードショートカットの`Cmd / Ctrl + K`を使用します。
 
 <figure><img src="../../../.gitbook/assets/image (40).png" alt="" width="323"><figcaption></figcaption></figure>
 
-#### Bin
+#### ゴミ箱
 
-If you've previously removed some objects from your [space.md](../install-and-setup/space.md "mention"), they will appear in your [finding-your-objects.md](../../advanced/data-and-security/data-storage-and-deletion/finding-your-objects.md "mention") unless you've already permanently deleted them.
+[space.md](../install-and-setup/space.md "mention")から削除したオブジェクトは、完全に削除しないかぎり、[finding-your-objects.md](../../advanced/data-and-security/data-storage-and-deletion/finding-your-objects.md "mention")で見られます。
