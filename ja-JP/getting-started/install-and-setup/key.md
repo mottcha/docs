@@ -2,13 +2,14 @@
 description: >-
   To protect everything you create and your connections with others, you have an
   encryption key that only you control
+  自分自身で管理できる暗号化キーで、自分の大切なデータや大切な人とのつながりを守りましょう。
 ---
 
 # 鍵
 
 <figure><img src="../../../.gitbook/assets/image (6).png" alt="" width="563"><figcaption></figcaption></figure>
 
-初めて保管庫を作成すると、12単語のリカバリーフレーズがデバイス内で作られます。このフレーズがなければ、保管庫を開いたり、中のデータを復号したりすることはできません。
+初めて保管庫を作成すると、デバイス内で12個の単語からなるリカバリーフレーズが作成されます。このフレーズがなければ、保管庫を開いたり、中のデータを復号したりすることはできません。
 
 この鍵が、ログインIDとパスワードの二つの役割を兼ね備えています。アカウント作成時に生成されるマスターキーであり、ビットコインのウォレットなどで使われている仕組みと似ています。
 

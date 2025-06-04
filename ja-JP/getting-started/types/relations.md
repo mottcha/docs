@@ -1,70 +1,78 @@
-# Properties
+# プロパティ
 
-Properties are key to organizing and connecting your Objects and knowledge in Anytype. There are two functions that Properties serve in Anytype:
+プロパティは、情報（オブジェクト）を整理したり、情報同士を関連付けたりするのに役立つ「ラベル」のようなものです。プロパティには、大きく分けて2つの使い方があります。
 
-* **Defining attributes:** You can use Properties to define the characteristics of a certain Object.
-  * For example, when creating a Task in Anytype, you can add Properties such as _Status_: Done/Not Done, or _Priority_: Low, Medium, or High.
-  * If we were to imagine a database, Properties represent the column headers to each row (where column A represents the Object name, and where each row represents an Object).
-  * Once you have set your attributes, it becomes possible to sort and filter your Objects according to the Properties you've defined in your Query.
-* **Defining connections:** You can also use Properties to link one Object to another.
-  * Returning to the example of a Task, you can add the Property: _Linked Projects,_ and connect another Object in your Anytype to this task.
-  * As above, you can view the Linked Projects as Properties in a Query, or in your Graph.
+* **情報にラベルを付ける**: オブジェクトがどんなものなのか、具体的な情報を追加できます。
+  * 例えば、「読みたい本」というオブジェクトを作る時、「著者」「ジャンル」「読了したかどうか」といった情報をプロパティとして設定できます。
+  * 表計算ソフトの表を想像してみてください。一行一行がオブジェクトだとすると、プロパティは「名前」「日付」「担当者」といった列の見出しにあたります。
+  * こうして情報にラベルをつけておくと、あとから「この著者の本だけ見たい」「まだ読んでいない本を優先度順に並べたい」といったように、条件を指定してオブジェクトを検索したり、並べ替えたりするのに便利です（この機能をクエリと呼びます）。
+* **情報同士を線で結ぶ**: あるオブジェクトを、別のオブジェクトと関連付けることができます。
+  * 例えば、「会議の議事録」というオブジェクトに、「参加者」というプロパティを追加して、Anytypeの中にある「社員名簿」のオブジェクトと紐付けることができます。
+  *  このように情報同士を線でむすんでおくと、クエリ機能で関連情報を一覧表示したり、グラフビューで情報全体のつながりを見渡したりできます。
 
 <figure><img src="../../../.gitbook/assets/image (198).png" alt=""><figcaption></figcaption></figure>
 
-### Create a New Property
+### 新しいプロパティの作成
 
-#### Creating Properties from the Type Edit Menu
+#### タイプ編集画面から
 
-While editing any [Type in your Space settings](./#creating-types-from-space-settings), you can use the `+` button in the top right corner of the Properties section to either add an existing property to the current Type or to create a new one.&#x20;
+[スペース設定でタイプを編集](./#creating-types-from-space-settings)している際に、プロパティ画面の右上にある「+」ボタンをクリックすると、作成したプロパティを編集中のタイプに追加したり、新しいプロパティを作成したりできます。
 
 <div><figure><img src="../../../.gitbook/assets/image (123).png" alt=""><figcaption></figcaption></figure> <figure><img src="../../../.gitbook/assets/image (124).png" alt=""><figcaption></figcaption></figure></div>
 
-#### Creating Properties from Space Settings
+#### スペース設定画面から
 
-Open your [space.md](../install-and-setup/space.md "mention") settings, and navigate to `Content Model > Properties`. Afterwards, simply click on `New` button to create a new Property.
+[space.md](../install-and-setup/space.md "mention")設定を開き、`ライブラリ > プロパティ`に進みます。その後、`新規作成`ボタンをクリックして新しいプロパティを作成できます。
 
-From here, you can choose a name and a type for your new Property.
+ここで、新しいプロパティの名前と種類を選択できます。
 
 <div><figure><img src="../../../.gitbook/assets/image (187).png" alt=""><figcaption></figcaption></figure> <figure><img src="../../../.gitbook/assets/image (188).png" alt=""><figcaption></figcaption></figure> <figure><img src="../../../.gitbook/assets/image (189).png" alt=""><figcaption></figcaption></figure></div>
 
-If you've decided that this Property is no longer relevant, you can use the context menu (mouse right-click) to delete the Property from your space.
+もし、プロパティが必要なくなった場合は、コンテキストメニュー（マウスの右クリック）を使って、スペースからプロパティを削除できます。
 
 <figure><img src="../../../.gitbook/assets/image (190).png" alt="" width="375"><figcaption></figcaption></figure>
 
-#### Creating Properties from the Object Editor
+#### オブジェクト編集中に
 
 You can add a Property to your Objects as you would with any other block in the editor: by using the `+` button or the in-line `/` menu.
 
+プロパティを追加するには、オブジェクトエディターの任意の場所で`+`ボタンをクリックするか、インラインメニューから`/`を入力してプロパティを選択します。
+
+他のブロックを追加するのと同じように、「+」ボタンやコマンド入力`/ (半角)`で表示されるメニューから、オブジェクトにプロパティを追加できます。
+
 <div><figure><img src="../../../.gitbook/assets/image (191).png" alt=""><figcaption></figcaption></figure> <figure><img src="../../../.gitbook/assets/image (192).png" alt=""><figcaption></figcaption></figure></div>
 
-Any Property you create from the object editor will be available for editing in your space settings using the steps above.
+編集中に作成したプロパティは、前述のスペース設定から編集や管理が行えるようになります。
 
-#### Types of Properties <a href="#types-of-relations" id="types-of-relations"></a>
+#### プロパティの種類 <a href="#types-of-relations" id="types-of-relations"></a>
 
-Here are the currently available Property types within Anytype:
+Anytypeでは、以下の種類のプロパティをご利用いただけます。
 
-* **Text**: accepts text as the input.
-* **Number**: for all numbers. Different formats are coming soon.
-* **Date**: date, optional information for time.
-* **Select:** categorical property wherein you can define a list of options to choose from, like X, Y, or Z.
-* **Multi-select**: another variety of the string with no limits, only one string.
-* **Email/phone/URL**: special formats for URL, email, and phone number.
-* **Checkbox**: an object with a boolean, string, or link to an object.
-* **File & Media**: audio, movies, or pictures which you can view, play, or download.
-* **Object**: reference to a specific object, like a person, task, or document.
+* **テキスト**: 文章やメモなど、自由な文字情報を入力するためのものです。
+* **数値**: 個数や金額など、数字の情報を記録します。今後、さらに多くの表示形式に対応する予定です。
+* **日付**: 特定の日付を記録します。オプションで時刻の情報も追加できます。
+* **セレクト**: 「高・中・低」や「A・B・C」のように、事前に用意した選択肢の中から一つだけを選ぶ形式です。
+* **複数セレクト**: 事前に用意した選択肢の中から、当てはまるものを複数選ぶことができます。
+* **メール/電話番号/URL**: メールアドレス、電話番号、ウェブサイトのURLといった特定の形式の情報を入力するのに適しています。
+* **チェックボックス**: タスクの完了状態など、チェックの有無（真偽値）を示します。また、文字列や他のオブジェクトへのリンクも関連付けられます。
+* **ファイルとメディア**: 画像、音声、動画などのファイルをアップロードして管理できます。プレビュー表示や再生、ダウンロードも可能です。
+* **オブジェクト**: 作成済みの他のオブジェクト（例えば、特定の人物、会議の議事録、プロジェクトのタスクなど）へリンクし、関連付けを行うことができます。
 
-### Managing Properties
+### プロパティの管理
 
-You can also manage the Properties for a given Object via its **Properties Panel:** the bullet list icon that appears in the top right corner of the screen. This Panel shows all Properties for that Object.
+オブジェクトが持つプロパティは、画面右上のリストアイコン（**プロパティパネル**）を使って管理することも可能です。プロパティパネルでは、選択中のオブジェクトが持つ全てのプロパティの一覧を確認できます。
 
 <div><figure><img src="../../../.gitbook/assets/image (125).png" alt=""><figcaption></figcaption></figure> <figure><img src="../../../.gitbook/assets/image (126).png" alt=""><figcaption></figcaption></figure></div>
 
-The Properties icon lets you view the properties of a specific object, while the Set up menu allows you to manage the properties of its Type – you can add, remove and organize them into different sections:
+プロパティパネルは、あくまで個々のオブジェクトのプロパティを見るためのものです。
 
-* Header properties appear in the header part of every object of that Type
-* Panel properties are those that will be shown by pressing Properties icon
-* Hidden properties live under the "Hidden" toggle
-* Local properties are those that are not associated with the Object's Type
+それに対して、タイプ自体のプロパティを編集したい場合は、設定メニューからタイプを編集する必要があります。タイプに共通のプロパティを追加したり、削除したり、また、見やすく表示を分けたりすることができます。
+
+プロパティの表示には、以下の4つがあります。
+
+* ヘッダー：ページの上部、（ヘッダー部分）に表示されるプロパティです。編集中のタイプに属するすべてのオブジェクトに共通して表示されます。
+* プロパティパネル：プロパティパネルに表示されるプロパティです。
+* 非表示：通常は表示されないプロパティです。「非表示」の切り替え（トグル）の下に格納され、必要に応じて表示できます。
+* 個別：特定のオブジェクトだけに存在するプロパティです。
 
 <figure><img src="../../../.gitbook/assets/image (127).png" alt="" width="563"><figcaption></figcaption></figure>

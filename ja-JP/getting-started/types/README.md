@@ -1,51 +1,52 @@
 ---
-description: Types are the classification system we use to categorize Objects
+description: タイプは、オブジェクトを分類するための種類・型
 ---
 
-# Types
+# タイプ
 
-Just as in the physical world, Types are useful for defining Objects which are categorically different from one another.
+身の回りにある物にもそれぞれ種類があるように、Anytypeにおける「タイプ」は、内容や性質が全く異なる「オブジェクト」を分かりやすく種類として分類するためのものです。
 
-A banana is something inherently different from a sofa. Its functions, properties, and relationships to other objects is more similar to those of apples and oranges, rather than sofas. For this reason, we might categorize apples, oranges, and bananas as _fruit_, whereas sofas would fall into a different category: that of _furniture._
+例えば、バナナとソファを考えてみましょう。この二つは全く違うものですよね。バナナの用途、特徴、関係性を考えると、やはりリンゴやオレンジといった果物に近いのではないでしょうか。それならば、バナナは、リンゴやオレンジと同じ「果物」のグループに、ソファは「家具」というグループに入れたほうがすっきりしませんか。
 
-By the same principle, in Anytype there are two important concepts to keep in mind:
+それでは、同じ要領でAnytypeに置き換えて考えてみましょう。
 
-1\) Every object has a Type, which is defined at the time of Object creation (and can be changed later)
+1. オブジェクトは、作るときに必ずタイプを決めます。あとで変更もできます。
+2. オブジェクトの種類を変えたいときに、タイプを使います。
 
-2\) Different Types are used to define Objects which are categorically different from each other
+例えば、同僚、友人、兄弟といった人々であれば、すべて「人物」という共通のタイプでまとめられるのではないでしょうか。グラフビューでは、このタイプごとに一つの塊として見ることができます。
 
-Colleagues, friends, and neighbors might all be considered type: _Human_ in your Anytype graph. Here are other examples of Types you might have in your graph:
+その他にも、以下のようなタイプも考えられますね。
 
-* Task
-* Note
-* Book
-* Movie
-* Idea
+* タスク
+* メモ
+* 本
+* 映画
+* アイデア
 
-It's up to you how narrow or broad you'd like your Types to be, but generally we recommend using general Types for categorizing your Objects, and further refining the use of your Types through [Templates](broken-reference).
+タイプをどれくらい細かくするか、大まかにするかは自由です。Anytypeとしては、まず大まかにタイプでオブジェクトを分類し、必要に応じて[Templates](templates.md "mention")でより具体的にしていく方法をおすすめします。
 
-You can always view and manage your Types in your Space settings under the Content model section [#object-types](../../advanced/settings/space-settings.md#object-types "mention")
+作成したタイプは、スペースの設定画面にあるライブラリの[#object-types](../../advanced/settings/space-settings.md#object-types "mention")でいつでも一覧表示したり、編集したりすることができます。
 
-Additionally, each Type has an in-built Query which can be accessed by opening the Type from anywhere in the app.
+また、タイプを開くことで、それぞれのタイプのオブジェクトを一覧表示できるようになっています。
 
 <figure><img src="../../../.gitbook/assets/image (53).png" alt=""><figcaption></figcaption></figure>
 
-### Create a New Type
+### 新しいタイプの作成
 
-#### Creating Types from the Sidebar
+#### サイドバーから
 
-In case you think of a new object type just as you're creating an object, you can create a new type on-the-fly. In this case, use the type selection menu in the same way as the search bar in the Types library. The type will be automatically added to your Types library, while you can proceed with editing the object of your new type.
+オブジェクトを作成している最中に、新しいオブジェクトタイプを思いついた時は、その場で作成できます。サイドバーで検索するときのように、タイプ選択メニューに新しいタイプの名前を入力するだけで作成され、そのまま新しいタイプのオブジェクトの編集を始められます。
 
 <figure><img src="../../../.gitbook/assets/image (28).png" alt="" width="375"><figcaption></figcaption></figure>
 
-#### Creating Types from Space Settings
+#### スペース設定画面から
 
-Open your [space.md](../install-and-setup/space.md "mention") settings, and navigate to `Content Model > Object Types`. Afterwards, simply click on `New` button to create a new Type.
+[space.md](../install-and-setup/space.md "mention")の設定を開き、`ライブラリ > タイプ`へ進みます。次に、`新規作成`ボタンをクリックすると、新しいタイプを作成できます。
 
-From here, you can choose a name, layout, and add templates and properties to the newly created Type.
+ここでは、作成したタイプに名前を付けたり、レイアウトを選択したり、さらにはテンプレートやプロパティを追加したりすることができます。
 
 <div><figure><img src="../../../.gitbook/assets/image (23).png" alt=""><figcaption></figcaption></figure> <figure><img src="../../../.gitbook/assets/image (24).png" alt=""><figcaption></figcaption></figure></div>
 
-If you've decided that this Type is no longer relevant, you can use the context menu (mouse right-click) to delete the Type from your space. Please proceed with caution; any objects of this type will show an alert if the Type has been removed from your library.
+もし、作成したタイプが必要なくなった場合は、対象のタイプをマウスで右クリックして表示されるコンテキストメニューから削除できます。ただし、ライブラリからタイプを削除すると、そのタイプの既存のオブジェクトには警告が表示されるようになるため、操作は慎重に行ってください。
 
 <div><figure><img src="../../../.gitbook/assets/image (26).png" alt=""><figcaption></figcaption></figure> <figure><img src="../../../.gitbook/assets/image (27).png" alt=""><figcaption></figcaption></figure></div>
