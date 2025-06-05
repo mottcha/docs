@@ -1,15 +1,14 @@
 ---
 description: >-
-  Travel with half the hassle. Put everything you need in one place, so you
-  don't need to fuss over wifi while traveling.
+  旅行の準備はAnytypeにおまかせ。航空券から旅のアイデアまで、すべてをまとめてオフラインでも確認OK。もっと旅を満喫しましょう！
 ---
 
-# ✈️ Travel Wiki
+# ✈️ 旅のプラン
 
 {% hint style="info" %}
-You can import this use case to your space using this [link](https://gallery.any.coop/?experience=trip_planner).
+すぐに実践可能！このテンプレートは、[こちら](https://gallery.any.coop/?experience=trip_planner)からあなたのスペースに簡単に追加できます。
 {% endhint %}
 
 <div><figure><img src="../../.gitbook/assets/screenshot-1 (4).png" alt=""><figcaption></figcaption></figure> <figure><img src="../../.gitbook/assets/screenshot-2 (3).png" alt=""><figcaption></figcaption></figure></div>
 
-For more use cases, please check out our [ANY Experience Gallery](../advanced/community/any-experience-gallery.md). You can either access it directly from the app by navigating to the bottom of your spaces sidebar or by clicking [this link](https://gallery.any.coop/).
+[Anytype活用例ギャラリー](../advanced/community/any-experience-gallery.md)では、他にも様々なAnytypeの活用方法を紹介しています。デスクトップ版をお使いの場合、スペースが並ぶサイドバーの下部からご覧いただけます。または、[このリンク](https://gallery.any.coop/)からもご覧いただけます。

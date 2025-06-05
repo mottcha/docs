@@ -1,15 +1,15 @@
 ---
 description: >-
-  One place to keep your course schedule, syllabus, study notes, assignments,
-  and tasks. Link it all together in the graph for richer insights.
+  授業の予定、配られた資料、自分で取ったノート、提出する課題。これら全部をAnytypeでスッキリ整理！情報をリンクさせれば、知識のつながりが一目でわかり、学習内容がより深く理解できます。
+
 ---
 
-# 🍎 Study Notes
+# 🍎 学習ノート
 
 {% hint style="info" %}
-You can import this use case to your space using this [link](https://gallery.any.coop/?experience=study_hub).
+すぐに実践可能！このテンプレートは、[こちら](https://gallery.any.coop/?experience=study_hub)からあなたのスペースに簡単に追加できます。
 {% endhint %}
 
 <div><figure><img src="../../.gitbook/assets/screenshot-1 (2).png" alt=""><figcaption></figcaption></figure> <figure><img src="../../.gitbook/assets/screenshot-2 (1).png" alt=""><figcaption></figcaption></figure></div>
 
-For more use cases, please check out our [ANY Experience Gallery](../advanced/community/any-experience-gallery.md). You can either access it directly from the app by navigating to the bottom of your spaces sidebar or by clicking [this link](https://gallery.any.coop/).
+[Anytype活用例ギャラリー](../advanced/community/any-experience-gallery.md)では、他にも様々なAnytypeの活用方法を紹介しています。デスクトップ版をお使いの場合、スペースが並ぶサイドバーの下部からご覧いただけます。または、[このリンク](https://gallery.any.coop/)からもご覧いただけます。

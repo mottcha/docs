@@ -14,8 +14,8 @@
   * [リンク](getting-started/object-editor/linking-objects.md)
 * [タイプ](getting-started/types/README.md)
   * [プロパティ](getting-started/types/relations.md)
-  * [Templates](getting-started/types/templates.md)
-* [Queries](getting-started/sets/README.md)
+  * [テンプレート](getting-started/types/templates.md)
+* [クエリ](getting-started/sets/README.md)
   * [Collections](getting-started/sets/collections.md)
 * [Widgets](getting-started/customize-and-edit-the-sidebar/README.md)
   * [All Objects](getting-started/customize-and-edit-the-sidebar/anytype-library.md)
@@ -27,13 +27,13 @@
 
 ## 📽️ 活用例
 
-* [🧠 PARA Method](use-cases/para-method-for-note-taking.md)
-* [✏️ Daily Notes](use-cases/anytype-editor.md)
-* [🍎 Study Notes](use-cases/study-notes.md)
-* [🎬 Movie Database](use-cases/movie-database.md)
-* [✈️ Travel Wiki](use-cases/travel-wiki.md)
-* [🗨️ Language Flashcards](use-cases/language-flashcards.md)
-* [🍛 Recipe Book & Meal Planner](use-cases/meal-planner-recipe-book.md)
+* [🧠 PARAメソッド](use-cases/para-method-for-note-taking.md)
+* [✏️ 日記](use-cases/anytype-editor.md)
+* [🍎 学習ノート](use-cases/study-notes.md)
+* [🎬 映画作品リスト](use-cases/movie-database.md)
+* [✈️ 旅のプラン](use-cases/travel-wiki.md)
+* [🗨️ 単語カード](use-cases/language-flashcards.md)
+* [🍛 レシピノートや献立表](use-cases/meal-planner-recipe-book.md)
 
 ## 🤖 応用編
 

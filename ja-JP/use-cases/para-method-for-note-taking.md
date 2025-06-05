@@ -1,15 +1,14 @@
 ---
 description: >-
-  We tested Tiago Forte's popular method for note taking and building a second
-  brain.
+  Tiago Forte氏考案の「PARAメソッド」は、ノートを整理し「セカンドブレイン」を構築するための効果的な手法です。Anytypeでの実践方法と活用例をご紹介します。
 ---
 
-# 🧠 PARA Method
+# 🧠 PARAメソッド
 
 {% hint style="info" %}
-You can import this use case to your space using this [link](https://gallery.any.coop/?experience=para_lite).
+すぐに実践可能！このテンプレートは、[こちら](https://gallery.any.coop/?experience=para_lite)からあなたのスペースに簡単に追加できます。
 {% endhint %}
 
 <figure><img src="../../.gitbook/assets/screenshot-1.png" alt=""><figcaption></figcaption></figure>
 
-For more use cases, please check out our [ANY Experience Gallery](../advanced/community/any-experience-gallery.md). You can either access it directly from the app by navigating to the bottom of your spaces sidebar or by clicking [this link](https://gallery.any.coop/).
+[Anytype活用例ギャラリー](../advanced/community/any-experience-gallery.md)では、他にも様々なAnytypeの活用方法を紹介しています。デスクトップ版をお使いの場合、スペースが並ぶサイドバーの下部からご覧いただけます。または、[このリンク](https://gallery.any.coop/)からもご覧いただけます。

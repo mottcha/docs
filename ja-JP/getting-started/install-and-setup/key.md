@@ -1,7 +1,5 @@
 ---
 description: >-
-  To protect everything you create and your connections with others, you have an
-  encryption key that only you control
   自分自身で管理できる暗号化キーで、自分の大切なデータや大切な人とのつながりを守りましょう。
 ---
 

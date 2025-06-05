@@ -1,67 +1,66 @@
 ---
-description: A live search of all Objects which share a common Type or Property
+description: タイプやプロパティといった条件に合致するオブジェクトを自動で絞り込み表示する機能
 ---
 
-# Queries
+# クエリ
 
-Lots of people compare Queries with databases, but there's a key difference: Queries don't _store_ Objects like regular databases.
+「クエリ」と「データベース」は混同されがちですが、実は役割が全く異なります。
 
-Queries are a way to see a portion of your Graph, and Objects you've created, based on your filtered criteria, and several secondary filters which you can customize. You can think of them as a live filter or query for Objects which share certain criteria - specifically, a Type or a Property.
+クエリは、いわば「フィルター付きの検索機能」です。スペース内にあるたくさんのオブジェクトの中から、タイプやプロパティといった条件に合うものだけを瞬時に絞り込んで表示します。
 
-#### Queries serve two primary functions:
+大切なポイントは、クエリ自体がオブジェクトを保管しているわけではない、という点です。これは、オブジェクトそのものを保管するデータベースとの決定的な違いです。クエリは、あくまで条件に合うオブジェクトを常に最新の状態で表示する「検索結果」や「ライブフィルター」のようなものとイメージすると分かりやすいでしょう。
 
-1. **Organizing and Accessing Objects**\
-   \
-   We often get requests along the lines of: _How do I find all of the Notes I've created?_\
-   \
-   One easy way is to create a Query based on Type.\
-   For example; Note, which will display every Note you've created in Anytype.\
-   \
-   If you have specific notes you'd like to frequently access, you can filter them based on Properties you've added to these notes.\
-   \
-   For instance: Creation Date, Tags, or Priority.\
-   \
-   You can then create a Widget which will appear in your Sidebar, acting like a folder for all Objects that meet certain criteria.
-2. **Editing Objects**
+#### 主な使い方
+
+1. **オブジェクトの整理や検索窓として**
+   * **タイプで探す**：「前に作ったあのノート、どこにいったかな？」という時は、タイプ（例：ノート）を条件にクエリを作成すれば、すべてのノートが一覧で表示されます。
+   * **条件で絞り込む**：「映画の感想だけを見たい」という時は、プロパティ（例：作成日、タグ、評価）で絞り込めば、必要な情報だけをピンポイントで表示できます。
+   * **いつでもアクセス**：作成したクエリはウィジェットとしてサイドバーに設置できます。よく使うオブジェクトのフォルダや便利なショートカットとして活用しましょう。
+
+2. **オブジェクトの一括編集方法として**
 
 <figure><img src="../../../.gitbook/assets/image (111).png" alt="" width="563"><figcaption></figcaption></figure>
 
-Queries also provide a way to quickly edit Objects in a list View.\
-\
-You can use multi-select in Queries to delete multiple Objects at once, or to batch update Properties / the Object Type of Objects. Any Properties added to a Query in the Property Menu (top right), will be adopted by all new Objects created with the "+ New Object" button.
+クエリは、複数のオブジェクトを一括編集したい際にも便利です。
+
+- **まとめて操作**：複数のオブジェクトを選択して、一度に削除したり、プロパティやタイプをまとめて変更したりできます。
+- **プロパティの一括追加**：あらかじめクエリ条件にプロパティは、「+ 新規作成」ボタンを使って新しく作成されるすべてのオブジェクトに自動的に適用されます。
 
 <div><figure><img src="../../../.gitbook/assets/image (90).png" alt=""><figcaption></figcaption></figure> <figure><img src="../../../.gitbook/assets/image (91).png" alt=""><figcaption></figcaption></figure></div>
 
-### Creating Queries
+### クエリの作成
 
-You can create a Query with the + button from your sidebar or using the / shortcut menu in the editor.
+クエリは、サイドバーにある「+」ボタンをクリックするか、オブジェクト編集中に`/ (半角)`でコマンドメニューから作成します。
 
-You'll then need to choose if you want a Query by Type which lets you list all of your Objects of a certain Type, or a Query by Property which will list all Objects that contain the Property of your choosing.&#x20;
+作成後、表示したいオブジェクトのクエリ条件（検索条件）を設定する必要があります。
+
+- **タイプで指定**：「ノート」や「タスク」など、特定のタイプのオブジェクトを一覧表示します。
+- **プロパティで指定**：「優先度：高」など、オブジェクトが持つプロパティの値で絞り込みます。
 
 <div><figure><img src="../../../.gitbook/assets/image (112).png" alt=""><figcaption></figcaption></figure> <figure><img src="../../../.gitbook/assets/image (113).png" alt=""><figcaption></figcaption></figure></div>
 
-### Customizing Your Query
+### クエリの表示をカスタマイズ
 
-#### Toggle & Add Properties to Objects via Queries
+#### プロパティの追加と切り替え
 
-Instead of adding Properties one-by-one to Objects, you can batch-add them to your Query by clicking the filters on the right side.
+右上にあるクエリの設定画面では、いちいちオブジェクトを開くことなく、プロパティを一括編集することができます。
 
-Here you can toggle on/off any Properties that you would like to see, add another Property or new Property, and edit the View of the Query here.
+この画面では、クエリに表示するプロパティを切り替えたり、既存のプロパティを追加したりできるほか、新しいプロパティの作成や、表示方法（ビュー）の変更も行えます。
 
 <figure><img src="../../../.gitbook/assets/image (114).png" alt="" width="375"><figcaption></figcaption></figure>
 
-#### Sorts & Filters
+#### 並び替えとフィルター
 
-You are also able to sort or filter your Query by any Property that you've previously added to the Query.
+クエリに追加したプロパティを使って、並べ替えやフィルターを設定することも可能です。
 
 <div><figure><img src="../../../.gitbook/assets/image (119).png" alt=""><figcaption></figcaption></figure> <figure><img src="../../../.gitbook/assets/image (120).png" alt=""><figcaption></figcaption></figure></div>
 
-#### Layout
+#### レイアウト
 
-In this section you can find all the currently available layout options.
+レイアウトでは、利用可能なレイアウトの種類をすべて確認できます。
 
 {% hint style="warning" %}
-Kanban, calendar and graph views are available on desktop only.
+なお、現在、カンバン、カレンダー、およびグラフビューはデスクトップ版限定の機能です。モバイル版ではご利用いただけませんのでご注意ください。
 {% endhint %}
 
 <figure><img src="../../../.gitbook/assets/image (109).png" alt="" width="375"><figcaption></figcaption></figure>

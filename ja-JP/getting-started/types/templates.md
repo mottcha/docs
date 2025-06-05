@@ -1,39 +1,51 @@
 ---
-description: Building & using templates through types.
+description: タイプごとにテンプレートを作成・使い方
 ---
 
-# Templates
+# テンプレート
 
-Templates are one of our most-beloved ways to work at Anytype, designed to help you scale and personalize your Object creation flows. With Templates, you can:
+テンプレートは、オブジェクトの作成を格段に楽にする人気機能の一つです。毎回同じようなオブジェクトを作る手間を省きたい時に便利です。以下のことできます。
 
-* Customize the cover or icon you want to use to for certain object Types
-* Automatically re-use the same structure each time you add a new Object
+* 見た目の初期設定：タイプごとに、デフォルトのカバー画像やアイコンを設定できます。
+* 内容の雛形作成：新しいオブジェクトを作る際、よく使うレイアウトやプロパティをテンプレートとして保存しておけます。
 
-Templates are saved on the Type level, and each Type can support multiple Templates. For example, you can have different Templates for different kinds of Books, like academic, fiction, or non-fiction.
+テンプレートは、タイプごとに作成・保存が可能です。さらに、1つのタイプに対して複数のテンプレートを持たせることができます。例えば、「本」というタイプに対して、「技術書用テンプレート」「小説用テンプレート」「ノンフィクション用テンプレート」など、本のジャンルに合わせたテンプレートを用意しておけば、すぐに作成し始められます。
 
-### How to Create a Template
+### テンプレートの作成
 
-There are three ways to add a Template:
+テンプレートを作成するには、次の3つの方法があります。
 
-1\) Navigate to `Space > Content Model > Object Types` → Click the Type for which you'd like to create a Template → Click on Templates in the top right corner → Click + to start creating a new template → Give your Template a name and start adding Properties and formatting → Your Template is auto-saved
+1. オブジェクトタイプの設定画面から作成する
+   * スペース設定を開き、`コンテンツモデル > オブジェクトタイプ` に移動する。
+   * テンプレートを作成したいタイプをクリックします。
+   * 画面右上のテンプレートをクリックし、次に「+」ボタンを押して、新しいテンプレートの作成します。
+   * テンプレートに名前を付け、プロパティや見た目の設定を行います。
+   * これで完了です。テンプレートは自動で保存されます。
 
 <div><figure><img src="../../../.gitbook/assets/image (164).png" alt=""><figcaption></figcaption></figure> <figure><img src="../../../.gitbook/assets/image (166).png" alt=""><figcaption></figcaption></figure></div>
 
-2\) If you're working within an Object and would like to save your work as a Template, you can: Navigate to `···` in the top-right corner → Click + Use as a Template, and your content will automatically be saved as a new Template for this Object Type.
+
+2. 表示中のオブジェクトをテンプレートとして保存する
+   * オブジェクトを開いている状態で、画面右上の･･･（メニューアイコン）をクリックします。
+   * メニューから「テンプレートとして保存」を選択します。
+   * 現在開いているオブジェクトの内容が、タイプのテンプレートとして保存されます。
 
 <figure><img src="../../../.gitbook/assets/image (185).png" alt="" width="563"><figcaption></figcaption></figure>
 
-3\) If you are working in a List and you would like to create / edit your templates, you can:\
-Navigate to `New|▾` in the top-right corner of the List view -> Click on the `▾` button to open up the template modal. Then either create a new template by using the `+` button, or modify an existing one by clicking on `···` in the top right corner of the template button, and choosing either `Edit template`, `Duplicate` or `Delete`.
+3. リスト表示画面から作成・編集する
+   * リストビュー右上の「新規|▾」と表示されたボタンの、「▾」部分をクリックします。
+   * テンプレート管理画面が表示されます。
+     * 新しく作成する場合：「+」ボタンをクリックして作成を開始します。
+     * 編集する場合：編集したいテンプレートの右上に表示される･･･（メニューアイコン）をクリックし、「テンプレートを編集」「複製」「削除」から編集したい項目を選びます。
 
 <div><figure><img src="../../../.gitbook/assets/image (170).png" alt=""><figcaption></figcaption></figure> <figure><img src="../../../.gitbook/assets/image (171).png" alt=""><figcaption></figcaption></figure></div>
 
-### Using & Managing Templates
+### テンプレートの使い方と管理方法
 
-Depending on the way you've created your new object, either the default template will be applied automatically, or you will be asked to choose a template yourself.
+オブジェクトを作成する際、既定のテンプレートが自動で適用されるか、テンプレートを選択する必要があるかは、その作成方法によって異なります。
 
 <figure><img src="../../../.gitbook/assets/5_Template Picker Screenshot.png" alt="" width="375"><figcaption><p>Choose a template</p></figcaption></figure>
 
-You can also choose the default template for each type by opening the Type object, or you can choose the default template for each List view.
+タイプの編集画面から既定のテンプレートを設定できます。また、コレクションやクエリのビューごとに既定のテンプレートを選択したりすることもできます。
 
 <div><figure><img src="../../../.gitbook/assets/image (162).png" alt=""><figcaption></figcaption></figure> <figure><img src="../../../.gitbook/assets/image (163).png" alt=""><figcaption></figcaption></figure></div>
