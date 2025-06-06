@@ -32,6 +32,4 @@
 
 ### インポート
 
-If you would like to import some of your existing data into your Space, you can find the instructions on how to do so in [#import](../../advanced/data-and-security/import-export/#import "mention").
-
 すでに何らかのデータをお持ちでスペースに取り込みたい方は、[#import](../../advanced/data-and-security/import-export/#import "mention")をご覧ください。

@@ -28,7 +28,7 @@ QRコードを使ってログインするには、普段通り、鍵を表示す
 * Markdown記法
 * [#inline-latex](../../advanced/feature-list-by-platform/other-features.md#inline-latex "mention")
 * [#inline-queries-collections](../../advanced/feature-list-by-platform/other-features.md#inline-queries-collections "mention")
-* Kanban, Calendar, and Graph Views
+* ボード、カレンダー、グラフビュー
 * [#simple-formulas](../../advanced/feature-list-by-platform/other-features.md#simple-formulas "mention")
 * [#embed-blocks](../../advanced/feature-list-by-platform/other-features.md#embed-blocks "mention")
 * [custom-css.md](../../advanced/feature-list-by-platform/custom-css.md "mention")

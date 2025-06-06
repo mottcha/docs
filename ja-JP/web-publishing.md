@@ -1,20 +1,22 @@
-# Web Publish
+# Web公開
 
-You can now publish Objects as static web pages (HTTPS links) on your personal subdomain if you have \*any name. These pages are uploaded to our servers as unencrypted HTML files.&#x20;
+Anytypeのオブジェクトを、Webページとして簡単に公開できるようになりました。また、お持ちのANY名をサブドメインとして利用できます。公開するページは復号化され、公開サーバーに静的HTMLファイルとしてアップロードされます。
 
-This is an early version— linked Objects, and blocks like Queries and Collections aren’t supported yet. Multi-page publishing and other enhancements are on the way, and we’d love your feedback to guide these improvements.
+ただし、本機能はまだ開発の初期段階です。そのため、現在、リンク先のオブジェクト、クエリ、コレクションなど、一部公開に対応していないブロックがありますので、ご注意ください。
+
+今後、複数ページをまとめて公開する機能など、様々な機能強化を予定しています。ぜひ皆様のご意見やご要望をお聞かせください。
 
 <figure><img src=".gitbook/assets/webpublishing_2x (new).png" alt=""><figcaption></figcaption></figure>
 
-### Encryption
+### 暗号化について
 
-When users use web publishing, we upload objects unencrypted for a number of reasons:
+AnytypeのWeb公開機能では、公開されたオブジェクトが誰でも閲覧できるように、あえて暗号化を解除してアップロードしています。この仕組みと、その理由についてご説明します。
 
-* Users explicitly choose an object to publish. So we limit the chance of accidental leakage.
-* If users want their website to be indexed by search engines, it should be plaintext.
-* The solution of decrypting in the browser and including the encryption key in the URL is a bit tricky in the case of multi-object exports.
-* We do rendering and caching server-side to limit resource consumption.
+* **意図しない情報公開の防止**：公開範囲はユーザーが明示的に選択したオブジェクトのみに限定されます。これにより、ユーザーが誤って意図しない情報を公開してしまうリスクを最小限に抑えています。
+* **検索エンジンへの対応**：公開したページが検索結果に表示されるためには、検索エンジンが内容を読み取れる（平文である）必要があります。
+* **技術的な理由**：複数のオブジェクトをまとめて公開する場合、ブラウザ上での復号化やそのためのキーをURLに含めるなど、非常に複雑な処理が必要になります。
+* **快適な表示速度の実現**：ユーザー側のデバイス負荷を軽減するため、Anytypeサーバー側でレンダリングとキャッシング処理を行っています。
 
-The object is decrypted locally on the device and then uploaded to the web publishing server in Anyblock format.
+アップロードの仕組みとして、Webに公開するオブジェクトは、まずお使いのデバイス内で暗号化が解除されます。その後、Anytype独自の「Anyblock形式」でWeb公開用のサーバーへアップロードされます。
 
-If you have files in your object, we include the encryption keys for those files. But because each file has a unique locally-generated encryption key, it doesn't compromise your account in any way.
+オブジェクト内のファイル（画像、PDFなど）には、そのファイル専用の暗号化キーも一緒にアップロードされます。しかし、このキーはファイルごとに個別に自動生成されるため、あなたのアカウント全体のセキュリティが危険にさらされることはありませんので、ご安心ください。

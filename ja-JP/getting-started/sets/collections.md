@@ -1,35 +1,32 @@
 ---
 description: >-
-  A folder-like structure where you can visualize and batch edit objects of any
-  type
+  フォルダーのように1か所にまとめる機能です。自由にまとめて整理したり、一括で編集したりできます。
 ---
 
-# Collections
+# コレクション
 
-Collections can be used to organize a variety of different objects and store them in one place.
+コレクションは、さまざまなオブジェクトを1か所にまとめて保管できる機能です。
 
-You are not restricted to viewing only one Object Type at a time, this means you can have multiple different types within one collection.
+例えば、旅行の計画を立てる際に必要な「行きたい場所リスト」「予約の控え」「持ち物リスト」も、コレクションを使えば、ひとまとめにして管理できます。タイプが違うオブジェクトでも、好きなように組み合わせられるのが大きな特長です。
 
-If you are organizing your meal prep for the week, you might have a list of recipes, as well as ingredients and a shopping list.
-
-The main types you may have could be Recipes and Ingredients.
-
-In a Collection, you can organize all of this Types together seamlessly.
+このように、1つの目的に関連する様々な情報を、1つのコレクションで一元管理できるイメージです。
 
 {% hint style="warning" %}
-The main difference between Queries and Collections is that Queries draw Objects from your entire Graph, whereas Collections work more like a traditional database, where they start empty and you have to add Objects to them manually.
+コレクションと似た機能にクエリがありますが、両者には明確な違いがあります。
+- コレクションは、空の箱に手動でオブジェクトを入れていく「データベース」のようなものです。
+- クエリは、スペース全体から条件に合うオブジェクトを自動的に探し出して表示する「検索機能」に近いものです。
 {% endhint %}
 
-### Adding Objects
+### コレクションに追加する
 
-To add new Objects to a Collection, simply click on the New buttons either in the top right corner or at the bottom of a collection.
+新しいオブジェクトをコレクションに追加するには、コレクションの右上または最下部にある「新規」ボタンをクリックします。
 
 <div><figure><img src="../../../.gitbook/assets/image (1) (1) (1).png" alt=""><figcaption></figcaption></figure> <figure><img src="../../../.gitbook/assets/image (2) (1) (1).png" alt=""><figcaption></figcaption></figure></div>
 
-To add an existing Object to a Collection while in the collection view, you can hover over the Existing object menu option under the arrow menu.
+既存のオブジェクトをコレクションに追加するには、「▼」でメニューを開き、「コレクションに追加」を選択します。
 
 <figure><img src="../../../.gitbook/assets/existing-objects-to-collection_shadow.png" alt="" width="563"><figcaption></figcaption></figure>
 
-To add an existing Object to a Collection outside of the collection view, you can use the Add to Collection menu option from the object menu.
+現在開いているオブジェクトをコレクションに追加するには、オブジェクトのメニューから「コレクションに追加」を選択します。
 
 <figure><img src="../../../.gitbook/assets/image (3) (1).png" alt="" width="563"><figcaption></figcaption></figure>

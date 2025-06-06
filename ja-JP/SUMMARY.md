@@ -16,14 +16,14 @@
   * [プロパティ](getting-started/types/relations.md)
   * [テンプレート](getting-started/types/templates.md)
 * [クエリ](getting-started/sets/README.md)
-  * [Collections](getting-started/sets/collections.md)
-* [Widgets](getting-started/customize-and-edit-the-sidebar/README.md)
-  * [All Objects](getting-started/customize-and-edit-the-sidebar/anytype-library.md)
-* [Collaboration](getting-started/collaboration.md)
+  * [コレクション](getting-started/sets/collections.md)
+* [ウィジェット](getting-started/customize-and-edit-the-sidebar/README.md)
+  * [すべてのオブジェクト](getting-started/customize-and-edit-the-sidebar/anytype-library.md)
+* [共同編集](getting-started/collaboration.md)
 
 ***
 
-* [Web Publishing](web-publishing.md)
+* [Web公開](web-publishing.md)
 
 ## 📽️ 活用例
 

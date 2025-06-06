@@ -2,30 +2,32 @@
 Description: Here you'll find both pre-built & system Types to help you get started!
 ---
 
-# All Objects
+# すべてのオブジェクト
 
 {% hint style="warning" %}
-This widget doesn't automatically appear in your sidebar. For instructions on how to add it, see [#add-new-widgets](./#add-new-widgets "mention").
+このウィジェットは、初期状態ではサイドバーに表示されていません。追加方法については、[#add-new-widgets](./#add-new-widgets "mention")をご覧ください。
 {% endhint %}
 
-To see all of the objects you've created in your space, you can use the All Objects system widget.
+スペース内で作成したすべてのオブジェクトを表示するには、「すべてのオブジェクト」標準ウィジェットが便利です。
 
 <figure><img src="../../../.gitbook/assets/image (172).png" alt="" width="325"><figcaption></figcaption></figure>
 
-To customize your All Objects widget, click on the three dots button in the top right corner.
+見た目を変えるには、ウィジェットの右上にある「三点リーダー」ボタンをクリックします。
 
 <figure><img src="../../../.gitbook/assets/image (173).png" alt="" width="319"><figcaption></figcaption></figure>
 
-### Managing your Objects
+### オブジェクトの管理
 
-There are currently five tabs in the All Objects widget:
+現在、「すべてのオブジェクト」ウィジェットには以下の5つのタブがあります。
 
-1. Pages - All other Objects that can not be found in any of the other tabs
-2. Lists - [sets](../sets/ "mention") and [collections.md](../sets/collections.md "mention")
-3. Media - Images and Videos
-4. Bookmarks
-5. Files - All other Files
+1. ページ - 他のタブに分類されない、すべてのオブジェクトです。
+2. リスト - [sets](../sets/ "mention")と[collections.md](../sets/collections.md "mention")です。
+3. メディア - 画像と動画です。
+4. ブックマーク
+5. ファイル - 上記以外のすべてのファイルです。
 
-To create new Objects, simply click on the New button.
+新しいオブジェクトを作成するには、「新規」ボタンをクリックします。
 
 <figure><img src="../../../.gitbook/assets/image (98).png" alt="" width="315"><figcaption></figcaption></figure>
+
+
