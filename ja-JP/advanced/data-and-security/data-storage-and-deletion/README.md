@@ -1,27 +1,29 @@
-# Storage & Deletion
+# ストレージと削除
 
-### Storage <a href="#storage" id="storage"></a>
+### ストレージ <a href="#storage" id="storage"></a>
 
-Anytype is offline first; hence, all data you create will be stored locally first. After that, the data is synced to the backup node and your devices for redundancy. We use a private [IPFS](https://docs.ipfs.tech/concepts/what-is-ipfs/) network to handle storage. It is a Peer-To-Peer file system that facilitates decentralized data storage across devices. Local P2P is supported, meaning that you can sync between your devices directly if they are connected through the same local network. This will work no matter what network mode you use, and it's the only way to sync between your devices if you are using local-only mode.
+Anytypeは、ローカルファーストです。つまり、あらゆるデータは必ず最初にお使いのデバイス内に保存されます。その後、万が一のためにデータはバックアップノードと他のデバイスに同期されます。データ保存には、プライベート[IPFS（英語0）](https://docs.ipfs.tech/concepts/what-is-ipfs/)ネットワークを使用しています。これは、複数のデバイス間でデータを分散して保存する仕組みです。同じローカルネットワークにつながっていれば、デバイス同士で直接データを同期（P2P通信）することができます。特にローカル専用モードでは、この方法だけが同期手段になります。
 
-#### Media <a href="#media" id="media"></a>
+#### 画像や動画などのメディア <a href="#media" id="media"></a>
 
-Media files are not directly downloaded in overall syncing to save bandwidth. Instead, when that file is requested, it is streamed to your device from the backup node or your devices on the network. For example, if you have a 4K Video, it will be streamed from the backup node or P2P devices to your device. So when you open an object with an image, it downloads. When you press play on video & audio, it begins to download. After that, this file will be stored in the application cache.
+メディアファイル（画像や動画など）は、すべてのデバイスに同期されません。これは、ファイルサイズが大きいため、同期によってインターネットの通信速度が遅くなったり、お使いのデバイスの保存容量を圧迫したりするのを防ぐためです。
 
-Furthermore, we use the deduplication feature to reduce storage. For example, if the same picture is uploaded three times, there is only one image copy stored to reduce storage consumption.
+その代わりに、メディアファイルを開く際に、自動的にネットワーク内のバックアップノードや他のデバイスからダウンロードされます。例えば、4K動画を再生しようとすると、バックアップノードや他のデバイスからお使いのデバイスにストリーミングされます。画像ファイルも、表示する際にダウンロードされます。一度開いた動画や音声ファイルは、アプリのキャッシュとしてデバイス内に保存されるため、オフライン時でも再度アクセスができます。
 
-You can remove all the media content from your mobile device via the clear cache option in iOS and Android. This will remove all the data altogether and force the app to sync once again entirely. Since the media download works on-premise, you will remove all cached media and clear some storage.
+また、ストレージ容量を節約するため、同じファイルが複数回アップロードされても、自動的に識別し、実際に保存されるのは1つだけです。
 
-You can also manage your files on desktop by going into `Space settings -> Manage Space -> Manage files`.
+モバイルデバイスの空き容量を増やすには、iOSまたはAndroidアプリの「キャッシュをクリア」を実行してください。これにより、デバイス内に保存されている画像や動画などのメディアファイルが一括で削除されます。操作後、アプリはすべてのデータを改めて同期します。
 
 {% hint style="info" %}
-Files are stored inside `flatfs dir` in encrypted fragments, so they can’t be accessed outside of Anytype.
+ファイルは、`flatfs`ディレクトリ内に暗号化した上で分割されて保存されます。したがって、Anytype以外がファイルにアクセスすることはできません。
 {% endhint %}
 
-### Deletion <a href="#deletion" id="deletion"></a>
+デスクトップ版では、`スペース設定 → スペースの管理 → ファイルの管理`からファイルを管理できます。
 
-To delete objects in Anytype, you will first need to move them to the [finding-your-objects.md](finding-your-objects.md "mention"). Afterwards, you can remove them completely from all devices by permanently deleting them from the bin. All your devices will also delete them when getting online. This action is irreversible, so please be careful.
+### オブジェクトの削除 <a href="#deletion" id="deletion"></a>
 
-The deleted objects are still accessible in read-only mode, either from the bin, or through previously added links. You are also able to restore these objects directly through the read-only mode without needing to go through the bin.
+オブジェクトを削除するには、まず対象のオブジェクトを[finding-your-objects.md](finding-your-objects.md "mention")に移動させる必要があります。その後、ゴミ箱から完全に削除することで、すべてのデバイスからそのオブジェクトが削除されます。オンラインになった他のデバイスからも自動的に削除が同期されます。この操作は元に戻せませんので、ご注意ください。
 
-Types and Properties created by Anytype can't be deleted at the moment, but might be deletable in future releases.
+ゴミ箱に移動したオブジェクトは、ゴミ箱内や既存のリンクから、読み取り専用でアクセスできます。また、この読み取り専用画面から直接オブジェクトを復元することも可能です。
+
+今のところ、標準タイプとプロパティは削除できません。今後、この仕様に関しては変更される可能性があります。

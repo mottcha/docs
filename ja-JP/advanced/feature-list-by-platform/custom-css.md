@@ -1,46 +1,46 @@
-# Custom CSS
+# カスタムCSS
 
-Original shared by [LavaC](https://community.anytype.io/u/LavaC) on our community forum:
+この記事は、[LavaC](https://community.anytype.io/u/LavaC)氏がコミュニティフォーラムに投稿した内容を元にしてます。
 
 {% embed url="https://community.anytype.io/t/tutorial-of-custom-css/14234" %}
 
-For assistance with this CSS guide or CSS in general, please comment in the original topic linked above.
+この記事の内容やCSSの記述についてご不明な点があれば、お気軽に上記の投稿でご質問ください。
 
-### Where <a href="#where-1" id="where-1"></a>
+### カスタムCSSの有効化と場所 <a href="#where-1" id="where-1"></a>
 
-To enable the Custom CSS style sheet, go to `Menu > File > Apply Custom CSS`.
+カスタムCSSを有効にするには、`メニュー > ファイル > カスタムCSSの適用` をオンにします。
 
 <figure><img src="../../../.gitbook/assets/image (5) (1).png" alt=""><figcaption></figcaption></figure>
 
-To edit the custom CSS file, go to `Menu > File > Open > Custom CSS`.
+カスタムCSSのファイルを編集するには、`メニュー > ファイル > 開く > カスタムCSS` をクリックします。
 
 <figure><img src="../../../.gitbook/assets/image (4) (1).png" alt="" width="375"><figcaption></figcaption></figure>
 
-### How <a href="#how-2" id="how-2"></a>
+### 手順 <a href="#how-2" id="how-2"></a>
 
-In order to take into beginners, many methods in this article are not best practices. If you understand CSS, you can likely skip most of the contents.
+まず初めに、この記事はCSSに慣れていない初心者の方を対象としています。そのため、CSSの知識がある方は、ご自身のレベルに合わせて必要な箇所のみお読みください。
 
-#### Theme color <a href="#theme-color-3" id="theme-color-3"></a>
+#### テーマカラーを変更する <a href="#theme-color-3" id="theme-color-3"></a>
 
-When developing software, styles variables are usually set first as a baseline. Anytype is the same. If you want to change to your own style, generally start from here.
+ソフトウェアを開発する際、まず、配色のベースとなるスタイル変数の設定から始まります。同様に、独自のスタイルに変更したい場合も、スタイル変数の値を変更することから始めるのが一般的です。
 
-These variables are usually under the `:root` selector, we can see these in Dev tools.
+これらの変数は通常 `:root` セレクタの下にあり、開発者ツールで確認できます。
 
 <figure><img src="https://community-static.anytype.io/optimized/2X/8/8c798a22e6bddd7bd190043a2ec7c226fcf5cf24_2_690x408.png" alt=""><figcaption></figcaption></figure>
 
-For example, `--color-text-primary` seems to be the color variable for the darkest black text, so we can write it this way in the custom.css file:
+例えば、`--color-text-primary` は最も暗い黒色のテキストカラー変数のようなので、custom.cssファイルに以下のように記述します。
 
 <figure><img src="https://community-static.anytype.io/original/2X/b/bbefbe5a417032384cde12b1e80e4b2f480ded68.png" alt=""><figcaption></figcaption></figure>
 
-After saving, you can refresh Anytype by pressing `(Command/Ctrl) + r`.
+そして、内容を保存し、`(Command/Ctrl) + r`を押してAnytypeをリフレッシュします。
 
-> Of course, you can also directly modify and view the effects in Dev tools.
+> もちろん、開発者ツールで直接変更して効果を確認することもできます。
 
-At this point, we can see that the red I just wrote overrode the default value, so my text has all turned red.
+そうすると、先ほど記述した赤色がデフォルトの値を上書きし、テキストがすべて赤色になっているはずです。
 
 <figure><img src="https://community-static.anytype.io/optimized/2X/0/0e16feda708cfeee241bc7128caa3f802a09c66d_2_690x384.png" alt=""><figcaption></figcaption></figure>
 
-Below is part of the custom.css I modified referring to [Solarized 18](https://en.wikipedia.org/wiki/Solarized), which is actually like a word filling game, change these variables more to see where they take effect, and then you’ll know what to modify next.
+以下は、[Solarized](https://en.wikipedia.org/wiki/Solarized)を参考に私が修正したcustom.cssの一部です。これは実は穴埋め問題のようなもので、これらの変数を変更してみて、どこに影響が出るかを確認することで、次に何を修正すればよいかがわかります。
 
 <figure><img src="https://community-static.anytype.io/optimized/2X/0/0a67ca485d41ba2d1e72dd5b30b5cae7f489f82e_2_690x394.jpeg" alt=""><figcaption></figcaption></figure>
 
@@ -79,9 +79,9 @@ Below is part of the custom.css I modified referring to [Solarized 18](https://e
 }
 ```
 
-#### Fonts <a href="#fonts-4" id="fonts-4"></a>
+#### フォント <a href="#fonts-4" id="fonts-4"></a>
 
-The attribute related to fonts in CSS is called [font-family 3](https://developer.mozilla.org/en-US/docs/Web/CSS/font-family). In order to ensure that all text applies the same font, we generally put the styles on the `body` tag.
+CSSでフォントに関連する属性は、[font-family](https://developer.mozilla.org/ja/docs/Web/CSS/font-family)と呼ばれます。すべてのテキストに同じフォントが適用されるように、通常は `body` タグにスタイルを設定します。
 
 ```css
 body {
@@ -89,7 +89,7 @@ body {
 }
 ```
 
-Of course, the premise for it to take effect is that you have this font on your computer, if not, you can install this font on your computer or choose to import the font online.
+もちろん、これが有効になる前提として、お使いのコンピュータにそのフォントがインストールされている必要があります。もしインストールされていない場合は、コンピュータにフォントをインストールするか、外部フォントをインポートすることもできます。
 
 {% hint style="info" %}
 
@@ -97,7 +97,7 @@ Of course, the premise for it to take effect is that you have this font on your 
 
 <details>
 
-<summary>Import font online</summary>
+<summary>外部フォントをインポートする</summary>
 
 [<img src="https://community-static.anytype.io/optimized/2X/d/d1348ecf28fafeb4c079d5cd9ba343b30ee6f9d2_2_690x494.png" alt="image" data-size="original">](https://community-static.anytype.io/original/2X/d/d1348ecf28fafeb4c079d5cd9ba343b30ee6f9d2.png)\
 [![image](https://community-static.anytype.io/optimized/2X/a/aaf23f71f95b30839021c2489a9153cc46f2b8be_2_690x271.png)](https://community-static.anytype.io/original/2X/a/aaf23f71f95b30839021c2489a9153cc46f2b8be.png)\
@@ -107,12 +107,12 @@ Of course, the premise for it to take effect is that you have this font on your 
 
 </details>
 
-#### Dark Mode <a href="#dark-mode-5" id="dark-mode-5"></a>
+#### ダークモード <a href="#dark-mode-5" id="dark-mode-5"></a>
 
-The styles in dark mode need to be wrapped within the `html.themeDark`.
+ダークモードのスタイルは `html.themeDark` で囲む必要があります。
 
 ```css
-/* Default applies to light mode */
+/* デフォルトはライトモードに適用されます */
 .blocks {
     .block.blockText.textCallout>.wrapContent{
         border-radius: 30px;
@@ -120,7 +120,7 @@ The styles in dark mode need to be wrapped within the `html.themeDark`.
 }
 
 html.themeDark {
-    /* Applies to Dark mode */
+    /* ダークモードに適用されます */
     --color-text-primary: red;
     .blocks {
         .block.blockText.textCallout>.wrapContent{
@@ -131,42 +131,42 @@ html.themeDark {
 
 ```
 
-#### Other elements <a href="#other-elements-6" id="other-elements-6"></a>
+#### その他の要素 <a href="#other-elements-6" id="other-elements-6"></a>
 
-If you want to modify a particular element, you can use the Dev tools function in the upper left corner, and then select the element you want to modify, at which time you can see the styles related to it in the **Styles** column.
+特定の要素を修正したい場合は、左上の開発者ツール機能を使用し、修正したい要素を選択すると、**Styles**列に関連するスタイルが表示されます。
 
 <figure><img src="https://community-static.anytype.io/optimized/2X/3/3d111c1232f10345c8584f5a2cf15ec36cba8864_2_690x460.png" alt=""><figcaption></figcaption></figure>
 
-You can try directly modifying the values inside to see what effects it would produce.
+内部の値を直接変更して、どう効果が現れるか試すことができます。
 
 <figure><img src="https://community-static.anytype.io/optimized/2X/6/6ec5d48153fd5abfd34274a2c9cfb736de865a14_2_690x283.png" alt=""><figcaption></figcaption></figure>
 
-If you think the effects are not bad, you can copy all this content to your custom.css stylesheet to save.
+納得できる内容になったら、その内容をすべてcustom.cssスタイルシートにコピーして保存します。
 
 <figure><img src="https://community-static.anytype.io/original/2X/8/8c83f1c7406a1a651cac26da10c6429bd59f2dcb.png" alt=""><figcaption></figcaption></figure>
 
-#### Change Icons <a href="#change-icons-7" id="change-icons-7"></a>
+#### アイコンの変更 <a href="#change-icons-7" id="change-icons-7"></a>
 
-The icons in Anytype are implemented using SVG.
+AnytypeのアイコンはSVGを使用して実装されています。
 
 <details>
 
-<summary>For example the relation icons</summary>
+<summary>リレーションアイコンの例</summary>
 
 [<img src="https://community-static.anytype.io/optimized/2X/6/6d596177b0b332db51cd793630c415891538f8f7_2_672x500.png" alt="image" data-size="original">](https://community-static.anytype.io/original/2X/6/6d596177b0b332db51cd793630c415891538f8f7.png)
 
-The text starting with `data:image/svg...` is the Base64 data converted from SVG.\
-You can decrypt this data on a dedicated [website 1](https://base64.guru/converter/decode/image/svg) to get the SVG image.
+`data:image/svg...`で始まるテキストは、SVGをBase64に変換したデータです。
 
+[このウェブサイト](https://base64.guru/converter/decode/image/svg)からSVG画像にデコードすることができます。
 </details>
 
-If you want to customize your own icon, you can convert SVG to Base64 format, which can be achieved on a dedicated [website](https://base64.guru/converter/encode/image/svg).
+独自のアイコンをカスタマイズしたい場合は、SVGをBase64形式に変換する必要があります。変換は、[このウェブサイト](https://base64.guru/converter/encode/image/svg)から行えます。
 
-As for the source of SVG icons, I recommend using this [website 4](https://pictogrammers.com/libraries/).
+SVGアイコンは、個人的には[このウェブサイト](https://pictogrammers.com/libraries/)がおすすめです。
 
-> It is best not to choose SVG that is too complicated, otherwise the resulting Base64 text will be too long.
+> あまり複雑すぎるSVGは選ばないようにしてください。変換後のBase64のテキストがその分、長くなりすぎてしまいます。
 
-After obtaining the corresponding Base64 text and replacing it, we have successfully replaced it.
+変換したBase64テキストを取得して置き換えると、置き換え作業は完了です。
 
 ```css
 .header .icon.relation {
@@ -176,22 +176,22 @@ After obtaining the corresponding Base64 text and replacing it, we have successf
 
 ![image](https://community-static.anytype.io/original/2X/3/30b788e54c7daa2db54352ca4ff721ecc6d2e027.png)
 
-**If you think the original icon is very good and just want to change the color, there is also a way to achieve it, but it will be a bit complicated.**
+**少し複雑ですが、元のアイコンのまま、色だけ変えることもできます。**
 
 ```css
 .header .icon.relation {
-  // The content of the url in the next line is the content of the `background-image` attribute of this icon. 
+  // このurlの部分は、変更したいアイコンの`background-image`属性の内容をそのまま持ってきたものです。
   mask-image: url(data:image/svg+xml;base64,.......);
   mask-repeat: no-repeat;
-  background: red; // the color you want
+  background: red; // 好きな色
 }
 ```
 
-If you have used PS, you should be able to guess that this is a similar mask function, but unfortunately the final result is not very smooth.\
+Photoshopのマスク機能をご存知であれば、それに似たようなことをしています。ただし、仕上がりはPhotoshopほど滑らかではないです。
 
 
 <figure><img src="https://community-static.anytype.io/original/2X/7/72dbdcf71ef643f5873aa7ea1ea814bf282dfec5.png" alt=""><figcaption></figcaption></figure>
 
-### Examples
+### その他の例
 
 {% embed url="https://community.anytype.io/t/anytype-mist-light-dark-a-brand-new-anytype-theme/16329" %}

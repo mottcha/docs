@@ -1,25 +1,25 @@
 ---
-description: Finally a dive into your graph of objects.
+description: さあ、いよいよAnytypeの核心であるグラフビューについて見ていきましょう。
 ---
 
-# Graph
+# グラフビュー
 
 {% hint style="warning" %}
-Available on desktop only.
+この機能はデスクトップ版でのみ利用できます。
 {% endhint %}
 
-From anywhere in the app, you'll see the graph icon at the top and next to your sidebar:
+まずは、画面上部サイドバーの横にあるグラフアイコンをクリックして、グラフビューに切り替えましょう。
 
 <figure><img src="../../../.gitbook/assets/image (105).png" alt="" width="375"><figcaption></figcaption></figure>
 
-In the Graph you can see which Objects are connected together, and the direction everything flows.
+グラフビューは、あなたのスペースや保管庫にある情報の全体像を把握するための機能です。サイドバー上部にあるグラフアイコンから、いつでもアクセスできます。
 
 <figure><img src="../../../.gitbook/assets/image (108).png" alt="" width="563"><figcaption></figcaption></figure>
 
-On the top right of the screen in your Graph, you can **search** and optimize some settings.&#x20;
+グラフビューの右上から、**検索機能**や表示切り替え（タイトルや矢印、アイコンなど）など各種設定を自由に変えられます。
 
-Toggle appearances for title, arrows, and icons.&#x20;
+また、リンクやプロパティ、リンクのないオブジェクトの表示など自由自在にカスタマイズできます。
 
-Optimize viewing links, Properties, and unlinked objects. **If you are missing some objects, check to show unlinked objects.**
+**もし、表示されないオブジェクトが場合は、一度、リンクされていないオブジェクトの表示をオンにしてみてください。**
 
 <figure><img src="../../../.gitbook/assets/image (84) (1).png" alt="" width="383"><figcaption></figcaption></figure>

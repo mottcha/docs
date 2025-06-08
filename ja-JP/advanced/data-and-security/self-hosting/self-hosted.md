@@ -1,32 +1,32 @@
-# Self-hosted
+# セルフホスト
 
-To back up your spaces and data to a self-hosted network, you need to have a network configuration. If you don’t run your own network yet, see this [how-to guide](https://tech.anytype.io/how-to/self-hosting). There's also a [docker image](https://github.com/anyproto/any-sync-dockercompose) that's maintained by the team. One of our developers also created this video guide for anyone who want's to set up their own self-hosted network:
+セルフホストのネットワークをバックアップとして使用するには、ネットワーク設定ファイルが必要です。まだ、ネットワークを作っていない場合は、[こちら](https://tech.anytype.io/how-to/self-hosting)を参考にしてください。また、Anytypeチームが管理している[Dockerイメージ](https://github.com/anyproto/any-sync-dockercompose)も利用できます。さらに、セルフホストネットワークの方法を開発者自ら解説した動画もご用意しています。
 
 {% embed url="https://drive.google.com/file/d/1PI28cosN4ad-bdgRxM2gDJRiAYw_9mW4/view?usp=drive_link" %}
 
-### How to switch to a self-hosted network
+#### セルフホストネットワークへの切り替え方法
 
-We strongly recommend using dedicated identities for each network. If you already have an identity in Anytype Network and want to switch to a self-hosted network, export all your spaces, and import them into a new identity after switching the network mode.
+各ネットワークごとに専用のアカウント（アイデンティティ）を使うことを強くおすすめします。もし既にAnytypeネットワークでアカウントを作成していて、セルフホストネットワークへ切り替えたい場合は、すべてのスペースをエクスポートし、ネットワーク切り替え後に新しいアカウントへインポートしてください。
 
-Please note that all your devices should be manually switched to the same self-hosted network.
+なお、利用しているすべてのデバイスで、手動でセルフホストネットワークに切り替える必要があります。
 
-#### Desktop
+#### デスクトップ
 
-1. Log out from your current identity.
-2. On the onboarding screen, click a gear icon in the top right corner.
-3. In the “Network” field choose the “Self-hosted” option.
-4. Upload your self-hosted network configuration (\*.yml file) to the corresponding field.
-5. Click the “Save” button.
-6. Create a new identity or log in with an existing one.
+1. 現在のアカウントからログアウトします。
+2. 初回起動画面で、右上の設定アイコンをクリックします。
+3. ネットワークにセルフホストを選択します。
+4. ネットワーク設定ファイル（.ymlファイル）を登録します。
+5. 「保存」ボタンをクリックします。
+6. 新しくアカウントを作成するか、既存のアカウントでログインします。
 
 <figure><img src="../../../../.gitbook/assets/image (53) (1).png" alt=""><figcaption></figcaption></figure>
 
-#### Mobile
+#### モバイル版
 
-1. Log out from your current identity.
-2. On the onboarding screen, click a gear icon in the top right corner.
-3. Click on “Self-hosted” in the “Networks” sub-menu.&#x20;
-4. Click on “Tap to provide your network configuration” to upload your self-hosted network configuration (\*.yml file).
-5. Create a new identity or log in an existing one.
+1. 現在のアカウントからログアウトします。
+2. 初回起動画面で、右上の設定アイコンをタップします。
+3. ネットワークにセルフホストを選択します。
+4. ネットワーク設定ファイル（.ymlファイル）を登録します。
+5. 新しくアカウントを作成するか、既存のアカウントでログインします。
 
 <figure><img src="../../../../.gitbook/assets/Screenshot_20240411-104804_Anytype3.png" alt="" width="375"><figcaption></figcaption></figure>

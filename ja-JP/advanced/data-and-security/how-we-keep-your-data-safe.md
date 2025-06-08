@@ -1,51 +1,62 @@
-# Privacy & Encryption
+# プライバシーと暗号化
 
-### Privacy <a href="#privacy" id="privacy"></a>
+### プライバシー <a href="#privacy" id="privacy"></a>
 
-All of your data is private in Anytype. Only you have the encryption keys. No one at Anytype can decrypt your data. So if you lose your phrase, we can’t restore access. Likewise, no one in Anytype or anyone else can read the content of your Anytype.
+Anytypeのデータは、完全にあなただけのものです。
+データを保護する「鍵（暗号化キー）」を保有しているのはあなただけです。
+たとえ、私たち運営スタッフであっても、その中身を見ることはできません。
+したがって、もし「鍵」を失くされると、私たちには手の施しようがなくなります。
 
-### Encryption <a href="#keychain" id="keychain"></a>
+### 暗号化について <a href="#keychain" id="keychain"></a>
 
-* Your objects are stored both locally and on nodes in an encrypted format, which can only be decoded using encryption keys. They are different for each document, and we have a certain hierarchy of keys.
-* To be able to search through the documents efficiently, we create indexes of your data locally on the basis of the encrypted objects. Think of that as two different storages: one for data, the other for indexes. We decrypt these encrypted objects on the fly with your keys, perform some logic and then save the results (i.e. indexes) locally. These indexes are not encrypted, but here we assume that only you have access to your local data, i.e. the access to your local computer is not compromised.
-* These indexes are not synced anywhere and they stay only on your computer. For example, if you have two devices, each of them will have its own index storage
+
+* 各オブジェクトは、お使いのデバイスとノード（サーバー）の両方に暗号化された状態で保存されています。暗号化の解除には、暗号化キーが必要です。また、暗号化キーはデータごとに別のキーが割り当てられており、階層構造で管理されています。
+* 検索を高速化するため、デバイス内にインデックス（索引）を作成しています。まず、暗号化されたデータを暗号化キーを使って一時的に復号化します。そして、検索に必要な情報を取り出し、デバイス内に保存します。ただし、インデックス自体は暗号化されていません。これは、「あなたのデバイスは安全でかつ、あなたしかアクセスできない」という大前提に基づいています。したがって、お使いのデバイスには、データ（暗号化済み）とインデックス（暗号化されていない）が保存されています。
+* 作成されたインデックスは、他のデバイスとは同期されません。たとえば、2台のデバイスをお持ちの場合、それぞれに独自のインデックスが作成されます。
 
 {% hint style="danger" %}
-We have a prerequisite that the user’s machine is non-compromised and trusted. Basically, if a device is compromised, there are plenty of attack vectors, including RAM scanning and passphrase keylogging, which makes local encryption much less useful. We will definitely make additional encryption later. **For now, we recommend turning HDD encryption and device password on.**
+Anytypeのセキュリティは「お使いのデバイス自体がウイルスなどに感染しておらず、信頼できる」という前提の上に成り立っています。万が一、お使いのデバイスがウイルスに感染している場合、攻撃者はメモリ（RAM）やキーボード入力から、鍵自体を盗む攻撃が可能になります。いくらデバイス内で暗号化を行っていても、情報を守ることは難しくなります。将来的にはAnytypeとしてさらに暗号化を強化する予定ですが、
+**現時点では、お使いのデバイスのパスワードを必ず設定し、ディスク全体の暗号化を有効にしておくことを強く推奨いたします。**
 {% endhint %}
 
-#### Tech details <a href="#tech-details" id="tech-details"></a>
+#### 技術的な詳細 <a href="#tech-details" id="tech-details"></a>
 
-Here are some technical details on encryption and data storage:
+以下は、暗号化やデータ保存に関する技術的な詳細です。
 
-* Anytype stores the history of changes for each object you’ve created.
-* Every object’s change has 2 encryption layers with different keys.
-* The first layer is used to connect changes within an object, e.g. "all this encrypted data belongs to the object with id \<abc>".
-* The second layer is used to encrypt the actual data. We use AES with stream encryption with CFB mode.
-* When you create a new change for an object, we periodically send it to our backup node (with only the first-layer key). More info about sync [here](https://tech.anytype.io/any-sync/overview).
-* Anytype backup nodes have access to the first layer key, so it can group changes for the object and send them in one pack when you want to restore your data.
-* Anytype backup nodes HAVE NO access to the second layer [Broken link](broken-reference "mention"), so it can’t read the actual changes to the data.
+* Anytypeは、作成したオブジェクトごとに変更履歴を保持しています。
+* 各変更は、それぞれ異なる暗号鍵を持つ2つの暗号化レイヤーで保護されます。
+* 第1レイヤーは、オブジェクト内の複数の変更を関連付けるために使用されます。例：「この暗号化データ群は、ID\<abc>のオブジェクトに属する」
+* 第2レイヤーは、データ本体を暗号化するために使用されます。暗号化方式には、AES CFBモード（ストリーム暗号）を採用しています。
+* オブジェクトに変更が加えられると、そのデータは定期的に第1レイヤーの暗号鍵のみを付与した上で、バックアップノードに送信されます。同期の詳細は[こちら](https://tech.anytype.io/any-sync/overview)をご覧ください。
+* Anytypeのバックアップノードは、第1レイヤーの暗号鍵を持っているため、オブジェクトごとに関連する変更をグループ化し、復元時にまとめてクライアントに送信することができます。
+* Anytypeのバックアップノードは、第2レイヤーの暗号鍵を一切持っていないため、データ本体の変更内容を復号することは原理的に不可能です。
 
-### Key
+### 鍵について
 
-#### Why do we use a seed phrase as a Key?
+#### なぜ鍵は12個の英単語の組み合わせなのか？
+Anytypeがリカバリーフレーズ（英単語の組み合わせ）を採用しているのは、それが最も安全で、かつ簡単にバックアップと復元が可能な方法だからです。
 
-The primary purpose of a seed phrase is to provide a secure and convenient method for backing up and restoring encrypted information. By utilizing a seed phrase, we can recover our private keys and access our data even if our devices are lost, stolen, or damaged. It acts as a master key that unlocks the gateway to our data, making it an indispensable tool for long-term data preservation and security.
+リカバリーフレーズは、あなたのデータを保護する複数の秘密鍵を生成する「マスターキー」の役割を果たします。万が一、お使いのデバイスを紛失・盗難・故障しても、新しいデバイスでこのフレーズを入力すれば、秘密鍵が生成され、データを完全に復元して再びアクセスできます。これにより、特定のデバイスに縛られず、大切な情報を長期的に守ることができます。
 
-Seed phrases follow a standardized protocol called BIP-39 (Bitcoin Improvement Proposal 39), which ensures compatibility across different wallets and applications. The BIP-39 protocol also introduces a checksum to detect transcription errors, minimizing the risk of loss due to human error.
+なお、リカバリーフレーズは「BIP-39」という、暗号資産の世界で広く採用されている標準規格に準拠しています。この規格には、書き間違いなどの人的ミスを検知する「チェックサム」という仕組みが組み込まれており、データ喪失のリスクを大幅に低減させています。
 
-#### Can Anyone Obtain My Key?
+#### 誰かに鍵を盗まれませんか？
 
-The strength of your key lies in its ability to safeguard your digital assets. When properly generated, managed, and stored, it is nearly impossible for anyone to obtain your key without your consent or knowledge. Keys are generated using complex mathematical algorithms, and the sheer number of possible combinations makes it extremely challenging for an attacker to guess or brute-force their way to your key.
+適切に管理されている限り、あなたの鍵を第三者が手に入れることは事実上不可能です。
+
+鍵は非常に複雑な暗号技術で作られており、考えられる組み合わせの数は、地球上の砂粒の数よりも遥かに多いと言われるほどです。そのため、たとえ世界中のコンピュータの計算能力を使っても、力ずくであなたの鍵を当てることはできません。
 
 {% hint style="info" %}
-**Combinations:** 5,444,517,870,735,015,415,413,993,718,908,291,383,296
+**組み合わせの数:** 5,444,517,870,735,015,415,413,993,718,908,291,383,296
 
-**Cost To Crack:** $38,029,518,006,846,883,000,000,000 USD
+**解読にかかる費用:** 38,029,518,006,846,883,000,000,000米ドル（日本円でおよそ6000穣円）
 {% endhint %}
 
-However, it's crucial to understand that the responsibility of protecting your key ultimately lies with you. While it may be tempting to store it digitally for convenience, these methods can introduce vulnerabilities. Instead, it is recommended to write down your key on a physical medium, and store it securely in a location known only to you. Avoid storing your Key on devices connected to the internet or in cloud storage, as they can be compromised by hackers or unauthorized access.
+ただし、この強力な鍵を守る上で、最も大切なのは「あなた自身の管理方法」です。
+便利だからといってパソコンのメモ帳やクラウドサービスに鍵を保存すると、サイバー攻撃の標的になる危険性があります。一番安全な方法は、鍵を紙に書き留め、金庫や鍵付きの引き出しなど、あなただけが知る安全な場所に保管することです。
 
-#### What's the risk of creating two Vaults with the same Key?
+#### 他の誰かと鍵が同じになってしまうことはないのですか？
 
-The chance of two people having the same 128-bit mnemonic is about 1 in 2¹²⁸ (roughly 3.4 × 10³⁸)—vastly more than the number of grains of sand on Earth. Even generating billions of keys per second for 100 years wouldn’t come close to causing a collision. In short, key collisions are virtually impossible.
+二人のユーザーが、偶然にも全く同じ128ビットの鍵を生成してしまう確率は、2¹²⁸（およそ3.4 × 10³⁸の1）です。これは、仮に毎秒何十億もの鍵を100年間生成し続けたとしても、鍵が重複（衝突）することはまずあり得ません。
+
+つまり、あなたのキーが他の誰かのものと一致してしまう心配は、全く必要ありません。

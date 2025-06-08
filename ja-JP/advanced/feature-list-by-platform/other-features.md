@@ -1,50 +1,57 @@
-# Other Features
+# その他の機能
 
 {% hint style="warning" %}
-All of these features are available on desktop only.
+これらの機能はすべてデスクトップ版でのみ利用できます。
 {% endhint %}
 
-### Custom Storage Location
+### 保管庫の保存場所の変更
 
-When creating a Vault, it’s now possible to select the storage location on your hard drive. If your Vault has already been created, you can also change the location and retrieve the data from the network. To do so, first logout, then tap the settings wheel on the black login screen.
+保管庫の作成時に、ハードドライブ上の保存場所を変更できるようになりました。
+
+すでに保管庫をお持ちの場合は、ログアウト後、ログイン画面の設定アイコンから保存場所を変更できます。変更後、再度ログインすると、自動的にネットワークからデータが同期され、そのまま新しい保存場所で利用できます。
+
 
 <figure><img src="../../../.gitbook/assets/Custome Storage Location.gif" alt="" width="563"><figcaption></figcaption></figure>
 
 {% hint style="danger" %}
-Please be cautious when using local-only mode, as your data can only be transferred to a second device via peer-to-peer (P2P) connection.
+ローカル限定モードでは、データが外部ネットワークにバックアップされていません。そのため、他のデバイスとのローカル同期（P2P通信による同期）が完了していない場合、データが失われる可能性がありますのでご注意ください。
 {% endhint %}
 
-#### External drives and cloud providers
+#### 外部ドライブとクラウドプロバイダー
 
-To store your data on an external drive, you just need to mount the drive first, and then follow the steps from [#custom-storage-location](other-features.md#custom-storage-location "mention").
+外部ドライブにデータを保存するには、先にドライブをマウントしてから、[#保管庫の保存場所の変更](other-features.md#保管庫の保存場所の変更 "mention")の手順に従ってください。
 
-We don't recommend using cloud providers like Google Drive or iCloud since you might end up with sync conflicts / issues.
+ただし、Google DriveやiCloudなどのクラウドプロバイダーの使用は推奨していません。同期の競合や問題が発生する恐れがあるためです。
 
-### Inline Latex
+### テキスト内に数式（LaTeX）
 
-You can easily add mathematical notation right into your text by wrapping your formulas with `$` symbols, making it possible to include complex equations and formulas!
+テキスト内に数式（LaTeX）を簡単に追加できます。数式を`$`記号で囲むことで、複雑な方程式や数式を挿入することができます。
 
 <figure><img src="../../../.gitbook/assets/image (92).png" alt=""><figcaption></figcaption></figure>
 
-### Simple Formulas&#x20;
+### グリッドビューでの集計機能
 
-You can count objects in the Grid view and perform simple math and aggregation functions with all types of properties.
+クエリやコレクションのグリッドビューでは、オブジェクトの数を数えたり、プロパティの値を合計したり、平均を出したりすることができます。例えば、タスクの完了数を数えたり、予算の合計を計算したりといった使い方ができます。
 
 <figure><img src="../../../.gitbook/assets/image (2) (1) (1) (1).png" alt="" width="563"><figcaption></figcaption></figure>
 
-### Embed Blocks
+### 埋め込みブロック
 
 <figure><img src="../../../.gitbook/assets/image (12).png" alt="" width="563"><figcaption></figcaption></figure>
 
-Simply type /embed in the editor to pull up a menu of currently supported embeds.
+エディタで `/embed` と入力するだけで、現在埋め込みに対応してるブロックが表示されます。
 
-Some examples include: Mermaid diagrams, Youtube videos, Miro boards, Google Maps, and several more.
+例えば、Mermaidダイアグラム、YouTube動画、Miroボード、Googleマップなどに対応しています。
 
-Some file types can also be embedded: audio, video, image and pdf.
+また、音声や動画、画像、PDFの埋め込みにも対応してます。
 
-### Inline Queries / Collections
+### クエリ（インライン）やコレクション（インライン）
 
 <figure><img src="../../../.gitbook/assets/image (107).png" alt="" width="563"><figcaption></figcaption></figure>
 
-We’ve added a new block type - inline query. You can create an inline query using command: `/inline`.\
-Once created, select an existing query as a source, or create a new one. Any changes you make to the inline query icon, or name will be synced with the source set. Meanwhile, views will not synced, but copied, which means you can tweak views to your current needs without worrying that your source query will be impacted.
+新しいブロック「クエリ（インライン）」を使えば、ページ内に直接クエリを埋め込めます。`/inline`コマンドで作成し、既存のクエリをデータソースとして選択したり、新しいクエリを作成したりできます。
+
+最大の特長は、元のデータを汚さずに「見せ方（ビュー）」だけを自由に変えられることです。
+同じ元のクエリ（データソース）に対して、自由にフィルターや並び順、レイアウトを自由に変更できます。例えば、あるページではタスクをボードで、別のページでは同じタスクをカレンダーで表示する、といった使い分けが可能です。
+
+なお、インラインクエリの名前やアイコンの変更は元のクエリにも反映されるため、その点のみご注意ください。

@@ -1,24 +1,24 @@
-# Local-only
+# ローカルモード
 
-If you don't want to use any backup solutions at all, you can use our local-only mode. This will disable the backup node completely, and you will only be able to sync between your devices if they are connected to the same local network. Regularly exporting your spaces or backing up your work directory is recommended if you decide to use this mode since your data is not backed up anywhere else.
+バックアップ機能を使いたくない場合は、ローカルモードを利用できます。このモードではバックアップ機能が完全に無効になり、同じネットワーク内のデバイス同士でしかデータを同期できません。データが外部にバックアップされなくなるため、定期的にスペースをエクスポートしたり、作業フォルダをバックアップしたりすることをおすすめします。
 
-### How to switch to local-only mode
+### ローカルモードへの切り替え方法
 
-#### Desktop
+#### デスクトップ
 
-1. Log out from your current identity.
-2. On the onboarding screen, click a gear icon in the top right corner.
-3. In the “Network” field choose the “Local-only” option.
-4. Click the “Save” button.
-5. Create a new identity or log in with an existing one.
+1. 現在のアカウントからログアウトします。
+2. 初回起動画面で、右上の歯車マークをクリックします。
+3. ネットワークにローカルモードを選択します。
+4. 「保存」ボタンをクリックします。
+5. 新しいアカウントを作成するか、既存のアカウントでログインします。
 
 <figure><img src="../../../../.gitbook/assets/image (52) (1).png" alt=""><figcaption></figcaption></figure>
 
-#### Mobile
+#### モバイル版
 
-1. Log out from your current identity.
-2. On the onboarding screen, click a gear icon in the top right corner.
-3. Click on “Local-only” in the “Networks” sub-menu.&#x20;
-4. Create a new identity or log in an existing one.
+1. 現在のアカウントからログアウトします。
+2. 初回起動画面で、右上の設定アイコンをタップします。
+3. ネットワークにローカルモードを選択します。
+4. 新しくアカウントを作成するか、既存のアカウントでログインします。
 
 <figure><img src="../../../../.gitbook/assets/Screenshot_20240411-104810_Anytype2.png" alt="" width="375"><figcaption></figcaption></figure>

@@ -1,37 +1,36 @@
-# Networks & Backup
+# ネットワークとバックアップ
 
-By default, everyone joins the **Anytype Network** when they create a new vault. They can later switch to either [local-only.md](local-only.md "mention") or [self-hosted.md](self-hosted.md "mention") if they wish.
+最初に保管庫を作ると、最初は自動的にAnytypeネットワークに接続されます。あとから、[ローカルモード](local-only.md "mention")や[セルフホスト](self-hosted.md "mention")に切り替えることもできます。
 
-Every Anytype user has access to a remote backup node provided by Anytype. Its capacity is currently limited to 1 GB. Objects and other content have no impact on this limit; only files are limited. If you go over the limit, a warning will appear, and you'll be able to ask for more storage.
+Anytypeでは、すべてのユーザーに無料でバックアップノード（リモートストレージ）を提供しています。現在、この容量上限は1GBまでです。この容量上限には、画像やPDFなどのファイルが対象です。オブジェクトなどのデータは含まれません。容量を超えると警告が表示され、容量を追加することができます。
 
-Our backup nodes are located in Switzerland, and we use AWS (Amazon Web Services).
+バックアップノードはスイスにあり、AWS（Amazon Web Services）を利用しています。
 
-The domains we use for our Anytype network are:
+Anytypeネットワークで使われるドメインは次の通りです。
 
-* For syncing: `*.anyclub.org`
-* For our analytics: `*.anytype.io`
+- 同期: `*.anyclub.org`
+- 利用状況の分析: `*.anytype.io`
 
-### How to switch back to Anytype network
+### Anytypeネットワークへの戻し方
+各ネットワークごとに専用のアカウントを使うことを強く推奨します。セルフホストネットワークからAnytypeネットワークに戻したい場合は、すべてのスペースをエクスポートし、ネットワーク切り替え後に新しいアカウントへインポートしてください。
 
-We strongly recommend using dedicated identities for each network. If you are switching from a Self-hosted network, export all your spaces, and import them into a new identity after switching the network mode.
+なお、利用しているすべてのデバイスで、手動でAnytypeネットワークに切り替える必要があります。
 
-Please note that all your devices should be manually switched to Anytype Network mode.
+#### デスクトップ
 
-#### Desktop
-
-1. Log out from your current identity.
-2. On the onboarding screen, click a gear icon in the top right corner.
-3. In the “Network” field choose the “Anytype” option.
-4. Click the “Save” button.
-5. Create a new identity or log in with an existing one.
+1. 現在のアカウントからログアウトします。
+2. 初回起動画面で、右上の設定アイコンをクリックします。
+3. ネットワークにAnytypeを選択します。
+4. 「保存」ボタンをクリックします。
+5. 新しくアカウントを作成するか、既存のアカウントでログインします。
 
 <figure><img src="../../../../.gitbook/assets/image (51) (1).png" alt=""><figcaption></figcaption></figure>
 
-#### Mobile
+#### モバイル版
 
-1. Log out from your current identity.
-2. On the onboarding screen, click a gear icon in the top right corner.
-3. Click on “Anytype” in the “Networks” sub-menu.&#x20;
-4. Create a new identity or log in an existing one.
+1. 現在のアカウントからログアウトします。
+2. 初回起動画面で、右上の設定アイコンをタップします。
+3. ネットワークにAnytypeを選択します。
+4. 新しくアカウントを作成するか、既存のアカウントでログインします。
 
 <figure><img src="../../../../.gitbook/assets/Screenshot_20240411-104810_Anytype2.png" alt="" width="375"><figcaption></figcaption></figure>
