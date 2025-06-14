@@ -1,101 +1,105 @@
 ---
-description: Customize your profile, set up additional security, or delete your vault
+description: プロフィールの設定やセキュリティの強化、保管庫の削除などを行えます。
 ---
 
-# Vault Settings
+# 保管庫の設定
 
-You can access your vault settings from one of these 3 places:
+保管庫の設定を開くには、以下の3つの方法があります。
 
 <div><figure><img src="../../../.gitbook/assets/Captura desde 2024-08-09 11-05-47.png" alt="" width="484"><figcaption></figcaption></figure> <figure><img src="../../../.gitbook/assets/image (6) (1).png" alt="" width="563"><figcaption></figcaption></figure> <figure><img src="../../../.gitbook/assets/image (57).png" alt="" width="563"><figcaption></figcaption></figure></div>
 
-## Profile
+## プロフィール
 
-Here you can add your **name, bio,** and **profile picture.** Your profile represents an Object in your Anytype Graph which you can freely link to other Objects.
+ここでは、**表示名や自己紹介、プロフィール画像**を設定できます。
+
+作成したプロフィールは、一つのオブジェクトとして扱われ、他のオブジェクトと自由にリンクすることができます。
 
 <figure><img src="../../../.gitbook/assets/image (58).png" alt=""><figcaption></figcaption></figure>
 
-## Application
+## アプリ
 
-### Preferences
+### 環境設定
 
 <figure><img src="../../../.gitbook/assets/image (129).png" alt=""><figcaption></figcaption></figure>
 
-#### Appearance
+#### 外観
 
-**Set color mode:** Choose between light, dark or auto color modes.
+**カラーモード**：ライトモード、ダークモード、自動の中から選べます。
 
-#### Editor Personalization&#x20;
+#### パーソナライズ
 
-**Link to object style:** You can decide which style should the /link command use by default (either card or text).
+**リンクしたオブジェクトの見た目**：`/link`コマンドで作成したリンクのデフォルトの見た目を選べます。
 
-**Open objects in fullscreen:** You can decide whether you want all objects to be opened in fullscreen by default.
+**オブジェクトを全画面で開く**：常にオブジェクトを全画面表示するかどうかを選べます。
 
-#### App Appearance
+#### アプリ外観
 
-**Automatically show and hide sidebar:** With this option disabled the sidebar won't automatically pop out when you hover over the left side of the screen.
+**サイドバーの自動表示切り替え**：この設定をオフにすると、マウスカーソルを画面の左端に合わせてもサイドバーが自動で開かなくなります。
 
-**Sidebar mode:** Choose if you want your spaces to be shown alongside the widgets in the sidebar.
+**サイドバーの見た目**：サイドバーに、スペース一覧を表示するかどうかを選べます。
 
-**Show Anytype in system tray:** Anytype will always stay running in the background, but you have the option to either have it show in the system tray or not.
+**システムトレイに表示**：Anytypeは常に起動していますが、システムトレイに表示するかどうかを選べます。
 
-**Show menu bar:** This setting will show the default menu bar for your OS.
+**メニューバーの表示**：OS標準のメニューバーを表示するかどうかを選べます。
 
-### Language & Region
+### 言語と地域
 
 <figure><img src="../../../.gitbook/assets/image (130).png" alt=""><figcaption></figcaption></figure>
 
-#### **Language & Spelling**
+#### **言語とスペルチェック**
 
-**Spellcheck Languages:** You can enable automatic spellcheck from 40+ languages, or disable the spellcheck.
+**スペルチェック言語**：40以上の言語の中からスペルチェックする言語を選べます。
 
-**Interface Language:** You can choose amongst the community-translated versions to localize your interface.
+**表示言語**：コミュニティによって翻訳された言語の中から、アプリの表示言語を選べます。
 
-#### Date & Time
+#### 日時と時刻
 
-**Date & Time formats**: Here you are able to choose which date and time formats you want to use across your whole vault.
+**日付の表示形式**：保管庫全体で使用される日付の表示形式を選べます。
 
-**Use relative dates:** You can decide whether you want relative dates like today / tomorrow to be used, or whether you want all dates to show the exact date.
+**相対日時表記（今日、昨日など）**：日付の表記を正確な日付にするか、今日や明日など相対日付にするかを選べます。
 
-**Week starts on**: You can now choose whether your week starts on Sunday or Monday. Head to your updated settings to make the switch in the date-picker.
+**週の始まり**：週の始まりを日曜日、月曜日から選べます。日付選択ツールにも反映されます。
 
-### Pin Code (Desktop)
+### PINコード（デスクトップ版のみ）
 
-If you want more privacy, like when sharing a computer, you can set up a PIN code. This will lock the app and keep your Key safe. You'll just need to enter the PIN each time your Anytype session ends (after 1 minute, 5 minutes, 10 minutes, or 1 hour) or when you need to access your Key.
+席から離れる際に、意図せず画面を見られるのを防ぎたい場合は、PINコードを設定できます。
+
+PINコードを設定すると、一定時間経過後にアプリがロックされるようになります。ロックされる時間は1分後、5分後、10分後、1時間後の中から選択できます。また、鍵を表示する際にもPINコード求められるようになります。
 
 <div><figure><img src="../../../.gitbook/assets/image (131).png" alt=""><figcaption></figcaption></figure> <figure><img src="../../../.gitbook/assets/image (132).png" alt=""><figcaption></figcaption></figure></div>
 
 {% hint style="warning" %}
-We do not store this data so we cannot help you in recovering your vault in the case it is lost. Make sure to write down your pin code next to your Key.
+私たちはあなたのデータを一切保管していないため、紛失時に復旧のお手伝いをすることはできません。そのため、設定したPINコードは、必ず鍵と一緒に書き留めておいてください。
 {% endhint %}
 
-## Vault & Key
+## 保管庫と鍵
 
-### Spaces
+### スペース
 
 <figure><img src="../../../.gitbook/assets/image (133).png" alt=""><figcaption></figcaption></figure>
 
-Here you can find a list of all of your space, your access roles and their network status. You can also delete them or stop sharing them by clicking on the three-dot button and choosing either Delete link or Delete.&#x20;
+この画面では、あなたが参加するすべてのスペース、各スペースでのアクセス権限、ネットワーク状況の一覧を確認できます。スペースの削除や共有の停止もここから行えます。
 
-### Data Management
+### データ管理
 
 <figure><img src="../../../.gitbook/assets/image (134).png" alt=""><figcaption></figcaption></figure>
 
-**Local Files:** You can choose to offload files stored in Anytype to our Anytype Network.
+**ローカルファイル**：ネットワークにファイルを移行し、デバイス内のストレージ容量を増やすことができます。することができます。
 
-**My Sites:** Here you are able to find and manage all objects that  you've previously published (desktop only).
+**サイト**：公開しているオブジェクトを管理できます。（デスクトップ版限定）
 
-**Data Location:** You can also decide where your data is stored (desktop only).
+**データの保存先**：デスクトップ版ではデータの保存先を変更することもできます。
 
-**Vault Deletion:** Also, if you would like to delete your vault, you can do it in this section.
+**保管庫の削除**：ここから保管庫を削除することができます。
 
-### Key
+### 鍵
 
 <figure><img src="../../../.gitbook/assets/image (135).png" alt=""><figcaption></figcaption></figure>
 
-You can access your Key or scan the QR code to connect your mobile device. For more details, please check [Broken link](broken-reference "mention").
+ここでは、あなたの鍵が表示されます。また、モバイル版でログインできるQRコードも同時に表示されます。ログイン方法については、詳しくは[こちら](../../getting-started/install-and-setup/mobile.md "mention")をご覧ください。
 
-### Membership
+### メンバーシップ
 
 <figure><img src="../../../.gitbook/assets/image (136).png" alt=""><figcaption></figcaption></figure>
 
-You can manage your [Membership](../monetization.md) plans here.
+ここでは、[メンバーシップ](../monetization.md)を確認・管理できます。

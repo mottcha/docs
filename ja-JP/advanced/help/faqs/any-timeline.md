@@ -1,24 +1,24 @@
-# Any Timeline
+# これまでの歩み
 
 <img src="../../../../.gitbook/assets/file.excalidraw (1).svg" alt="" class="gitbook-drawing">
 
-### Pre-Alpha
+### アルファ版の前
 
-* These were the early days of Anytype during which the team was looking for potential investors after they've developed the initial vision for the app.
-* This phase started sometime in 2019, and by 2020 the plans for the app were already public.
+* Anytypeがまだ構想段階だった黎明期です。私たちはアプリの基本的なビジョンを構築し、開発のための投資家を探していました。
+* 2019年頃に始まり、2020年にはアプリの計画が世に公開されるに至りました。
 
-### Alpha
+### アルファ版
 
-* The alpha phase started around June 2020 when the first users started testing the app.
-* Users who signed up during this stage and helped us test and improve the app, get 10GB of storage for free and the alpha flair on the community forum.
-* The app used during this time is now referred to as the legacy app.
+* 2020年6月頃、招待制のアルファテストが開始されました。
+* この段階で参加し、アプリのテストや改善に貢献してくださったアーリーアダプターの皆様には、感謝の意を込めて10GBのストレージを永年無料で提供し、コミュニティフォーラムでは特別な「アルファ」の称号を付与しています。
+* この時に使用されていた旧バージョンのアプリは、現在「レガシーアプリ」と呼ばれています。
 
-### Beta (current)
+### ベータ版（現在）
 
-* The first beta release was 0.32.0 and it was released on 15 June 2023. Alpha users who wanted to keep their data needed to migrate to the new app.
-* The official open beta launch was on 19 July 2023.
+* 2023年6月15日に初のベータ版（0.32.0）がリリースされ、アルファ版ユーザーはデータ移行の上、新アプリでのテストに移行しました。
+* その後、2023年7月19日に公式のオープンベータが開始され、誰でもアプリを試せるようになりました。
 
-### Public Release
+### 正式リリース
 
-* There is currently no ETA for the public release.
-* You can check our progress towards it through our [public roadmap](https://github.com/orgs/anyproto/projects/1/views/1).
+* 正式リリースの明確な時期は、現時点では設定されていません。
+* 最新の開発状況については、[公開ロードマップ](https://github.com/orgs/anyproto/projects/1/views/1)にて随時お知らせしています。ぜひご確認ください。

@@ -1,33 +1,41 @@
-# ANY Experience Gallery
+# Anytype活用例ギャラリー
 
-### Installing Experiences from the Gallery
+### みんなの活用例を見てみよう
 
-To make browsing and installing experiences easier, the Experience Gallery has now been added to Anytype. Open your spaces navigation tab, tap ‘Gallery’, and install the experience of your choice.
+AnytypeアプリのAnytype活用例ギャラリーが新しくなりました。
+他のユーザーが作った便利なテンプレートや活用例をあなたのスペースにインポートしましょう！
 
-Alternatively, you can open the Gallery in your browser by clicking on the link below:
+また、Anytype内からも活用例ギャラリーにアクセスできようになりました。スペース一覧からギャラリークリックして、気になるものを見つけましょう。
+
+もちろん、PCのブラウザから直接ギャラリーを覗くこともできます。
 
 {% embed url="https://gallery.any.coop/" %}
 
-### Creating and sharing with others
+### あなたのAnytypeを、みんなにシェアしよう！
 
-We’re excited to introduce the [Gallery](https://gallery.any.coop/) – a way for you to share your ANY Experience with other users. We’re sure you’re proud of your setups for knowledge management, task tracking, studying approaches, and so on. This is your chance to share your setups with the community so they can get the most out of  Anytype!
+[活用例ギャラリー](https://gallery.any.coop/)では、あなたが作成した活用例をテンプレートとして他のユーザーと共有できます。知識管理やタスク管理、学習方法など、工夫を凝らした自慢のテンプレートをコミュニティに共有し、Anytypeの可能性をみんなで広げましょう。
 
-To create and share your own ANY Experience, follow these steps (you will need a Github account for this):
+テンプレートを作成し、ギャラリーで共有するための手順は以下の通りです。共有にはGithubアカウントが必要になりますので、事前にご準備ください。
 
-1. Create  a new space which includes only the types, properties, widgets, templates, and objects you want to share. This will avoid accidental sharing of sensitive data from your primary space. Please note: the name and icon of this new space will be displayed for everyone who will install your ANY experience.
-2. When the space is ready, export it in Any-Block JSON format. Click on the space name in the top-left corner, click “Export Space”, choose “Any-Block” option and set up following export settings:
-   1. File format – JSON,
-   2. Turn on “Zip archive”
-   3. Turn on “Include files”
-3. Make one or several screenshots which show important features of your ANY experience. Save these screenshots in .png format.
-4. Now, having created an exported space and screenshots, you can upload them to the Gallery. Explore existing Experiences in the [Gallery](https://gallery.any.coop/) to get examples of naming, descriptions, and screenshots. Then, please login to Github, follow [this link](https://github.com/anyproto/gallery/issues/new?assignees=\&labels=experience\&projects=\&template=new_experience.yml) to create a request and fill the form:
-   1. Give a title to the request
-   2. Drag and drop exported Zip archive to the “Experience” field
-   3. Write a title for your experience in the “Title” field; it should be unique, pretty short, and written in English
-   4. Drag and drop .png screenshots to the “Screenshots” field
-   5. Write an English description for the experience in the “Description” field
-   6. Choose one or several categories which suit for your experience in the “Categories” field
-   7. If the content inside the Experience is not in English, please choose the language in the “Language” field
-   8. For now, all experiences are published under the MIT license; please confirm that you agree with it, that you have rights for posting such content, and that there is not harmful content in the experience in the “Terms” section
-   9. When ready, click “Submit new issue” button
-5. Someone from Open Any Team will review your submission, and, when approved, the experience will be published in the [Gallery](https://gallery.any.coop). You will be recognized as a contributor in our [Github](https://github.com/anyproto/contributors) and on our [website](https://anytype.io/contributors).
+1. **安全な共有のために、新しいスペースを準備する。**\
+   まず、テンプレート専用の新しいスペースを作成してください。このスペースには、共有したいタイプ、プロパティ、ウィジェット、テンプレート、オブジェクトのみを入れてください。誤って個人情報を共有しないようにご注意ください。また、このとき設定したスペース名とアイコンは、ギャラリーで公開されますので、内容にふさわしいものにしましょう。
+2. **データをエクスポートする。**\
+   共有するスペースが完成したら、次はそのデータを書き出してください。左上のスペース名から「スペースをエクスポート」を選び、「Any-Block」形式でエクスポートしてください。設定項目は以下の3点です。
+   1. ファイル形式：「JSON」を選択します。
+   2. 「Zipファイルに圧縮」をオンにする
+   3. 「ファイルを含める」をオンにする
+3. **スクリーンショットを用意する。**\
+   次に、あなたのテンプレートの魅力が伝わるようなスクリーンショットを撮影してください。特徴的な機能やデザインがわかる画面を1枚以上を.png形式で保存してください。
+4. **ギャラリーにアップロードする。**\
+   エクスポートしたデータとスクリーンショットが準備できたら、いよいよギャラリーにアップロードします。まずは[ギャラリー](https://gallery.any.coop/)で他の活用例を参考にすることをお勧めします。準備ができたら、Githubにログインし、[こちらのリンク](https://github.com/anyproto/gallery/issues/new?assignees=\&labels=experience\&projects=\&template=new_experience.yml)から申請フォームを開いて、各項目を入力してください。
+    1.  **Give a title to the request**: 申請のリクエスト名を記入します。
+    2.  **Experience**: エクスポートしたZipアーカイブをドラッグ＆ドロップします。
+    3.  **Title**: テンプレートのタイトルを記入します。他のものと被らない、短く分かりやすい英語のタイトルにしてください。
+    4.  **Screenshots**: 用意した`.png`形式のスクリーンショットをドラッグ＆ドロップします。
+    5.  **Description**: テンプレートの英語での説明文を記入します。
+    6.  **Categories**: テンプレートに合うカテゴリを1つ以上選択します。
+    7.  **Language**: テンプレート内のコンテンツが英語でない場合は、その言語を選択してください。
+    8.  **Terms**: テンプレートがMITライセンスで公開されることに同意し、コンテンツを投稿する権利があること、有害なコンテンツが含まれていないことを確認してください。
+    9.  **Submit new issue**: すべての入力が終わったら、このボタンをクリックして申請を送信します。
+5.  **レビューと公開**\
+    Open Any Teamの担当者が申請内容を確認します。承認されると、あなたの活用例は[ギャラリー](https://gallery.any.coop/)に公開されます。貢献者として、あなたの名前は[Github](https://github.com/anyproto/contributors)および[公式サイト](https://anytype.io/contributors)に掲載されます。

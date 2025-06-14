@@ -1,13 +1,14 @@
 # Open Any Initiative
 
-## **How to contribute**
+## **Anytypeへの貢献方法**
 
-If you are a developer and want to contribute to the Anytype ecosystem, please check `CONTRIBUTING` docs inside a repository.
+Anytypeのエコシステムは、開発者の皆様の力でさらに進化します。コードでの貢献に興味のある方は、各リポジトリの`CONTRIBUTING`ドキュメントで、開発への参加方法をご確認ください。
 
-Follow us on [Github](https://github.com/anyproto) and join [Contributors Community](https://github.com/orgs/anyproto/discussions) to build Anytype together.
+最新の開発状況は[Github](https://github.com/anyproto)で、開発者同士の交流は[Contributors Community](https://github.com/orgs/anyproto/discussions)で行っています。ぜひ参加して、Anytypeの未来を共に創りましょう。
 
-If you want to learn more about why we chose to open up our code, check the article below:&#x20;
+私たちがオープンな開発体制へと舵を切った背景や私たちの想いは、ぜひ以下のブログ記事をご覧ください。
 
 {% embed url="https://blog.anytype.io/our-open-philosophy/" %}
 
-For any questions about our licenses, please check [https://legal.any.coop/](https://legal.any.coop/), and for any tech questions, please check [https://tech.anytype.io/](https://tech.anytype.io/).
+
+ライセンスに関しては[https://legal.any.coop/](https://legal.any.coop/)を、技術的情報に関しては[https://tech.anytype.io/](https://tech.anytype.io/)をご覧ください。

@@ -1,35 +1,37 @@
-# Analytics & Tracking
+# 利用状況の収集と分析について
 
 {% hint style="info" %}
-It will be possible to opt-out of analytics in the [future](https://github.com/orgs/anyproto/projects/1/views/1?pane=issue\&itemId=29227689).
+将来的に、ユーザー自身で[利用状況の収集をオフにできる機能](https://github.com/orgs/anyproto/projects/1/views/1?pane=issue\&itemId=29227689)を導入する予定です。
 {% endhint %}
 
-While the product is still in pre-release, we use analytics services to help us understand performance of the app as a whole, adoption of certain features, and how the latter impacts retention.
+現在、Anytypeは正式リリース前の開発段階にあります。そのため、アプリの安定性や、各機能がどれくらい使われているか、そしてそれが継続的な利用にどう繋がっているかを把握し、サービスの改善に役立てるため、匿名のデータ分析を行っています。
 
-Analytics consists of two parts: low-level analytics at the network level and app usage analytics at the client level. Both types are anonymous and do not analyze the content you are working with, as it is encrypted.
+分析データには、ユーザーが作成した文章や画像といったコンテンツの中身を一切含みません。データはすべて暗号化によって保護されているため、ご安心ください。
+
+分析には、以下の2種類があります。
+
+- 通信に関する基本的な分析: アプリがネットワークと通信する際の基本的な情報です。（ネットワークレベル）
+- アプリの利用状況の分析: アプリ内の機能がどのように使われているかの情報です。（クライアントレベル）
 
 {% hint style="info" %}
-If you switch to self-hosted or local-only network mode, Anytype Network does not collect low-level analytics. However, app usage analytics are still reported.
+セルフホストやローカルモードをご利用の場合、通信に関する分析データは収集されません。ただし、アプリの利用状況に関する分析データは送信されます。
 {% endhint %}
 
-**Amplitude** is the main service we use for tracking _events_ inside the app. It allows us to track metrics such as:
+私たちは主に**Amplitude**という分析サービスを使い、アプリ内での操作（イベント）に関する匿名の統計情報を収集しています。これにより、以下のような指標を把握できます。
 
-* How many users joined in the past month & how many dropped
-* How many Objects, Blocks, Sets, and Custom Types were created (and average that per number of active users)
-* How much time people spend in the app, on average
-* Which devices are used to log in to the app
+- 月ごとの新規ユーザー数や、利用を停止したユーザー数
+- オブジェクトやブロック、クエリ、タイプの作成数（および、一人あたりの平均作成数）
+- ユーザーのアプリの平均利用時間
+- アプリへのログインに使われているデバイスの種類
 
-We use these to understand our main product metrics and whether overall, we’re moving in the correct direction. While we can track frequency and adoption of events, _we cannot in any way track the content you create._
+これらの情報は、Anytypeが製品として正しい方向に進んでいるかを判断するための重要な指標となります。
+私たちは、ある機能がどれくらいの頻度で使われているかを把握することはできますが、_ユーザーが作成したコンテンツの中身を覗き見ることは絶対にできません。_
 
-In practice, this means that we know for instance that custom Types are very popular, but we cannot see what these custom types are (nor which Objects you’ve created with those types).
+例えば、タイプという機能が非常に人気であることはデータから分かります。しかし、ユーザーがその機能を使ってどんな名前のタイプを作ったのか、またどんなオブジェクトを作成したかを知ることはできません。
 
-Besides Amplitude, our engineering teams use Sentry to track the prevalence of crashes.
+また、上記のAmplitudeとは別に、エンジニアチームはSentryというサービスを利用して、アプリが強制終了（クラッシュ）した際の発生頻度や状況を把握し、品質改善に努めています。
 
 {% hint style="info" %}
-The only way to disable analytics at the moment is to either block outgoing connections to analytics-related hosts, or to edit the relevant source code and rebuild the client for your own use.
+現時点でデータ分析を無効にするには、分析サービスへの通信をご自身でブロックするか、ソースコードを編集してアプリを再構築するといった専門的な知識が必要です。
 {% endhint %}
-
-
-
-
 

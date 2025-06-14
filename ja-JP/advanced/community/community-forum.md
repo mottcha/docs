@@ -1,85 +1,68 @@
 ---
-description: A special space just for Anytypers!
+description: ようこそ、Anytyperの世界へ！
 ---
 
-# Forum
+# フォーラム
 
 {% embed url="https://community.anytype.io/" %}
 
-In our community, you'll find various **categories** and **tags** in which you can find previous posts from others who may have had similar experiences to yours. The various categories include: News & Announcements, General Discussion, How To, Feature Requests, Bug Reports, and Lounge.
+コミュニティフォーラムでは、**カテゴリー**や**タグ**を使って、簡単に過去の投稿を検索できます。これまでのたくさんの投稿の中からあなたに合うヒントや解決策が見つかるかもしれません。
+（訳注：ただし、英語での投稿が推奨されます。）
 
-### How to Join the Community?
+### フォーラムへの参加方法
 
-If you want to post in the Anytype Community, you'll need an account.
+投稿するには、まずアカウントを作成する必要があります。
 
-In your desktop app, click the **?** (Help) button in the lower right, then "[Join Our Community](https://community.anytype.io/invites/sig5xTU4ZZ)".
+デスクトップ版であれば、画面右下の「?」ボタンを押し、「[コミュニティに参加](https://community.anytype.io/t/how-to-file-a-bug-report/957)」から参加できます。
 
 <figure><img src="../../../.gitbook/assets/Screenshot 2023-08-23 at 17.42.16.png" alt="" width="306"><figcaption></figcaption></figure>
 
-Alternatively, find the menu bar at the top of the window just below the title bar, and then click on `Help > Report a Bug.`
+また、ウィンドウの上部のメニューバーの`ヘルプ > バグを報告`からも開けます。
 
 <figure><img src="../../../.gitbook/assets/image (45) (1).png" alt=""><figcaption></figcaption></figure>
 
-Report Bugs
+### バグ報告（Bug Reports）
 
-### Squash that bug!
+アプリの動作がおかしいと感じたら、ぜひコミュニティフォーラムにお寄せください。皆さんのご協力で、アプリをより良くすることができます。
 
-Experiencing something weird? Tell the team and let's get it solved. We want this application to be as spotless as possible.
+コミュニティフォーラムでバグを報告する際は、表示されるテンプレートをご利用ください。テンプレートに沿ってご記入いただくと、問題の把握がスムーズになります。
 
-When creating a bug report on the Community Forum, you'll be presented with template which will give our team the precise information necessary to comprehend the issue. We kindly ask you to please follow this format as explicitly as you can.
-
-Providing a clear and accurate explanation of the bug you encountered will assist our Mods and Nightly Ops team in reproducing the issue. This will establish that the problem is widespread and should be escalated to our dev team for more immediate attention.
+ご報告いただいた内容が具体的であるほど、私たちのチーム（Mods、Nightly Ops）で問題の原因を特定しやすくなります。問題が再現できた場合、開発チームが優先的に修正対応を行います。
 
 {% hint style="info" %}
-You can find your **Technical Information** by going to `Help > Technical Information` on desktop, or `Profile > About > Tech info` on mobile.
+**技術情報（Technical Information）** に関しては、デスクトップ版では`ヘルプ > 技術情報`から確認できます。また、モバイル版では、`プロフィール > Anytypeについて > 技術情報`から確認できます。
 {% endhint %}
 
 {% embed url="https://community.anytype.io/c/bug-report/7" %}
 
-### Request a Feature & Vote
+### 新機能リクエストと投票（Feature Requests）
 
-This is the place to post, contribute to, & vote for all things related to feature requests & new feature development!&#x20;
+Anytypeの新機能に関するご要望や投票は、新機能リクエストと投票（Feature Requests）で受け付けています。
 
-We prioritize our building agenda based on what is most desired by our community.&#x20;
+コミュニティの皆様からのご要望に基づき、開発の優先順位を決定しています。
 
-So if there is something you want to see happen, go out and vote for it!
+実現してほしい機能があれば、ぜひ投票をお願いします！
 
-Beware! Search for a topic before, see if it already exists _before_ adding a new recommendation. You wouldn't want to be that guy...
+注意: **新しい提案をする前に、必ず同じものがないか一度検索してみてください。**
+重複を避けるためご協力をお願いいたします。
+
 
 {% embed url="https://community.anytype.io/c/feature-requests/" %}
 
-### Get help from the community and Any Team!
+### 困った時は、コミュニティやAnytypeチームに相談しよう！（Help）
 
-Are you looking for some help building and using your Anytype? If these docs didn't help you enough, you can always check and see if someone in the community has asked a similar question.&#x20;
+Anytypeを使っていて「どうすればいいんだろう？」と悩んだ時はありませんか？
+もしこのドキュメントを読んでも解決しなかったら、きっとコミュニティの誰かが同じ疑問を解決しているかもしれません。
 
-If you need suggestions of what to build or inspiration from seeing how others are using Antype, you can find an abundance here.&#x20;
+「Anytypeで何を作ろうかな？」とアイデアが欲しい時や、他の人がどう使っているか見てみたい時も、ここにはたくさんのヒントがありますよ。
 
-This is the place to get some assistance or shout-out if you have questions unrelated to feature requests or bugs!
+新機能リクエストやバグの報告以外で、何か助けが必要な時や、ちょっとした疑問がある時は、遠慮なくここで尋ねてみましょう！
 
-#### Don't forget Trail Guides!
+#### あなたの「声」を聞かせてください！（Talk）
 
-A resource hub of technical procedures, tutorials, and demos for various aspects of Anytype.
+Talkでは、Anytypeを使い始めた時の率直な感想や、「こうなったらもっと便利なのに！」という改善案をどんどん教えてくださいね。
 
-{% embed url="https://community.anytype.io/c/any-help/8" %}
-
-### Share Your Feedback
-
-We love to keep the campfire chat going all day n all night!
-
-To discuss anything related to Anytype.
-
-Any-thing.
-
-Well, just those which you feel don't make the cut for any of the other categories.
-
-Those posts can go into this category.
-
-#### We love to hear your thoughts and feedback.
-
-Tell us your first impressions, give us feedback or suggestions for feature optimizations.
-
-Have you created something in Anytype that you want to show off? Share it with the community!
-
-We're talking templates, use-cases organization ideas, layouts, etc.
+そして、Anytypeで作った「これを見てほしい！」というものはありませんか？ 
+素敵なテンプレート、ユニークな使い方、見やすいレイアウトなど、あなたの作品をコミュニティで自慢しちゃいましょう！
 
 {% embed url="https://community.anytype.io/c/any-talk/10" %}

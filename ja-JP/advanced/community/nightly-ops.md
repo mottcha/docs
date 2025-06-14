@@ -1,19 +1,19 @@
-# Nightly Ops
+# Nightly Ops（開発版テスター）
 
-We’re inviting enthusiastic users to test our apps and help shape their future. As such a volunteer, you’ll get early access to new features and the chance to provide valuable feedback before the public release.
+Nightly Opsでは、新しいAnytypeを誰よりも早く体験してくれる開発版のテスターを募集しています。あなたの声が、次のAnytypeをより良いものにします。一般公開前の新機能をいち早く試し、あなたの貴重な意見を聞かせてください。
 
-### How to join: <a href="#p-95537-how-to-join-1" id="p-95537-how-to-join-1"></a>
+### 参加方法<a href="#p-95537-how-to-join-1" id="p-95537-how-to-join-1"></a>
 
-* Submit a [**request**](https://community.anytype.io/g/Nightly/members) to be added to the Nightly group.
-* We’ll send you all the necessary instructions and links to join Slack and the Anytype space.
+* [こちら](https://community.anytype.io/g/Nightly/members)からNightlyグループへの参加リクエストを送信してください。
+* 承認後、SlackチャンネルとAnytypeの専用スペースに参加するための手順とリンクをお送りします。
 
-### What you’ll do: <a href="#p-95537-what-youll-do-2" id="p-95537-what-youll-do-2"></a>
+### 主な活動内容<a href="#p-95537-what-youll-do-2" id="p-95537-what-youll-do-2"></a>
 
-**1. Get access to our early app versions**\
-\* where you'll have an opportunity to try new features and share your thoughts in advance.
+**1. アプリの早期バージョンへのアクセス**\
+\* 新機能をいち早く試し、ご意見を共有できます。
 
-**2. Access the Nightly Ops Slack channel**\
-\* where you can discuss updates, share feedback and connect with other testers.
+**2. Nightly OpsのSlackチャンネルに参加**\
+\* アップデートについて話し合ったり、フィードバックを共有したり、他のテスターと交流したりできます。
 
-**3. Join the Nightly Ops space in Anytype**\
-\* where you can also share your feedback, since it’s all about **Chat** <img src="https://community.anytype.io/images/emoji/apple/speech_balloon.png?v=12" alt=":speech_balloon:" data-size="line"> now.
+**3. Anytype内のNightly Opsスペースに参加**\
+\* こちらでもフィードバックを共有できます。**チャット** <img src="https://community.anytype.io/images/emoji/apple/speech_balloon.png?v=12" alt=":speech_balloon:" data-size="line"> が中心です。

@@ -1,19 +1,19 @@
-# Data Erasure
+# データの削除について
 
-Since we don't have access to your Anytype data, and we have no way to connect your Anytype ID to your email address, there is no way for us to delete your data. This means that you can only delete it yourself, and through the app.
+Anytypeは、ユーザーのプライバシーを保護するため、あなたのデータにアクセスできない仕組みになっています。そのため、私たち運営側でデータを削除することはできません。データの削除は、ご自身でアプリ内から行っていただく必要があります。
 
-### Delete or Reset Your Vault / Account
+### アカウント（保管庫）の削除
 
-In the top menu, Click "Anytype", open Settings, Data management, and select **Delete vault.** This will delete your profile, and your Key:
+Anytypeのすべてのデータを削除するには、設定を開き、`データ管理 > 保管庫の削除`と進み、保管庫を削除します。この操作を行うと、あなたのプロフィールとアカウントの鍵も完全に削除され、元に戻すことはできません。
 
 <figure><img src="../../../.gitbook/assets/image (77) (1).png" alt=""><figcaption></figcaption></figure>
 
-If you would like to create a new vault instead, do the following:
+現在のデータを消去して新しく始めたい場合は、以下の手順に従ってください。
 
-1. `Anytype > Settings > Vault > Data management > Delete vault`
-2. `Anytype > Settings > Vault > Log Out`
-3. Click: “_**Join**_” (instead of "Log in")
+1. `Anytype > 設定 > 保管庫 > データ管理 > 保管庫の削除`で保管庫を削除します。
+2. `Anytype > 設定 > 保管庫`で保管庫からログアウトします。
+3. 初回起動画面でログインではなく、「初めて利用する」を選びます。
 
-### Other Data
+### その他のデータ
 
-For everything else (forum posts, support tickets, and email subscriptions), please contact us at [support@anytype.io](mailto:support@anytype.io), and we'll delete these for you.
+Anytypeアプリ本体以外のデータ（例：フォーラムへの投稿、サポートへのお問い合わせ履歴、メールマガジンの登録情報）の削除を希望される場合は、お手数ですが [support@anytype.io](mailto:support@anytype.io)までご連絡ください。

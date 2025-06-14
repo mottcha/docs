@@ -1,85 +1,89 @@
-# Space Settings
+# スペース設定
 
-In the top left corner or at the top of your Sidebar, you'll find your Space widget. Clicking on the space name will open up your space settings.
+サイドバーの上部にあるスペース名をクリックすると、スペース設定を開けます。
 
 <figure><img src="../../../.gitbook/assets/image (59).png" alt="" width="325"><figcaption></figcaption></figure>
 
-### Preferences
+### 環境設定
 
 <figure><img src="../../../.gitbook/assets/image (60).png" alt="" width="563"><figcaption></figcaption></figure>
 
-#### **Choose your space icon**
+#### **スペースのアイコンを変更**
 
-Your space icon is automatically generated during the onboarding process. To change it, simply click on the icon and choose from your library or upload your own image.
+スペースのアイコンを変更するには、アイコンをクリックしてください。画像をアップロードして、お好きな画像に変更できます。
 
 <figure><img src="../../../.gitbook/assets/image (61).png" alt="" width="375"><figcaption></figcaption></figure>
 
-#### **Choose your space name**
+#### **スペース名の変更**
 
-To change your space name, simply click on the `Edit info` button in the top right corner, choose a name, and click on `Save` to confirm.
+スペース名を変更するには、右上の「情報を編集」ボタンをクリックします。新しいスペース名を入力し、「保存」ボタンをクリックして完了です。
 
 <div><figure><img src="../../../.gitbook/assets/image (64).png" alt=""><figcaption></figcaption></figure> <figure><img src="../../../.gitbook/assets/image (65).png" alt=""><figcaption></figcaption></figure></div>
 
-#### **Auto create type widgets**
+#### **タイプウィジェットを自動作成**
 
-By default, whenever the first object of a Type is created, a new widget will be created in your sidebar. This option lets you disable this feature.&#x20;
+新しいタイプを追加した際に、ウィジェットが自動的に作成されます。オフにすると、この機能を停止できます。
 
 <figure><img src="../../../.gitbook/assets/image (143).png" alt="" width="375"><figcaption></figcaption></figure>
 
-#### **Choose your homepage**
+#### **トップページ**
 
-Your homepage is what you will see each time you open Anytype. By default, it's set to Last opened Object.
+Anytypeを起動した際に表示されるトップページを変更できます。デフォルトでは、最後に開かれたオブジェクトが表示されます。
 
-However, you can change your homepage by using the drop-down menu in your space settings and choosing between your graph, your last opened object, or a specific object you've created.
+トップページにはグラフビュー、最後に開かれたオブジェクト、作成したオブジェクトの中から選べます。
 
 <figure><img src="../../../.gitbook/assets/image (66).png" alt="" width="563"><figcaption></figcaption></figure>
 
-#### **Default object type**
+#### **既定のオブジェクトタイプ**
 
-This option lets you define which Object Type will be used when creating an Object by default.
+オブジェクトを新しく作成した際に、デフォルトで使用されるタイプを選べます。
 
 <figure><img src="../../../.gitbook/assets/image (142).png" alt="" width="375"><figcaption></figcaption></figure>
 
-#### **Delete your space**
+#### **スペースの削除**
 
-To delete your space, click the `...` menu and select <mark style="color:red;">`Delete Space.`</mark>
+スペースを削除するには、「...」の詳細ボタンをクリックし、「<mark style="color:red;">スペースを削除</mark>」を選択してください。
 
 <figure><img src="../../../.gitbook/assets/image (72).png" alt="" width="375"><figcaption></figcaption></figure>
 
-### Invite Members
+### メンバーを招待する
 
-To share your space, click the `Generate Invite Link` button and copy the link afterwards.&#x20;
+スペースを共有するには、「招待リンクを作成」ボタンをクリックしてください。作成された招待リンクを共有しましょう。
 
 <div><figure><img src="../../../.gitbook/assets/image (73).png" alt="" width="375"><figcaption></figcaption></figure> <figure><img src="../../../.gitbook/assets/image (74).png" alt="" width="375"><figcaption></figcaption></figure></div>
 
-You can also use the QR code to share your space more easily.
+また、QRコードを使って、共有することもできます。
 
 <figure><img src="../../../.gitbook/assets/image (144).png" alt="" width="375"><figcaption></figcaption></figure>
 
-A list of all of your space members can also be found here.
+スペースに参加しているメンバーの一覧を確認できます。
 
 <figure><img src="../../../.gitbook/assets/image (75).png" alt="" width="375"><figcaption></figcaption></figure>
 
-### Remote Storage
+### リモートストレージ
 
-Locate and manage your files, check your remaining remote storage, and view storage usage of all your spaces here.
+ここでは、スペース内のファイルを管理できます。また、リモートストレージの残り容量やスペースの使用量も確認できます。
 
 <figure><img src="../../../.gitbook/assets/image (76).png" alt="" width="375"><figcaption></figcaption></figure>
 
-### Import & Export
+### インポートとエクスポート
 
 You can find all of our import and export options under the **Integrations** section.
 
 For a more detailed look into our import and export options, please head out to [import-export](../data-and-security/import-export/ "mention") instead.
 
+連携機能では、インポート機能やエクスポート機能を使用できます。
+
+インポートやエクスポート機能について詳しくは、[こちら](../data-and-security/import-export/ "mention")をご覧ください。
+
 <div><figure><img src="../../../.gitbook/assets/image (77).png" alt=""><figcaption></figcaption></figure> <figure><img src="../../../.gitbook/assets/image (78).png" alt=""><figcaption></figcaption></figure></div>
 
-### Content Model
+### ライブラリ
 
-The central place to manage both your Types and Properties. For more information on how to manage them, go to either [types](../../getting-started/types/ "mention") or [relations.md](../../getting-started/types/relations.md "mention").
+ここでは、作成したタイプやプロパティを管理できます。詳しくは、[types](../../getting-started/types/ "mention")や[relations.md](../../getting-started/types/relations.md "mention")をご覧ください。
 
 <div><figure><img src="../../../.gitbook/assets/image (79).png" alt="" width="325"><figcaption></figcaption></figure> <figure><img src="../../../.gitbook/assets/image (80).png" alt="" width="324"><figcaption></figcaption></figure></div>
 
-### Bin
+### ゴミ箱
 
-You can also always find your [finding-your-objects.md](../data-and-security/data-storage-and-deletion/finding-your-objects.md "mention") at the bottom of your space settings.
+スペース設定からも[finding-your-objects.md](../data-and-security/data-storage-and-deletion/finding-your-objects.md "mention")にアクセスできます。
