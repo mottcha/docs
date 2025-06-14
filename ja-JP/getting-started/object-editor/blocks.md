@@ -22,8 +22,8 @@ description: ブロックの基本を理解して、編集やカスタマイズ�
 
 <figure><img src="../../../.gitbook/assets/image (48).png" alt="" width="563"><figcaption></figcaption></figure>
 
-### 列の変更
+### 段組みを作る（ブロックを横に並べる）
 
-各ブロックの左にある灰色の取っ手をドラッグ＆ドロップして、ブロックを横並びにすることができます。
+各ブロックの左にある灰色の取っ手をドラッグ＆ドロップして、ブロックを段組み（横並び）にすることができます。
 
 <div><figure><img src="../../../.gitbook/assets/image (49).png" alt=""><figcaption></figcaption></figure> <figure><img src="../../../.gitbook/assets/image (51).png" alt=""><figcaption></figcaption></figure></div>
