@@ -40,7 +40,7 @@ PCに保存されているファイルへのリンクを作成するには、`fi
 - `@nextmonth` （来月の日付）
 - `@24/8/2023` （例：2023年8月24日）
 
-`@date`や`/date`と入力すれば、カレンダー形式の日付選択メニューをすぐに開くことができます。
+`@date`や`/date`と入力すれば、カレンダー形式の日付選択ツールをすぐに開くことができます。
 
 <figure><img src="../../../.gitbook/assets/image (3) (1) (1) (1).png" alt="" width="375"><figcaption></figcaption></figure>
 

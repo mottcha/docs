@@ -33,7 +33,7 @@
 * [🎬 映画作品リスト](use-cases/movie-database.md)
 * [✈️ 旅のプラン](use-cases/travel-wiki.md)
 * [🗨️ 単語カード](use-cases/language-flashcards.md)
-* [🍛 レシピノートや献立表](use-cases/meal-planner-recipe-book.md)
+* [🍛 献立表やレシピノート](use-cases/meal-planner-recipe-book.md)
 
 ## 🤖 応用編
 
