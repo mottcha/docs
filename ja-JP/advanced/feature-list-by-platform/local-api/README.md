@@ -1,20 +1,20 @@
-# Local API
+# ローカルAPI
 
-Release 0.46.X marks an exciting and long-awaited moment in Anytype’s evolution: **the first iteration of our Local API** is here! It opens up powerful new possibilities for an ecosystem of plugins, automations and third-party integrations.
+Anytypeに待望の**ローカルAPIの最初のバージョン**がv0.46.Xにて遂に登場です！これにより、プラグイン、自動化、サードパーティ製ツールとの連携などエコシステムによるAnytypeのまったく新しい可能性が広がります。
 
-### Anytype Local API (Developer Preview)
+### Anytype ローカルAPI (開発者プレビュー)
 
-Our API is now available and directly included with the desktop app, running entirely on localhost. It operates fully offline, meaning you can build and use integrations without any cloud dependencies - even while flying!
+ローカルAPIは、デスクトップ版アプリに組み込まれており、完全にlocalhost上で動作します。クラウドへの依存は一切なく、例えば飛行機に乗っている間でも、オフライン環境でも連携機能を構築・利用できます。
 
-This initial release targets developers, and we’re eager to see what the community creates with it!
+この最初のバージョンは、まずは開発者向けに公開しています。ぜひ皆さんの素晴らしいアイデアや作品に出会えることを、心から楽しみにしています！
 
 {% hint style="danger" %}
-I**mportant Security Notice:** By providing an API key or using extensions, you grant limited access to your Anytype vault, enabling operations such as editing or deleting objects. Ensure you **use only trusted extensions**.
+**セキュリティリスクについて**：APIキーや拡張機能を使用すると、Anytypeの保管庫に対して限定的な権限（オブジェクトの編集や削除など）を与えることになります。**信頼できる拡張機能のみ**を使用してください。
 {% endhint %}
 
-### Key Highlights
+### 主な特徴
 
-* **Secure Authentication:** Authenticate once via a 4-digit challenge in the desktop app, generating an API key. This key acts as a bearer token to authenticate subsequent requests. Additionally, API keys can be managed and generated directly through the desktop client's settings, making it easy to share keys with third-party integrations.
-* **Comprehensive Documentation:** The OpenAPI specification and full documentation are available on our new [Developer Portal](https://developers.anytype.io/).
-* **Robust API Capabilities:** Endpoints offer core Anytype functionality: creating objects, editing, querying and much more.
-* **Growing Developer Ecosystem:** Early SDKs and community-driven tools are already underway: Python and Go clients, MCP server and Raycast extension.
+* **セキュアな認証:** APIキーを取得するには、デスクトップ版アプリで4桁のコードによる初回認証が必要です。このAPIキーは、以降のすべてのリクエストを認証できるbearerトークンです。また、APIキーの管理や外部サービスとの連携設定も、デスクトップ版アプリから行えます。
+* **充実したドキュメント:** OpenAPI仕様書を含む完全なドキュメントを、新しい[開発者ポータル](https://developers.anytype.io/)で公開しています。
+* **豊富なAPI機能:** オブジェクトの作成、編集、検索など、Anytypeのコア機能を提供するエンドポイントを利用できます。
+* **成長を続ける開発者エコシステム:** PythonおよびGoクライアント、MCPサーバー、Raycast拡張機能など、初期のSDKやコミュニティ主導のツールがすでに登場しています。

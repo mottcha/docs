@@ -1,39 +1,38 @@
-# Raycast Extension (macOS)
+# Raycast拡張機能（macOS）
 
-Our long-awaited API is beginning to take shape! The first step is Raycast integration, allowing you to create, read, and delete Spaces, Objects, and Types, as well as search across them, all from Raycast on macOS.
+待望のAPI活用の第一弾として、Raycast拡張機能が登場です。Raycastランチャーから直接、Anytypeのスペース、オブジェクト、タイプの作成・読み取り・削除、そして横断検索まで、あらゆる操作が可能になります。
 
-[Install the Raycast Extension here](https://www.raycast.com/any/anytype)
+[Raycast拡張機能をインストール](https://www.raycast.com/any/anytype)
 
 <figure><img src="../../../.gitbook/assets/raycast_2x.png" alt=""><figcaption></figcaption></figure>
 
-### Update - AI
+### アップデート：AI
 
-We've introduced several enhancements based on your requests and feedback, plus Anytype for Raycast is now an AI Extension – search through spaces and objects using natural language or create new ones just by instructing <kbd>@anytype</kbd>.
+皆様からのご要望やフィードバックから機能強化が行われました。さらに、Anytype for RaycastがAI機能（AI Extension）に対応しました。。自然言語での検索や、<kbd>@anytype</kbd>を使って新しいオブジェクトの作成などの指示ができるようになりました。
 
-* Improved Pinning & Navigation: Pin objects, types, members and spaces for quicker access. Objects of a certain Type now appear below their templates for better organization.
-* Better Collection Management: Create objects directly within collections and browse collection items with ease.
-* Customization & Visibility: Choose <kbd>Open Object in Anytype</kbd> as the default action, show custom properties in the Detail sidebar, toggle metadata in object details and apply templates when creating new objects.
+* **ピン留めとナビゲーションの改善：** オブジェクトやタイプ、メンバー、スペースをピン留めし、より素早くアクセスできるようになりました。また、特定のタイプのテンプレートが整理されて表示されるようになりました。
+* **コレクション管理の改善：** コレクション内で直接オブジェクトを作成したり、コレクション内のオブジェクトを簡単に見られるようになりました。
+* **カスタマイズ性と表示設定の強化：** <kbd>オブジェクトをAnytypeで開く</kbd>を標準の動作として設定したり、詳細サイドバーにプロパティを表示したり、オブジェクトの詳細にメタデータの表示を切り替えたりできるようになりました。また、新しくオブジェクト作成した際にテンプレートを使用できるようになりました。
 
 <figure><img src="../../../.gitbook/assets/Screenshot 2025-03-17 at 11.43.00 AM.png" alt="" width="563"><figcaption></figcaption></figure>
 
-### Update - Local API
+### アップデート：ローカルAPI
 
-As a companion to our Local API, we’ve just shipped great improvements for our Raycast extension.
+ローカルAPIの関連機能として、Raycast拡張機能に便利な改善を加えました。
 
-Here’s what’s new:
-
-* **Quickly create** new spaces, objects, types, properties, or tags with the shortcut `CMD+N` while browsing your spaces.
-* **Easily edit** your selected items (spaces, objects, types, properties or tags) using `CMD+E`.
-* **Conveniently add objects** to lists either through the new `Add object to list` command or directly from the context menu `CMD+K`.
+* **素早く作成**：スペースの閲覧中にショートカットキー`CMD+N`で、新しいスペース、オブジェクト、タイプ、プロパティ、タグを素早く作成できるようになりました。
+* **簡単に編集**：選択中の項目（スペース、オブジェクト、タイプ等）を`CMD+E`で簡単に編集できるようになりました。
+* **より手軽に**：新しい「リストにオブジェクトを追加」コマンド、またはコンテキストメニュー`CMD+K`から、オブジェクトをリストに簡単に追加できるようになりました。
 
 <figure><img src="../../../.gitbook/assets/image (213).png" alt=""><figcaption></figcaption></figure>
 
-### Privacy
+### プライバシーについて
 
-Our API runs locally on your machine, works without internet connection and requires authentication for a client (eg. raycast extension) to retrieve & access data.
+ローカルAPIは、お使いのデバイス上で完全にローカル動作するため、インターネット接続は不要です。
+ローカルAPIは、お使いのデバイス上でローカル動作するため、オフラインでも利用できます。また、Raycast拡張機能などのクライアントがデータを取得・アクセスするためには認証が必要です。
 
-To accomplish this, Raycast initially pairs with the app through the 4 digit pop-up. This notifies you about giving the extension limited access to your account.
+この拡張機能を使用するには、初回にAnytypeと4桁のコードによる認証が必要です。許可すると、拡張機能が限定的に保管庫にアクセスできるようになります。
 
-The API key is stored in encrypted local storage of the extension and will be used to fetch data from the app (to display spaces, objects etc.).
+また、Raycast拡張機能では、アプリから（スペースやオブジェクトの表示などの）データを取得するためにAPIキーを暗号化されたローカルストレージに保存されます。
 
-Therefore, no other applications than the authorized ones can access your data through the API.
+したがって、許可されたアプリケーション以外が、APIを通じてデータにアクセスすることはできません。

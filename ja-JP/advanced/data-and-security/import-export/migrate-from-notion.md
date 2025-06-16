@@ -1,139 +1,126 @@
-# Migrate from Notion
+# Notionからの移行
 
-### Steps
+### 手順
 
-**Step 1**
+**ステップ1**
 
-1.  **Open Settings & members.**\
-
-
+1.  **「設定」を開きます。**\
     <figure><img src="../../../../.gitbook/assets/notion/1-1.png" alt="Open Settings &#x26; members" width="500"><figcaption></figcaption></figure>
-2.  **Open My Connections and then click Develop or manage integrations.**\
-
-
+2.  **「接続」を開き、「インテグレーションを作成または管理する」をクリックします。**\
     <figure><img src="../../../../.gitbook/assets/notion/1-2.png" alt="Open My Connections" width="500"><figcaption></figcaption></figure>
-3.  **Click New integration or Create new integration.**\
-
-
+3.  **「新しいインテグレーション」をクリックします。**\
     <figure><img src="../../../../.gitbook/assets/notion/1-3.png" alt="Create new integration" width="500"><figcaption></figcaption></figure>
-4.  **Select your workspace and set a Name for the integration.**\
-
-
+4.  **インポートしたいワークスペースを選択し、インテグレーションの名前を入力します。**\
     <figure><img src="../../../../.gitbook/assets/notion/1-4.png" alt="Set Name for integration" width="500"><figcaption></figcaption></figure>
-5. **Important!**\
-   Go to **Capabilities** and select the following capabilities, then press **Save changes**:
-
-* Read content
-*   Read user information\
-
-
+5.  **重要：**\
+    **「機能」の項目で以下の権限を選択し、「保存」をクリックしてください。**\
+    * コンテンツの読み取る\
+    * ユーザー情報を読み取る\
     <figure><img src="../../../../.gitbook/assets/notion/1-5.png" alt="Select capabilities" width="500"><figcaption></figcaption></figure>
-
-6.  **Copy Internal Integration Secret** for connecting and importing your data.\
-
-
+6.  **データをインポートするために必要な「内部インテグレーションシークレット」 をコピーします。**\
     <figure><img src="../../../../.gitbook/assets/notion/1-6.png" alt="Copy Internal Integration Secret" width="500"><figcaption></figcaption></figure>
 
-**Step 2**
+**ステップ2**
 
-**Add the integration to the pages you want to import into Anytype.** Pages will be imported with all children documents.
+**次に、Anytypeにインポートしたいページに、先ほど作成したインテグレーションを接続します。**
+指定したページとその配下にあるすべての子ページがインポート対象になります。
 
-1.  **Click on the three dots in the upper right corner, then click Connect to (you may need to scroll the menu).** Select your Anytype integration.\
-
-
+1. **ページの右上にある「・・・」メニューから「接続」を選択します。**\
+   （表示されない場合は、スクロールしてみてください）
+2. **表示されたインテグレーションの中から、ステップ1で作成したインテグレーションを選びます。**
     <figure><img src="../../../../.gitbook/assets/notion/2-1.png" alt="Connect to Anytype integration" width="500"><figcaption></figcaption></figure>
-2. **Ensure you select all root pages** to avoid broken links in Anytype after the import.
-3.  **Add the Integration to each page's connection** to ensure that the pages and their linked content are imported correctly.\
+3. **そして、ページへの接続を許可します。**\.
+   <figure><img src="../../../../.gitbook/assets/notion/2-2.png" alt="Press Confirm" width="500"><figcaption></figcaption></figure>
+4.  **同じ要領で、インポートしたいトップページをすべて接続する。**\
+    インポート後にページ間のリンクが切れてしまわないように、インポートしたい階層の最も上位にあるページ（トップページ）を一つひとつ接続してください。
 
+**ステップ3**
 
-    <figure><img src="../../../../.gitbook/assets/notion/2-2.png" alt="Press Confirm" width="500"><figcaption></figcaption></figure>
+以下の手順でインポートを始めます。
 
-**Step 3**
+1.  **インポートを始める前に、以下の環境が整っているか確認してください。**
+    * 特にページ数が多い場合は、安定したインターネット接続をご利用ください。
+    * PCを電源に接続してください。
+    * インポート処理が中断されないよう、コンピューターのスリープモードを無効にしてください。
+2.  **Anytypeのインポート画面を開きます。**
+3.  **Notionでコピーした内部インテグレーションシークレットを貼り付けて、インポートを開始します。**
 
-**Finalize the import and ensure a smooth process:**
-
-1. **Paste your Internal Integration Token into Anytype.**
-2. **Prepare for a smooth import:**
-
-* Use a good internet connection, especially if you have a large number of files.
-* Keep your computer plugged into power.
-* Disable sleep mode on your computer to allow the import process to complete without interruptions.
 
 {% hint style="info" %}
-Some Notion data may **not be imported correctly** as not all Notion features are supported in Anytype.
+Notionの一部機能は未対応のため、**一部データが完全にはインポートされない**場合があります。
 {% endhint %}
 
 ### FAQ
 
 <details>
 
-<summary>Why wasn't some Notion data imported correctly?</summary>
+<summary>一部のNotionデータが正しくインポートされないのはなぜですか？</summary>
 
-As not all Notion features are supported in Anytype, we cannot guarantee that all Notion data will be imported correctly.&#x20;
+AnytypeはNotionの全ての機能に対応しているわけではないため、一部のデータは正しくインポートされない場合があります。
 
-Examples:
-
-* User mentions (@) will be converted to plain text.
-* Date ranges are imported as text.
-* Formulas & summary data are imported as values.
-
-</details>
-
-<details>
-
-<summary>Why do I see "page not found" instead of links after importing from Notion to Anytype?</summary>
-
-This issue occurs when you have links to pages that are not nested within your Notion workspace structure. These pages may not have been properly connected to the integration during the import, leading to broken links in Anytype.
-
-**Solution:**
-
-* **Check Page Connections:** Ensure that all pages in your Notion workspace are connected before starting the import process. If a page is not properly connected to the integration, it may not import correctly. See the Step 2 of the [Notion Import Step-by-Step Guide](migrate-from-notion.md#notion-import-step-by-step-guide) for more details.
-* **Repeat the import:** If a page did not import, add a missing Connection and repeat the import.
+例：
+* ユーザーメンション（@）は、プレーンテキストに変換されます。
+* 期間が設定された日付は、テキストとしてインポートされます。
+* 数式や集計データは、計算後の「値」としてインポートされます。
 
 </details>
 
 <details>
 
-<summary>Why are some files missing after importing from Notion to Anytype?</summary>
+<summary>Notionからインポート後、「ページが見つかりません」と表示されるのはなぜですか？</summary>
 
-There are two main reasons for missing files:
+リンク先のページが、インポート対象に含まれていないことが原因です。Anytypeは連携を許可されたページしかインポートできないため、許可されていないページへのリンク切れが発生します。
 
-* **Missing Connection:** Make sure that the page containing the files in Notion is properly connected to the integration before import. If this connection is missing, the files may not be imported.
-* **Slow Internet Connection:** If you have a slow internet connection and a large number of files, the links to these files might expire during the download process, resulting in missing files.
+**対処法**
 
-**Solution:**
-
-* **Ensure Proper Connection:** Double-check that all pages and their respective files are connected in Notion before importing.
-* **Use a Faster Internet Connection:** If possible, use a faster internet connection during the import process to prevent link expiration.
-* **Manually Add Missing Files:** If files are missing after the import, you may need to manually upload them to Anytype.
+* **Notionで接続を追加する**：まず、Notionに戻り、すべてのページが接続されていることを確認してください。リンク切れになっていたページは接続設定を行ってください。接続方法は[Notionへの移行のステップ2](migrate-from-notion.md#notion-import-step-by-step-guide)</a>をご覧ください。
+* **再度インポートする：**：接続設定を追加したら、もう一度Anytypeでインポート操作を行ってください。
 
 </details>
 
 <details>
 
-<summary>Why did the Notion import to Anytype take so long?</summary>
+<summary>インポートしたファイルが見つからない時は</summary>
 
-The import process uses the Notion API to ensure data is transferred as accurately as possible. This method, though more reliable than exporting to Markdown, requires multiple queries. Over time, Notion may start rate-limiting these queries, leading to delays.
+インポート後、一部のファイルが見つからない場合、以下の原因が考えられます。
 
-**Solution:**
+* **正しく接続されてない** Notion側で接続を許可したページのみがインポート対象となります。ファイルが添付されているページ自体が接続されていない場合も含まれているファイルがインポートされません。
+* **低速なインターネット環境**：インターネット接続が遅い場合、大量のファイルをインポートしようとすると、ダウンロード中にファイルへのリンクの有効期限が切れてしまい、結果としてファイルが欠落することがあります。
 
-* **Plug in Your Device:** Make sure your computer is plugged into a power source during the import.
-* **Disable Sleep Mode:** Prevent your computer from going to sleep to allow the import process to continue uninterrupted.
-* **Be Patient:** Allow the import process to run until it completes. It may take some time, especially if there is a large amount of data.
+**対処法**
+
+* **Notionの接続を確認する**：インポートを実行する前に、Notion側ですべてのページとその中のファイルが正しく接続されていることを再度ご確認ください。
+* **高速なインターネット接続**：可能であれば、より高速で安定したインターネット接続環境でインポートをお試しください。
+* **手動でファイルを追加する**：インポート後もファイルが欠落している場合は、お手数ですが、対象のファイルをAnytypeに手動でアップロードしてください。
 
 </details>
 
 <details>
 
-<summary>I have some other problem with Notion import, or I no longer have access to my Notion workspace</summary>
+<summary>NotionからAnytypeへのインポートに時間がかかるのはなぜですか？</summary>
 
-If you encounter issues with the Notion import (which works via the Notion API) or you lose full access to your Notion workspace, you can export your workspace from Notion as Markdown & CSV files and import them into Anytype using the Markdown import option.
+Notion側のアクセス制限により、時間がかかっている可能性があります。Anytypeでは、正確にデータを移行するため、インポートにNotionの公式APIを利用しています。ただ、何度もNotion側のサーバーにアクセスするため、データ量が多い場合、アクセス回数に制限が入ることがあります。
 
-Be aware that importing via Markdown & CSV files is more lossy compared to using the Notion API. This is because Notion’s way of linking documents and CSV files may not be fully preserved in the Markdown format, potentially leading to loss of structure or links between documents.
+**対処法**
 
-**Solution:**
+インポート処理が途中で中断されないよう、以下の設定をお勧めします。
 
-* **Export from Notion:** In your Notion workspace, export your data as Markdown & CSV files.
-* **Import into Anytype:** Use Anytype’s Markdown import feature to bring the exported content into your Anytype workspace.
+* **PCを電源に接続する**：インポート中はPCを電源に接続したままにしてください。
+* **スリープモードを無効にする**：PCがスリープ状態にならないように設定してください。
+* **完了まで待つ**：データ量によっては完了まで時間がかかりますが、処理は着実に進んでいます。そのままお待ちください。
+
+</details>
+
+<details>
+
+<summary>Notion APIでのインポートがうまくいかない、またはNotionにアクセスできない場合</summary>
+
+Notion APIを利用したインポートで何らかの問題が発生した場合や、Notionワークスペースにアクセスできなくなった場合は、Notionの「マークダウンとCSV」形式でエクスポートし、AnytypeのMarkdownインポート機能を使ってインポートをお試しください。
+
+ただし、「マークダウンとCSV」形式によるインポートは、API経由のインポートと比較して、失われる情報が多くなる点にご注意ください。Markdown形式では、ドキュメントの構造が完全に書き出されないことがあるためです。ページの階層構造やリンクが一部失われる場合があります。
+
+**対処法**
+* **Notionからエクスポート:** Notionのワークスペースで、データを「マークダウンとCSV」形式でエクスポートします。
+* **Anytypeへインポート:** Markdown形式でインポートし、書き出したコンテンツをスペースに取り込みます。
 
 </details>

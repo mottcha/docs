@@ -1,47 +1,49 @@
-# AnySync Netcheck Tool
+# AnySync Netcheck（同期接続診断ツール）
 
-A simple tool that checks the ability to connect to Anytype nodes. It was created to test network and TLS (sync) issues.
+Anytypeノードへ正しく接続できるかを確認するためのシンプルなツールです。
+主に、ネットワーク接続や同期（TLS）に関する問題を診断するために使用します。
 
-The _Netcheck_ Tool opens a connection to the coordinator nodes to establish communication with the libp2p protocol and _AnySync_ handshakes, to attempt to execute network configuration requests.
+コーディネーターノードとの通信を試み、ネットワーク設定が正常に行えるか（libp2pプロトコルやAnysyncハンドシェイク）を確認します。
 
 ***
 
-### Download <a href="#p-42130-download-2" id="p-42130-download-2"></a>
+### ダウンロード <a href="#p-42130-download-2" id="p-42130-download-2"></a>
 
-You can download the version for your OS here:
+以下のリンクから、お使いのOSに対応したバージョンをダウンロードできます。
 
 {% embed url="https://github.com/anyproto/any-sync-tools/releases" %}
 
-The .zip contains all our tools, but the sync check procedure requires only **“any-sync-netcheck”**.\
-(The other file is our [self-hosting tool](https://github.com/anyproto/any-sync-tools/blob/main/any-sync-network/README.md).)
+ダウンロードした.zipファイルにはすべてのツールが含まれていますが、同期チェックの手順で必要なのは**“any-sync-netcheck”**のみです。
+（もう一方のファイルは、[セルフホスト用のツール](https://github.com/anyproto/any-sync-tools/blob/main/any-sync-network/README.md)です。）
 
-### Installation <a href="#p-42130-installation-3" id="p-42130-installation-3"></a>
+### インストール <a href="#p-42130-installation-3" id="p-42130-installation-3"></a>
 
-**Build from source:**
+**ソースからのビルド：**
 
 `go install github.com/anyproto/any-sync-tools/any-sync-netcheck@latest`
 
 ***
 
-#### Running The Tool <a href="#p-42130-runing-the-tool-5" id="p-42130-runing-the-tool-5"></a>
+#### ツールの実行 <a href="#p-42130-runing-the-tool-5" id="p-42130-runing-the-tool-5"></a>
 
-Execute the file named:
+以下のコマンドでツールを実行します。
 
 * `any-sync-netcheck`
-* _or_ `any-sync-netcheck -v` for a verbose output
+* または、詳細な情報を出力する場合は `any-sync-netcheck -v` を使用します。
 
 ***
 
-#### Result <a href="#p-42130-result-6" id="p-42130-result-6"></a>
+#### 実行結果 <a href="#p-42130-result-6" id="p-42130-result-6"></a>
 
-*   If your sync is **working as expected**, your output log should look something like this:\
+* **同期が正常な場合**、出力ログは以下のようになります。
 
-
-    <figure><img src="../../../../.gitbook/assets/Screenshot 2023-08-02 at 16.40.02.png" alt=""><figcaption></figcaption></figure>
-* **If the tool detects any errors:** please provide all details about your network setup, including VPN, proxy, firewalls, and antivirus. In this event, we may request you to run a trace-route or other system tools for further analysis later on.
+    <figure><img src="../../../../.gitbook/assets/Screenshot 2023-08-02 at 16.40.02.png" alt="正常な場合のログ出力例"></figure>
+* **エラーが検出された場合**は、お使いのネットワーク環境（VPN、プロキシ、ファイアウォール、アンチウイルスソフトの有無など）の詳細情報をご準備ください。後ほど、より詳細な調査のために、トレースルートなどの追加情報をお願いする場合があります。
 
 ***
 
-#### Send to Anyteam <a href="#p-42130-send-to-anyteam-7" id="p-42130-send-to-anyteam-7"></a>
+#### Anyteamへの報告 <a href="#p-42130-send-to-anyteam-7" id="p-42130-send-to-anyteam-7"></a>
 
-Send the resulting log and your network specs to [support@anytype.io](mailto:support@anytype.io).
+出力されたログとネットワーク環境の情報を[support@anytype.io](mailto:support@anytype.io)までお送りください。
+
+***

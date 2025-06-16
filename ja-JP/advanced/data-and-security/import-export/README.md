@@ -1,42 +1,42 @@
-# Import & Export
+# インポートとエクスポート
 
 {% hint style="warning" %}
-Available on desktop only.
+この機能は、デスクトップ版のみ対応しています。
 {% endhint %}
 
-You can import or export from your space by navigating to **Anytype > Settings > Import to Space / Export Space** in the menu bar:
+スペースのインポート、エクスポートは、以下の3つの方法から行えます。
 
+1. メニューバーの**Anytype > 設定 > スペースにインポート / スペースをエクスポート**から
 <figure><img src="../../../../.gitbook/assets/image (83) (1).png" alt="" width="375"><figcaption></figcaption></figure>
 
-Alternatively, you can find the Import / Export Space options under the Integrations section of your [Space Settings](https://app.gitbook.com/o/Ssa9i5QAuI6HhV4jXCLv/s/JbcKxgThRdSa4vZyLbvH/~/changes/583/advanced/settings/space-settings#integrations):
-
+2. [スペース設定](../../../advanced/settings/space-settings.md#integrations)の連携画面から
 <figure><img src="../../../../.gitbook/assets/image (106).png" alt=""><figcaption></figcaption></figure>
 
-It's also possible to simply type “Import” or “Export” in the Search Menu.
+3. 検索メニューで「インポート」または「エクスポート」と入力して、機能を直接呼び出す
 
-### Import
+### インポート
 
-We currently offer support for importing the following:
+現在、以下のファイル形式のインポートに対応しています。
 
-* **MD (Markdown)**: You can import individual `.md` files or a zip file containing multiple Markdown files. Please note that relations are not exported at this time.
+* **MD (マークダウン):** `.md`ファイル単体、または複数のMarkdownファイルを含むzipファイル。※現時点ではプロパティはインポートには対応していません。
 * **HTML**
 * **TXT**
-* **CSV:** It is possible to map columns to existing pre-installed properties like Phone, E-mail, etc. by just using the same title.&#x20;
+* **CSV:** 列名を「電話」「Eメール」のような既存のプロパティ名と同じにすることで、データを自動的に取り込むことができます。
 * **Any-Block**:
-  * **Protobuf**
-  * **JSON**
+    * **Protobuf**
+    * **JSON**
 
-After your import is done, a new collection should appear in your favorites widget in your sidebar. All of your imported objects should be there.
+インポートが完了すると、サイドバーのお気に入りウィジェットに新しいコレクションが作成されます。その中にインポートされたすべてのオブジェクトがまとめられます。
 
 <figure><img src="../../../../.gitbook/assets/image (2) (1).png" alt="" width="324"><figcaption></figcaption></figure>
 
-You will also be asked which objects from your imported files you want to add to your Favorites:
+また、インポートしたファイルの中から、どのオブジェクトを「お気に入り」に追加するかを尋ねられます。
 
 <figure><img src="../../../../.gitbook/assets/image (93).png" alt="" width="375"><figcaption></figcaption></figure>
 
-### Export
+### エクスポート
 
-We currently offer support for exporting in the following formats:
+現在、以下の形式のエクスポートに対応しています。
 
 * **Markdown**
-* **Any-Block** (both Protobuf and JSON)
+* **Any-Block** (ProtobufとJSONの両方)
