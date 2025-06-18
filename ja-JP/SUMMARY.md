@@ -37,7 +37,7 @@
 
 ## 🤖 応用編
 
-* [Memberships](advanced/monetization.md)
+* [メンバーシップ](advanced/monetization.md)
 * [主な機能](advanced/feature-list-by-platform/README.md)
   * [ローカルAPI](advanced/feature-list-by-platform/local-api/README.md)
     * [Raycast拡張機能（macOS）](advanced/feature-list-by-platform/raycast-extension-macos.md)

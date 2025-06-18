@@ -1,100 +1,112 @@
 ---
-description: All about memberships & pricing for the Anytype Network
+description: Anytypeネットワークのメンバーシップおよび料金プランについて
 ---
 
-# Memberships
+# メンバーシップ
 
-Our memberships are designed to reflect the same core principles that have always guided Anytype’s development: unrestricted access to our software and an open ecosystem where contributions are fairly rewarded.
+Anytypeのメンバーシップは、私たちの開発の根底にある大切な基本理念を体現するものです。
+その理念とは、誰もが私たちのソフトウェアに自由にアクセスできること、そして、誰もがその貢献に対して公正に報われるオープンなエコシステムを築くことです。
 
-For more information about the philosophy behind our membership and its planned evolution, please visit this blog post: [Our Membership Philosophy](https://blog.anytype.io/our-memberships-philosophy/).
+メンバーシップの背景にある考え方や今後の展開については、[メンバーシップに込めた私たちの考え方](https://blog.anytype.io/our-memberships-philosophy/)をご覧ください。
 
-## Membership Model & Plans
+
+{% hint style="info" %}
+このページの情報は古くなっている可能性があります。最新の情報は、[原文（英語）](../../advanced/monetization.md)をご覧ください。
+{% endhint %}
+
+## 料金プラン
 
 <figure><img src="../../.gitbook/assets/image (219).png" alt=""><figcaption></figcaption></figure>
 
-All Members have unrestricted access to the following:
+すべてのメンバーは、以下の機能を制限なく利用できます。
 
-* Unlimited local storage
-* P2P synchronization
-* Zero-knowledge encryption
-* Unlimited viewers per shared space
+* 無制限のローカルストレージ容量
+* P2P同期
+* ゼロ知識証明による暗号化
+* 無制限の閲覧メンバー数
 
-**Starter Membership:** Those who have not yet purchased one of our paid memberships. The Starter membership includes:
+**Starterプラン**：有料メンバーシップに加入されていない方されていない、すべての方向けの基本プランです。
 
-* A local, non-unique name
-* 100 MB of Network storage
-* 3 shared spaces
-* 3 editors per space
-* Up to 10 MB for Web publishing
+* **利用料金（年間）**：無料
+* **Any名（Anytypeネットワーク内の表示名）**：なし
+* **ネットワークストレージ容量**：100MB
+* **共有スペース数**：最大3つ
+* **編集メンバー数（共有スペースごと）**：最大3名
+* **Web公開のページ容量（1ページごと）**：最大10MB
 
-_\*Beta testers - those who joined before the launch of multiplayer in April 2024 - will automatically receive an Explorer membership. Storage limits previously applied to your vault will not change._
 
-**Explorer Membership:** Those who choose to purchase a one-year membership at a price of $48 The Explorer membership includes:
+_\*2024年4月以前（共同編集機能の公開前）からご利用の皆様には、自動的にExplorerプランが自動的に適用されます。これまでお使いのストレージ容量の上限が変更されることはございませんので、ご安心ください。_
 
-* Global, unique name (from 9+ characters)
-* 10 GB of Network storage
-* 3 shared spaces
-* 4 editors per shared space
-* Up to 100 MB for Web publishing
-* Personalized domain for publishing
+**Explorerプラン**：以下の特典内容が含まれます。
 
-**Builder Membership:** Those who choose to purchase a one-year membership at a price of $99. The Builder membership includes:
+* **利用料金（年間）**：48米ドル
+* **Any名（Anytypeネットワーク内の表示名）**：あなた専用の名前（9文字以上）
+* **ネットワークストレージ容量**：10 GB
+* **共有スペース数**：最大3つ
+* **編集メンバー数（共有スペースごと）**：最大4名
+* **Web公開のページ容量（1ページごと）**：最大10MB
+* **Any名をWeb公開のドメインとして使えます**
 
-* Global, unique name (from 7+ characters)
-* 128 GB of Network storage
-* 3 shared spaces
-* 10 editors per shared space
-* Up to 100 MB for Web publishing
-* Personalized domain for publishing
-* Priority support
+**Builderプラン：**：以下の特典内容が含まれます。
 
-**Co-Creator Membership:** Those who choose to purchase a three-year subscription at a price of $299. The Co-Creator membership includes:
+* **利用料金（年間）**：99米ドル
+* **Any名（Anytypeネットワーク内の表示名）**：あなた専用の名前（7文字以上）
+* **ネットワークストレージ容量**：128 GB
+* **共有スペース数**：最大3つ
+* **編集メンバー数（共有スペースごと）**：最大10名
+* **Web公開のページ容量（1ページごと）**：最大100 MB
+* **Any名をWeb公開のドメインとして使えます**
+* **優先サポート**
 
-* Global, unique name (from 5+ characters)
-* 256 GB of network backup & sync space
-* 3 shared spaces
-* 10 editors per shared space
-* Up to 100 MB for Web publishing
-* Personalized domain for publishing
-* Priority support
+**Co-Creatorプラン**：以下の特典内容が含まれます。
+
+* **利用料金（年間）**：229米ドル
+* **Any名（Anytypeネットワーク内の表示名）**：あなた専用の名前（5文字以上）
+* **ネットワークストレージ容量**：256 GB
+* **共有スペース数**：最大3つ
+* **編集メンバー数（共有スペースごと）**：最大10名
+* **Web公開のページ容量（1ページごと）**：最大100 MB
+* **Any名をWeb公開のドメインとして使えます**
+* **優先サポート**
 
 <figure><img src="../../.gitbook/assets/image (217).png" alt=""><figcaption></figcaption></figure>
 
-**Business Membership:** Those who need more Network space, Editors or Shared Spaces for a custom price. The Business membership includes:
+**Businessプラン**：お客様のご希望に合わせたビジネス向けのプランです。ネットワーク容量、編集者数、共有スペース数などをカスタマイズできます。料金は個別にお見積もりいたします。
 
-* Unique names
-* Custom GB of Network space
-* Any number of Editors or Shared spaces
-* Priority support
-* Custom MB for Web publishing
+* 複数のAny名
+* ご希望のネットワークストレージ容量
+* ご希望の共有スペース数および編集メンバー数
+* 優先サポート
+* ご希望のWeb公開のページ容量
 
-## Exclusive Discounts for Beta Testers
+## ベータテスター限定の特別割引
 
-For those who would like to purchase Builder or Co-Creator Plans, we will offer a limited number of discounted memberships on pre-order as follows:
+BuilderプランまたはCo-Creatorプランの購入をご希望の方に、先行予約として以下の割引プランを数量限定でご提供します。
 
-* 250 one-year Builder memberships at $79
-  * Use discount code: `BetaBuilderPreOrder2024` at checkout
-* 250 three-year Co-Creator memberships at $239
-  * Use discount code: `BetaCoCreatorPreOrder2024` at checkout
+* Builderプラン（1年間）：79米ドル（250名限定）
+  * 決済時に割引コード `BetaBuilderPreOrder2024` をご利用ください
+* Co-Creatorプラン（3年間）：$239（250名限定）
+  * 決済時に割引コード `BetaCoCreatorPreOrder2024` をご利用ください
 
-This offer is only available to beta users who joined our community prior to the launch of memberships. Additionally, these discount codes can only be used once, and the subscription will revert to the standard rate once it has been renewed.
+この特別価格は、メンバーシップ制度が始まる前からコミュニティの一員として参加してくださったベータユーザーの皆様だけの特典です。また、割引コードはお一人様1回限りのご利用となり、次回更新時からは通常料金でのご継続となりますので、あらかじめご了承ください。
 
-## Pricing for Contributors
+## 貢献者向けの料金プラン
 
-Those who are active contributors to our codebase, gallery, tutorials, and community will have a one-year Builder membership subsidized. Active contributions are defined as 2+ contributions in the past year. You can check the status of your contributions [here](https://github.com/anyproto/contributors/blob/main/contributors.json).
+Anytypeのコードベース、ギャラリー、チュートリアル、コミュニティに対して、積極的に貢献されている方（Active contributor）には、Builderメンバーシップを1年間無料で提供します。Active contributorの基準は、過去1年間で2回以上貢献されている方としております。ご自身の貢献状況は[こちら](https://github.com/anyproto/contributors/blob/main/contributors.json)からご確認いただけます。
 
-Other contributors, who have not met the threshold of 2 contributions per year, can purchase a one-year Builder Plan at 50% discount.
+上記の基準（年間の貢献回数が2回以上）に満たない場合でも、Builderプランを50%割引で1年間ご利用いただけます。
 
-To request your contributor's discount code, please email us at [association@anytype.io](mailto:association@anytype.io).&#x20;
+貢献者向け割引コードをご希望の場合は、[association@anytype.io](mailto:association@anytype.io)までメールでご連絡ください。
 
-If you believe that your contribution status is incorrect, please write us at [association@anytype.io](mailto:association@anytype.io).
+ご自身の貢献状況が正しく反映されていない場合は、お手数ですが[association@anytype.io](mailto:association@anytype.io)までご連絡いただけますと幸いです。
 
-## Pricing for Self-Hosters
 
-Self-hosters can manage the limits of Viewers/Editors they invite to their Spaces themselves. Those who would like to purchase a name in the Anytype naming system or access priority support, can purchase a membership at the same price as other beta testers.
+## セルフホストユーザー向けの料金プラン
 
-In the future, we will introduce membership discounts for self-hosters. For those who would like to support the network in the meantime, we welcome your donation [here](https://stripe.pay.anytype.io/b/4gw0337MrdvbejK28f) (thank you!).
+セルフホスト環境では、スペースに招待できる閲覧メンバー数や編集メンバー数の制限を、ご自身で管理できます。Anytypeネーミングシステムで独自のドメイン名を取得したり、開発チームから優先的なサポートを受けたりしたい場合は、他のベータテスターと同様の料金でメンバーシップにご加入いただけます。
 
-### Want to dig deeper into Memberships?
+将来的には、セルフホストユーザーの皆様に、メンバーシップの割引プランを導入する予定です。もし現時点で、Anytypeネットワークの維持にご協力いただける場合は、[こちら](https://stripe.pay.anytype.io/b/4gw0337MrdvbejK28f)からのご寄付を歓迎いたします。皆様のご支援に心より感謝申し上げます。
 
-Check out the [#collaboration](help/faqs/#collaboration "mention") and [#memberships](help/faqs/#memberships "mention")FAQs.
+### メンバーシップについて、さらに詳しく
+
+メンバーシップの機能やプランに関する詳細は、[#collaboration](help/faqs/#collaboration "mention")および[#memberships](help/faqs/#memberships "mention")のFAQをご覧ください。
