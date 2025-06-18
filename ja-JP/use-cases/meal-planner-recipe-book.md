@@ -3,7 +3,7 @@ description: >-
   毎日の食事作りをもっと楽しく、効率的に。レシピの整理はもちろん、アレルギーや好みに合わせた献立作りもサポート。
 ---
 
-# 🍛 レシピノートや献立表
+# 🍛 献立表やレシピノート
 
 {% hint style="info" %}
 すぐに実践可能！このテンプレートは、[こちら](https://gallery.any.coop/?experience=recipe_book_and_meal_planner)からあなたのスペースに簡単に追加できます。
